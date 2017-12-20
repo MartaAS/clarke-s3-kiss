@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/style.css">
- 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Proyecto Empleo Joven</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ 	<title>Proyecto Empleo Joven</title>
 <body>
 	
 
@@ -15,16 +16,28 @@
 
 <div style="padding: 20px; background: #cccccc;">
 	<h2 style="text-align: center;">¿Deseas más información?</h2>
-	<p style="text-align: center;">Rellena este formulario y nos pondremos en contacto contigo</p>
+	<div style="display: flex; justify-content: space-around;">
+		<div>
+			<p style="text-align: center;">Rellena este formulario y nos pondremos en contacto contigo</p>
 
-	<form action="" style="display: flex; flex-direction:column; margin: 20px 0;">
-		<label for="name">Nombre y apellidos</label>
-		<input type="text" name="name" id="name">
-		<label for="email">Correo electrónico</label>
-		<input type="email" name="email" id="email">
-		<label for="message">Mensaje</label>
-		<textarea name="message" id="message" cols="30" rows="10"></textarea>
-	</form>
+			<form action="" style="display: flex; flex-direction:column;">
+				<label for="name">Nombre y apellidos</label>
+				<input type="text" name="name" id="name">
+				<label for="email">Correo electrónico</label>
+				<input type="email" name="email" id="email">
+				<label for="message">Mensaje</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<input type="submit" value="enviar">
+			</form>
+		</div>
+		<div>
+			<p>Escríbenos a nuestra dirección de correo</p>
+			<p>email@email.com</p>
+
+			<p>Llámanos</p>
+			<a href="tel:900000000">900 00 00 00</a>
+		</div>
+	</div>
 </div>
 
 <footer>
@@ -42,15 +55,17 @@
 	</div>
 	<div style="display:flex; justify-content: space-around; background-color: red;">
 		<div>
-			<p>Federación de Mujeres Progresistas</p>
+			<p style="text-align:center;">Federación de Mujeres Progresistas</p>
+			<img src="http://placehold.it/200x80" alt="">
+			<p style="text-align:center;" >Ribera de Curtidores, 3</p>
+			<p style="text-align:center;">28005 Madrid - España</p>
+		</div>
+		<div>
+			<p style="text-align:center;">En colaboración con:</p>
 			<img src="http://placehold.it/200x80" alt="">
 		</div>
 		<div>
-			<p>En colaboración con:</p>
-			<img src="http://placehold.it/200x80" alt="">
-		</div>
-		<div>
-			<p>Desarrollo web por:</p>
+			<p style="text-align:center;">Desarrollo web por:</p>
 			<img src="http://placehold.it/200x80" alt="">
 		</div>
 	</div>
