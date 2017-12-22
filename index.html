@@ -5,85 +5,82 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
  	<title>Proyecto Empleo Joven</title>
 <body>
-	
+	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 
 
 
-<div class="block block_contact" >
-	<h2 class="block_title">¿Deseas más información?</h2>
 
-	<div class="row">
-		<div class="col-sm-6 form_section">
-			<p>Rellena este formulario y nos pondremos en contacto contigo</p>
-			<form>
-			  <div class="form-group">
-			    <label for="name">Nombre y apellidos</label>
-			    <input type="text" class="form-control" id="name">
-			  </div>
-			  <div class="form-group">
-			    <label for="email">Correo electrónico</label>
-			    <input type="email" class="form-control" id="email">
-			  </div>
-			  <div class="form-group">
-			  	<label for="message">Mensaje</label>
-	   			<textarea class="form-control" id="message" rows="3"></textarea>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Submit</button>
-			</form>
-		</div>
-		<div class="col-sm-6 contactData_section">
-			<p>Escríbenos a nuestra dirección de correo</p>
-			<p>email@email.com</p>
-			<p>Llámanos</p>
-			<a href="tel:900000000">900 00 00 00</a>				
+	<div class="block block_contact">
+		<h2 class="block_title">¿Deseas más información?</h2>
+
+		<div class="row row_contact">
+			<div class="col-sm-6 form_section">
+				<p>Rellena este formulario y nos pondremos en contacto contigo</p>
+				<form>
+				  <div class="form-group">
+				    <!-- <label for="name">Nombre y apellidos</label> -->
+				    <input type="text" class="form-control" id="name" placeholder="Nombre y apellidos">
+				  </div>
+				  <div class="form-group">
+				    <!-- <label for="email">Correo electrónico</label> -->
+				    <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+				  </div>
+				  <div class="form-group">
+				  	<!-- <label for="message">Mensaje</label> -->
+		   			<textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-sm-6 contactData_section">
+				<p>Escríbenos a nuestra dirección de correo</p>
+				<p>email@email.com</p>
+				<p>Llámanos</p>
+				<a href="tel:900000000">900 00 00 00</a>
+			</div>
 		</div>
 	</div>
+
+	<footer>
+		<div class="row row_social">
+			<div class="col-md-12 ">
+				<ul class="social_container">
+					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
+					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
+					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
+					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
+					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row row_footer">
+			<div class="col-md-4 row_footer_column">
+				<p class="footer_text">Federación de Mujeres Progresistas</p>
+				<img src="http://placehold.it/150x60" alt="" class="footer_image">
+				<p class="footer_text">Ribera de Curtidores, 3 <br>28005 Madrid - España</p>
+			</div>
+			<div class="col-md-4 row_footer_column">
+				<p class="footer_text">En colaboración con:</p>
+				<img src="http://placehold.it/150x60" alt="" class="footer_image">
+			</div>
+			<div class="col-md-4 row_footer_column">
+				<p class="footer_text">Desarrollo web por:</p>
+				<img src="http://placehold.it/150x60" alt="" class="footer_image">
+			</div>
+		</div>
+
+		<div class="row row_copy">
+			<div class="col-md-12 row_copy_column">
+				<p>&copy; 2017 K.I.S.S &nbsp &nbsp Aviso legal &nbsp&nbsp Protección de datos</p>
+			</div>
+		<div class="row">
+	</footer>
 </div>
-
-
-<footer>
-	<div class="row">
-		<div class="col-md-12">
-			<ul style="display: flex; list-style-type: none;">
-				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
-				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
-				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
-				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
-				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
-			</ul>
-			
-		</div>
-
-	</div>
-	<div class="row">
-		<div class="col-md-4">
-			<p style="text-align:center;">Federación de Mujeres Progresistas</p>
-			<img src="http://placehold.it/200x80" alt="">
-			<p style="text-align:center;" >Ribera de Curtidores, 3</p>
-			<p style="text-align:center;">28005 Madrid - España</p>
-		</div>
-		<div class="col-md-4">
-			<p style="text-align:center;">En colaboración con:</p>
-			<img src="http://placehold.it/200x80" alt="">
-		</div>
-		<div class="col-md-4">
-			<p style="text-align:center;">Desarrollo web por:</p>
-			<img src="http://placehold.it/200x80" alt="">
-		</div>
-	</div>
-
-
-	<div class="row">
-		<div class="col-md-12">
-			<p>&copy; 2017 K.I.S.S &nbsp &nbsp Aviso legal &nbsp&nbsp Protección de datos</p>
-		</div>
-	<div class="row">
-</footer>
-
 
 <script type="text/javascript" scr="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" scr="js/bootstrap.min.js"></script>

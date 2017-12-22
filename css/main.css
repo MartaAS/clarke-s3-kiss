@@ -1,5 +1,75 @@
 .block_contact {
-  background: red;
+  background: lavender;
+  padding: 10px;
+}
+
+.block_contact .block_title {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.row_contact {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.form-section, .contactData_section {
+  margin-top: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 80%;
+  padding: 0.2rem .5rem;
+}
+
+.overflow {
+  overflow-x: hidden;
+}
+
+.row_social {
+  background: lemonchiffon;
+  padding: 10px 0;
+}
+
+.social_container {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.social_container_item {
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.row_footer {
+  background: lightsalmon;
+  padding-top: 10px;
+}
+
+.row_footer_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_text {
+  text-align: center;
+}
+
+.footer_image {
+  margin-bottom: 10px;
+}
+
+.row_copy {
+  background: sandybrown;
+}
+
+.row_copy_column {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
