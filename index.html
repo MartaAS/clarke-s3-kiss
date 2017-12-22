@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
  	<title>Proyecto Empleo Joven</title>
 <body>
@@ -46,35 +46,41 @@
 	</div>
 </section>
 
-<div style="padding: 20px; background: #cccccc;">
-	<h2 style="text-align: center;">¿Deseas más información?</h2>
-	<div style="display: flex; justify-content: space-around;">
-		<div>
-			<p style="text-align: center;">Rellena este formulario y nos pondremos en contacto contigo</p>
+<div class="block block_contact" >
+	<h2 class="block_title">¿Deseas más información?</h2>
 
-			<form action="" style="display: flex; flex-direction:column;">
-				<label for="name">Nombre y apellidos</label>
-				<input type="text" name="name" id="name">
-				<label for="email">Correo electrónico</label>
-				<input type="email" name="email" id="email">
-				<label for="message">Mensaje</label>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				<input type="submit" value="enviar">
+	<div class="row">
+		<div class="col-sm-6 form_section">
+			<p>Rellena este formulario y nos pondremos en contacto contigo</p>
+			<form>
+			  <div class="form-group">
+			    <label for="name">Nombre y apellidos</label>
+			    <input type="text" class="form-control" id="name">
+			  </div>
+			  <div class="form-group">
+			    <label for="email">Correo electrónico</label>
+			    <input type="email" class="form-control" id="email">
+			  </div>
+			  <div class="form-group">
+			  	<label for="message">Mensaje</label>
+	   			<textarea class="form-control" id="message" rows="3"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Submit</button>
 			</form>
 		</div>
-		<div>
+		<div class="col-sm-6 contactData_section">
 			<p>Escríbenos a nuestra dirección de correo</p>
 			<p>email@email.com</p>
-
 			<p>Llámanos</p>
 			<a href="tel:900000000">900 00 00 00</a>
 		</div>
 	</div>
 </div>
 
+
 <footer>
-	<div style="display:flex; justify-content: space-around; background-color: grey;">
-		<div>
+	<div class="row">
+		<div class="col-md-12">
 			<ul style="display: flex; list-style-type: none;">
 				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
 				<li><img src="http://placehold.it/28x28" alt="" style="border-radius:50%; margin: 0 20px;"></li>
@@ -84,26 +90,31 @@
 			</ul>
 
 		</div>
+
 	</div>
-	<div style="display:flex; justify-content: space-around; background-color: red;">
-		<div>
+	<div class="row">
+		<div class="col-md-4">
 			<p style="text-align:center;">Federación de Mujeres Progresistas</p>
 			<img src="http://placehold.it/200x80" alt="">
 			<p style="text-align:center;" >Ribera de Curtidores, 3</p>
 			<p style="text-align:center;">28005 Madrid - España</p>
 		</div>
-		<div>
+		<div class="col-md-4">
 			<p style="text-align:center;">En colaboración con:</p>
 			<img src="http://placehold.it/200x80" alt="">
 		</div>
-		<div>
+		<div class="col-md-4">
 			<p style="text-align:center;">Desarrollo web por:</p>
 			<img src="http://placehold.it/200x80" alt="">
 		</div>
 	</div>
-	<div style="display:flex; justify-content: flex-start; background-color: yellow;">
-		<p>&copy; 2017 K.I.S.S &nbsp &nbsp Aviso legal &nbsp&nbsp Protección de datos</p>
-	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+			<p>&copy; 2017 K.I.S.S &nbsp &nbsp Aviso legal &nbsp&nbsp Protección de datos</p>
+		</div>
+	<div class="row">
 </footer>
 
 
