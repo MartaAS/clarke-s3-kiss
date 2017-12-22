@@ -1,16 +1,19 @@
-.btn-submit {
+.btn--submit {
   background: #182b3a;
-  border-radius: 0;
+  border-radius: 5px;
   border: 2px solid #182b3a;
   font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
 }
-.btn-submit:hover {
+.btn--submit:hover {
   background: #ffdc60;
   border: 2px solid #182b3a;
   color: #182b3a;
+  cursor: pointer;
 }
 
-.btn-submit:active {
+.btn--submit:active {
   outline: 0;
   background: #ffdc60;
   border: 2px solid #182b3a;
@@ -39,6 +42,23 @@
   margin-bottom: 10px;
 }
 
+.block_contact a {
+  text-decoration: none;
+  color: #182b3a;
+}
+
+.contactData_item {
+  margin-bottom: 20px;
+}
+
+.contactData--details {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #182b3a;
+}
+
 .form-section, .contactData_section {
   margin-top: 10px;
 }
@@ -53,6 +73,59 @@
   border: none;
 }
 
+form {
+  width: 80%;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: black;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  color: black;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  color: black;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  color: black;
+}
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  color: black;
+}
+
+input#name {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+  width: 49%;
+  display: inline-block;
+}
+
+input#email {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+  width: 49%;
+  display: inline-block;
+}
+
+textarea#message {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -61,6 +134,7 @@ body {
   font-weight: 700;
   line-height: 45px;
   font-size: 30px;
+  letter-spacing: 2px;
 }
 
 * {
