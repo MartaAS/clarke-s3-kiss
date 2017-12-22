@@ -1,18 +1,3 @@
-.block_contact{
-	background: lavender;
-	padding: 10px;
-}
-
-.block_contact .block_title{
-	text-align: center;
-	padding: 15px 0;
-}
-
-.row_contact{
-	margin-left: 10px;
-	margin-bottom: 10px;
-}
-
 .form-section, .contactData_section{
 	margin-top:10px;
 }
@@ -22,3 +7,7 @@
     width: 80%;
     padding: 0.2rem .5rem;
 	}
+
+	.form-control:focus	 {
+	    border:none;
+		}
