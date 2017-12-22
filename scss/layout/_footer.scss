@@ -1,5 +1,5 @@
 .row_social{
-	background: lemonchiffon;
+	background: $color-midtone;
 	padding: 10px 0;
 }
 .social_container{
@@ -13,8 +13,9 @@
 	margin: 0 20px;
 }
 .row_footer{
-	background: lightsalmon;
+	background: $color-secondary;
 	padding-top: 10px;
+	color: white;
 }
 .row_footer_column {
     display: flex;
@@ -28,7 +29,8 @@
     margin-bottom: 10px;
 }
 .row_copy{
-		background:sandybrown;
+		background:#0b141b;
+		color: white;
 }
 .row_copy_column{
 	margin-top: 20px;

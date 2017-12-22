@@ -1,5 +1,5 @@
 .block_contact {
-  background: lavender;
+  background: #ffdc60;
   padding: 10px;
 }
 
@@ -13,14 +13,119 @@
   margin-bottom: 10px;
 }
 
-.form-section, .contactData_section {
-  margin-top: 10px;
+.block_contact a {
+  text-decoration: none;
+  color: #182b3a;
 }
 
-.form-control {
-  display: block;
+.contactData_item {
+  margin-bottom: 20px;
+}
+
+.contactData--details {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #182b3a;
+}
+
+.btn--submit {
+  background: #182b3a;
+  border-radius: 5px;
+  border: 2px solid #182b3a;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+.btn--submit:hover {
+  background: #ffdc60;
+  border: 2px solid #182b3a;
+  color: #182b3a;
+  cursor: pointer;
+}
+
+.btn--submit:active {
+  outline: 0;
+  background: #ffdc60;
+  border: 2px solid #182b3a;
+  color: #182b3a;
+}
+
+.btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #182b3a;
+  background-color: #ffdc60;
+  border-color: #ffdc60;
+  box-shadow: none;
+}
+
+form {
   width: 80%;
-  padding: 0.2rem .5rem;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: black;
+}
+
+/* WebKit, Blink, Edge */
+.form-control:-moz-placeholder {
+  color: black;
+}
+
+/* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder {
+  color: black;
+}
+
+/* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder {
+  color: black;
+}
+
+/* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder {
+  color: black;
+}
+
+input#name {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+  width: 49%;
+  display: inline-block;
+}
+
+input#email {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+  width: 49%;
+  display: inline-block;
+}
+
+textarea#message {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.block_title {
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .overflow {
@@ -28,7 +133,7 @@
 }
 
 .row_social {
-  background: lemonchiffon;
+  background: #c1c1c1;
   padding: 10px 0;
 }
 
@@ -45,8 +150,9 @@
 }
 
 .row_footer {
-  background: lightsalmon;
+  background: #182b3a;
   padding-top: 10px;
+  color: white;
 }
 
 .row_footer_column {
@@ -64,7 +170,8 @@
 }
 
 .row_copy {
-  background: sandybrown;
+  background: #0b141b;
+  color: white;
 }
 
 .row_copy_column {

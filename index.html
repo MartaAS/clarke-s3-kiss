@@ -15,32 +15,34 @@
 
 
 	<div class="block block_contact">
-		<h2 class="block_title">¿Deseas más información?</h2>
+		<h2 class="block_title">¿QUIERES MÁS INFORMACIÓN?</h2>
 
 		<div class="row row_contact">
 			<div class="col-sm-6 form_section">
-				<p>Rellena este formulario y nos pondremos en contacto contigo</p>
+				<p><img src="img/form.png" alt="" style="height:30px; width:auto;margin-right:10px;">Rellena este formulario y nos pondremos en contacto contigo</p>
 				<form>
 				  <div class="form-group">
 				    <!-- <label for="name">Nombre y apellidos</label> -->
 				    <input type="text" class="form-control" id="name" placeholder="Nombre y apellidos">
+						<input type="email" class="form-control" id="email" placeholder="Correo electrónico">
 				  </div>
-				  <div class="form-group">
-				    <!-- <label for="email">Correo electrónico</label> -->
-				    <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
-				  </div>
+
 				  <div class="form-group">
 				  	<!-- <label for="message">Mensaje</label> -->
 		   			<textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
 				  </div>
-				  <button type="submit" class="btn btn-primary">Submit</button>
+				  <button type="submit" class="btn btn-primary btn--submit">ENVIAR</button>
 				</form>
 			</div>
 			<div class="col-sm-6 contactData_section">
-				<p>Escríbenos a nuestra dirección de correo</p>
-				<p>email@email.com</p>
-				<p>Llámanos</p>
-				<a href="tel:900000000">900 00 00 00</a>
+				<div  class="contactData_item">
+					<p><img src="img/email.png" alt="" style="height:30px; width:auto;margin-right:10px;">Escríbenos a nuestra dirección de correo</p>
+					<span class="contactData--details"><a href="mailto:email@email.com?subject=Formulario">email@email.com</a></span>
+				</div>
+				<div class="contactData_item">
+					<p><img src="img/phone.png" alt="" style="height:30px; width:auto; margin-right:10px;">Llámanos</p>
+					<span class="contactData--details"><a href="tel:900000000">+34 900 00 00 00</a></span>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -61,17 +63,15 @@
 
 		<div class="row row_footer">
 			<div class="col-md-4 row_footer_column">
-				<p class="footer_text">Federación de Mujeres Progresistas</p>
-				<img src="http://placehold.it/150x60" alt="" class="footer_image">
-				<p class="footer_text">Ribera de Curtidores, 3 <br>28005 Madrid - España</p>
+				<img src="img/federacion.jpg" alt="" class="footer_image">
+				<p class="footer_text">Federación de Mujeres Progresistas<br>
+				Ribera de Curtidores, 3 <br>28005 Madrid - España</p>
 			</div>
 			<div class="col-md-4 row_footer_column">
-				<p class="footer_text">En colaboración con:</p>
-				<img src="http://placehold.it/150x60" alt="" class="footer_image">
+				<img src="img/caixa.jpg" alt="" class="footer_image">
 			</div>
 			<div class="col-md-4 row_footer_column">
-				<p class="footer_text">Desarrollo web por:</p>
-				<img src="http://placehold.it/150x60" alt="" class="footer_image">
+				<img src="img/adalab.jpg" alt="" class="footer_image">
 			</div>
 		</div>
 

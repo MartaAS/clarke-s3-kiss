@@ -13,6 +13,6 @@
 		],
 		"dest": "js/"
 	},
-	"images": "images/**/*.{gif,jpg,png,svg}",
+	"images": "img/**/*.{gif,jpg,png,svg}",
 	"html": "**/*.html"
 }

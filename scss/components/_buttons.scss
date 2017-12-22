@@ -1,0 +1,28 @@
+.btn--submit{
+	background: $color-secondary;
+	border-radius: 5px;
+	border:2px solid $color-secondary;
+	font-weight: $font-weight-bold;
+	    letter-spacing: 2px;
+			font-size: 13px;
+	&:hover{
+		background: $color-primary;
+		border:2px solid $color-secondary;
+		color: $color-secondary;
+		cursor: pointer;
+		}
+	}
+
+	.btn--submit:active{
+		outline: 0;
+		background: $color-primary;
+		border:2px solid $color-secondary;
+		color: $color-secondary;
+		}
+
+		.btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color:  $color-secondary;
+    background-color: $color-primary;
+    border-color:$color-primary;
+    box-shadow: none;
+}
