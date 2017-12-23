@@ -1,16 +1,20 @@
 .block_contact {
   background: #ffdc60;
-  padding: 10px;
+  padding: 14px 0;
 }
 
-.block_contact .block_title {
+.block_contact .block-title {
   text-align: center;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 
 .row_contact {
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.form_section, .contactData_section {
+  margin-top: 20px;
 }
 
 .block_contact a {
@@ -20,6 +24,7 @@
 
 .contactData_item {
   margin-bottom: 20px;
+  font-size: 19px;
 }
 
 .contactData--details {
@@ -67,22 +72,18 @@ form {
   color: black;
 }
 
-/* WebKit, Blink, Edge */
 .form-control:-moz-placeholder {
   color: black;
 }
 
-/* Mozilla Firefox 4 to 18 */
 .form-control::-moz-placeholder {
   color: black;
 }
 
-/* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder {
   color: black;
 }
 
-/* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder {
   color: black;
 }
@@ -95,6 +96,11 @@ input#name {
   width: 49%;
   display: inline-block;
 }
+@media all and (max-width: 938px) {
+  input#name {
+    width: 100%;
+  }
+}
 
 input#email {
   border: none;
@@ -104,6 +110,12 @@ input#email {
   width: 49%;
   display: inline-block;
 }
+@media all and (max-width: 938px) {
+  input#email {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
 
 textarea#message {
   border: none;
@@ -112,15 +124,50 @@ textarea#message {
   border-radius: 5px;
 }
 
+.shareSocial {
+  list-style-type: none;
+}
+
+.shareSocial li {
+  position: relative;
+  display: inline-block;
+}
+
+.shareList {
+  display: none;
+  position: absolute;
+  padding: 0;
+  top: 100%;
+}
+
+.share:hover .shareList {
+  display: block;
+}
+
+.share-item img {
+  display: inline-block;
+  width: 30px;
+  height: auto;
+}
+
+li.share-item {
+  width: 100%;
+  margin: 7px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-.block_title {
+.block-title {
   font-weight: 700;
   line-height: 45px;
   font-size: 30px;
   letter-spacing: 2px;
+}
+
+.block-text {
+  font-size: 19px;
 }
 
 * {
@@ -151,7 +198,7 @@ body {
 
 .row_footer {
   background: #182b3a;
-  padding-top: 10px;
+  padding-top: 20px;
   color: white;
 }
 
@@ -162,7 +209,7 @@ body {
 }
 
 .footer_text {
-  text-align: center;
+  text-align: left;
 }
 
 .footer_image {
@@ -175,8 +222,31 @@ body {
 }
 
 .row_copy_column {
-  margin-top: 20px;
+  margin-top: 19px;
   margin-left: 20px;
+  margin-bottom: 19px;
+}
+
+ul.social_container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.rrss a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #182b3a;
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
+  color: #182b3a;
+  font-size: 26px;
+}
+.rrss a:hover {
+  border: 2px solid #ffdc60;
+  background-color: #ffdc60;
 }
 
 /*# sourceMappingURL=main.css.map */

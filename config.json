@@ -8,7 +8,6 @@
 			"js/jquery-3.2.1.min.js",
 			"js/bootstrap.min.js",
 			"js/smooth-scroll.js",
-			"js/main.js",
 			"js/main.js"
 		],
 		"dest": "js/"

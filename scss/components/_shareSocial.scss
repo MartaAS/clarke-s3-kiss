@@ -1,0 +1,29 @@
+.shareSocial{
+	list-style-type: none;
+}
+
+.shareSocial li{
+	position:relative;
+	display: inline-block;
+}
+
+.shareList {
+	display: none;
+	position: absolute;
+  padding: 0;
+	top:100%;
+}
+.share:hover .shareList{
+display: block;
+}
+
+.share-item img{
+	display:inline-block;
+	width: 30px;
+	height: auto;
+}
+
+li.share-item {
+  width: 100%;
+  margin: 7px;
+}

@@ -1,16 +1,20 @@
 .block_contact{
 	background: $color-primary;
-	padding: 10px;
+	padding: 14px 0;
 }
 
-.block_contact .block_title{
+.block_contact .block-title{
 	text-align: center;
-	padding: 15px 0;
+	padding: 5px 0;
 }
 
 .row_contact{
 	margin-left: 10px;
 	margin-bottom: 10px;
+}
+
+.form_section, .contactData_section{
+margin-top: 20px;
 }
 
 .block_contact a{
@@ -19,6 +23,7 @@
 }
 .contactData_item{
 	margin-bottom: 20px;
+	font-size: 19px;
 }
 
 .contactData--details{

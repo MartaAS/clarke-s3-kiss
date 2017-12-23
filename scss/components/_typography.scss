@@ -2,9 +2,13 @@ body{
 	font-family: $font-family;
 }
 
-.block_title{
+.block-title{
 	font-weight: $font-weight-bold;
 	line-height: $font-height;
 	font-size: 30px;
 	letter-spacing: 2px;
+}
+
+.block-text{
+	font-size: 19px;	
 }

@@ -121,7 +121,7 @@ gulp.task('default', ['styles', 'scripts'], function () {
 		ghostMode: false,
 		online: true
 	});
-	gulp.watch(config.images, ['bs-reload']);
+	gulp.watch(config.img, ['bs-reload']);
 	gulp.watch(config.scss.src, ['styles']);
 	gulp.watch(config.js.src, ['bs-reload', ['scripts']]);
 	gulp.watch(config.html, ['bs-reload']);

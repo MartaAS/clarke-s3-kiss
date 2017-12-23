@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
  	<title>Proyecto Empleo Joven</title>
@@ -14,12 +15,31 @@
 
 
 
-	<div class="block block_contact">
-		<h2 class="block_title">¿QUIERES MÁS INFORMACIÓN?</h2>
 
+
+
+<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS-->
+
+<div class="prueba_share" style="height:300px; background:white;">
+	<ul class="shareSocial">
+		<li class="share"><button type="submit" class="btn btn-primary btn--share">comparte este curso</button>
+			<ul class="shareList" id="shareList">
+				<li class="share-item"><img src="img/shareFacebook.png" alt=""> facebook</li>
+				<li class="share-item"><img src="img/shareTwitter.png" alt=""> twitter</li>
+				<li class="share-item"><img src="img/shareLinkedin.png" alt=""> linkedin</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+
+
+<!--contact section-->
+	<div class="block block_contact">
+		<h2 class="block-title">¿QUIERES MÁS INFORMACIÓN?</h2>
 		<div class="row row_contact">
 			<div class="col-sm-6 form_section">
-				<p><img src="img/form.png" alt="" style="height:30px; width:auto;margin-right:10px;">Rellena este formulario y nos pondremos en contacto contigo</p>
+				<p class="block-text"><img src="img/form.png" alt="" style="height:30px; width:auto;margin-right:10px;">Rellena este formulario y nos pondremos en contacto contigo</p>
 				<form>
 				  <div class="form-group">
 				    <!-- <label for="name">Nombre y apellidos</label> -->
@@ -36,48 +56,45 @@
 			</div>
 			<div class="col-sm-6 contactData_section">
 				<div  class="contactData_item">
-					<p><img src="img/email.png" alt="" style="height:30px; width:auto;margin-right:10px;">Escríbenos a nuestra dirección de correo</p>
+					<p class="block-text"><img src="img/email.png" alt="" style="height:30px; width:auto;margin-right:10px;">Escríbenos a nuestra dirección de correo</p>
 					<span class="contactData--details"><a href="mailto:email@email.com?subject=Formulario">email@email.com</a></span>
 				</div>
 				<div class="contactData_item">
-					<p><img src="img/phone.png" alt="" style="height:30px; width:auto; margin-right:10px;">Llámanos</p>
+					<p class="block-text"><img src="img/phone.png" alt="" style="height:30px; width:auto; margin-right:10px;">Llámanos</p>
 					<span class="contactData--details"><a href="tel:900000000">+34 900 00 00 00</a></span>
 				</div>
 			</div>
 		</div>
 	</div>
 
-
 	<footer>
 		<div class="row row_social">
 			<div class="col-md-12 ">
 				<ul class="social_container">
-					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
-					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
-					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
-					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
-					<li><img src="http://placehold.it/28x28" alt="" class="social_container_item"></li>
+					<li class="rrss"><a href="http:facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="rrss"><a href="http:twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li class="rrss"><a href="http:youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					<li class="rrss"><a href="http:twitter.com"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 		</div>
 
 		<div class="row row_footer">
 			<div class="col-md-4 row_footer_column">
-				<img src="img/federacion.jpg" alt="" class="footer_image">
-				<p class="footer_text">Federación de Mujeres Progresistas<br>
-				Ribera de Curtidores, 3 <br>28005 Madrid - España</p>
+				<img src="img/federacion.png" alt="" class="footer_image">
+				<p class="footer_text">Federación de Mujeres Progresistas<br><i class="fa fa-map-marker" aria-hidden="true"></i> Ribera de Curtidores, 3 <br>28005 Madrid - España</p>
 			</div>
 			<div class="col-md-4 row_footer_column">
-				<img src="img/caixa.jpg" alt="" class="footer_image">
+				<img src="img/caixa_negro.jpg" alt="" class="footer_image" style="height:60px;width:150px;">
 			</div>
 			<div class="col-md-4 row_footer_column">
-				<img src="img/adalab.jpg" alt="" class="footer_image">
+				<img src="img/adalab.png" alt="" class="footer_image">
 			</div>
 		</div>
 
 		<div class="row row_copy">
 			<div class="col-md-12 row_copy_column">
-				<p>&copy; 2017 K.I.S.S &nbsp &nbsp Aviso legal &nbsp&nbsp Protección de datos</p>
+				<small>&copy; 2017 K.I.S.S &nbsp;|&nbsp; Aviso legal &nbsp;|&nbsp; Protección de datos</small>
 			</div>
 		<div class="row">
 	</footer>
@@ -85,7 +102,8 @@
 </div>
 <script type="text/javascript" scr="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" scr="js/bootstrap.min.js"></script>
-<script type="text/javascript" scr="js/smooth-scroll.js"></script>
 <script type="text/javascript" scr="js/main.js"></script>
+<script type="text/javascript" scr="js/smooth-scroll.js"></script>
+
 </body>
 </html>
