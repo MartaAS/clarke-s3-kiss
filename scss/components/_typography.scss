@@ -1,0 +1,17 @@
+body{
+	font-family: $font-family;
+}
+
+a{text-decoration: none;}
+
+.block-title{
+	font-weight: $font-weight-bold;
+	line-height: $font-height;
+	font-size: 30px;
+	letter-spacing: 2px;
+
+}
+
+.block-text{
+	font-size: 19px;
+}

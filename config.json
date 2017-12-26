@@ -1,0 +1,17 @@
+{
+	"scss": {
+		"src": "scss/**/*.scss",
+		"dest": "css/main.css"
+	},
+	"js": {
+		"src": [
+			"js/jquery-3.2.1.min.js",
+			"js/bootstrap.min.js",
+			"js/smooth-scroll.js",
+			"js/main.js"
+		],
+		"dest": "js/main.js"
+	},
+	"images": "img/**/*.{gif,jpg,png,svg}",
+	"html": "**/*.html"
+}
