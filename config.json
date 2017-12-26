@@ -10,7 +10,7 @@
 			"js/smooth-scroll.js",
 			"js/main.js"
 		],
-		"dest": "js/main.js"
+		"dest": "js/"
 	},
 	"images": "img/**/*.{gif,jpg,png,svg}",
 	"html": "**/*.html"
