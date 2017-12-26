@@ -1,3 +1,5 @@
+'use strict';
+
 //smooth scroll function
 (function() {
 	if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {

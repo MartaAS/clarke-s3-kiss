@@ -3,58 +3,69 @@
 }
 
 .form-control {
-    display: block;
-    width: 80%;
-    padding: 0.2rem .5rem;
-	}
+  display: block;
+  width: 80%;
+  padding: 0.2rem .5rem;
+}
 
-	.form-control:focus	 {
-	    border:none;
-		}
+.form-control:focus	 {
+  border:none;
+}
 
-
-// .form-section{
-// 	margin-top:10px;
-// }
-//
-// .form-control {
-//     display: block;
-//     width: 80%;
-//     padding: 0.2rem .5rem;
-// 	}
-//
-// 	.form-control:focus	 {
-// 	    border:none;
-// 		}
 form{
 	width: 80%;
 }
-.form-control::-webkit-input-placeholder { color: black; }  /* WebKit, Blink, Edge */
-.form-control:-moz-placeholder { color: black; }  /* Mozilla Firefox 4 to 18 */
-.form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */
-.form-control:-ms-input-placeholder { color: black; }  /* Internet Explorer 10-11 */
+.form-control::-webkit-input-placeholder { color: black; }
+.form-control:-moz-placeholder { color: black; }
+.form-control::-moz-placeholder { color: black; }
+.form-control:-ms-input-placeholder { color: black; }
 .form-control::-ms-input-placeholder { color: black; }
-input#name {
-		    border: none;
-		    background: white;
-		    border: 2px solid #182b3a;
-		    border-radius: 5px;
-				width: 49%;
-    		display: inline-block;
-		}
 
-		input#email {
-    border: none;
-    background: white;
-    border: 2px solid #182b3a;
-    border-radius: 5px;
-		width: 49%;
-		display: inline-block;
+input#name {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+	width: 49%;
+	display: inline-block;
+}
+input#email {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+	width: 49%;
+	display: inline-block;
+}
+
+input#name {
+  border: none;
+ 	background: white;
+	border: 2px solid #182b3a;
+	border-radius: 5px;
+	width: 49%;
+  display: inline-block;
+	@media all and (max-width:938px) {
+		width: 100%;
+	}
+}
+
+input#email {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+	width: 49%;
+	display: inline-block;
+	@media all and (max-width:938px) {
+		width: 100%;
+		margin-top:10px;
+	}
 }
 
 textarea#message {
 	border:none;
-    background: white;
-    border: 2px solid #182b3a;
-    border-radius: 5px;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
 }

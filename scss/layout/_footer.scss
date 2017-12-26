@@ -14,7 +14,7 @@
 }
 .row_footer{
 	background: $color-secondary;
-	padding-top: 10px;
+	padding-top: 20px;
 	color: white;
 }
 .row_footer_column {
@@ -23,7 +23,7 @@
     align-items: center;
 }
 .footer_text{
-	text-align: center;
+	text-align: left;
 }
 .footer_image {
     margin-bottom: 10px;
@@ -33,6 +33,30 @@
 		color: white;
 }
 .row_copy_column{
-	margin-top: 20px;
+	margin-top: 19px;
   margin-left: 20px;
+	    margin-bottom: 19px;
+}
+
+
+ul.social_container{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+//
+.rrss a{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid  $color-secondary;
+	display: inline-block;
+	text-align: center;
+	margin: 0 20px;
+	color:  $color-secondary;
+	font-size: 26px;
+	&:hover{
+		border: 2px solid $color-primary;
+		background-color: $color-primary;
+	}
 }
