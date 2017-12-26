@@ -2,6 +2,8 @@ body{
 	font-family: $font-family;
 }
 
+a{text-decoration: none;}
+
 .block-title{
 	font-weight: $font-weight-bold;
 	line-height: $font-height;
@@ -10,5 +12,5 @@ body{
 }
 
 .block-text{
-	font-size: 19px;	
+	font-size: 19px;
 }

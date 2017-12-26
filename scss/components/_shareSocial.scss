@@ -14,13 +14,17 @@
 	top:100%;
 }
 .share:hover .shareList{
-display: block;
+	display: block;
 }
 
 .share-item img{
 	display:inline-block;
-	width: 30px;
+	width: 20px;
 	height: auto;
+}
+
+.share-item a{
+	text-decoration: none;
 }
 
 li.share-item {

@@ -18,50 +18,70 @@
 
 
 
-<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS-->
+<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
 
-<div class="prueba_share" style="height:300px; background:white;">
-	<ul class="shareSocial">
-		<li class="share"><button type="submit" class="btn btn-primary btn--share">comparte este curso</button>
-			<ul class="shareList" id="shareList">
-				<li class="share-item"><img src="img/shareFacebook.png" alt=""> facebook</li>
-				<li class="share-item"><img src="img/shareTwitter.png" alt=""> twitter</li>
-				<li class="share-item"><img src="img/shareLinkedin.png" alt=""> linkedin</li>
-			</ul>
-		</li>
-	</ul>
-</div>
+<div class="prueba_share" style="height:100vh; background:white; display:flex;justify-content:space-around;align-items: center; postition:relative;">
+
+	<div><!--Boton compartir curso-->
+		<ul class="shareSocial">
+			<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+				<ul class="shareList" id="shareList">
+					<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+					<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+					<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div><!--Boton más info-->
+		 <a href="#block_contact" class="btn btn--info btn--yellow"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a>
+	</div>
+
+	<div><!--Boton llámanos-->
+		 <a href="#block_contact" class="btn btn--call btn--aqua scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
+	</div>
 
 
+			<div class="prueba_scroll">
+			<a href="#block_contact" class="scroll" data-speed="1000">
+				<div id="scroll-down-container">
+			  	<div class="arrow" id="point1"></div>
+			  	<div class="arrow" id="point2"></div>
+				</div>
+			</a>
+
+	</div>
+
+</div><!--fin prueba-->
 
 <!--contact section-->
-	<div class="block block_contact">
+	<div class="block block_contact" id="block_contact">
 		<h2 class="block-title">¿QUIERES MÁS INFORMACIÓN?</h2>
 		<div class="row row_contact">
 			<div class="col-sm-6 form_section">
 				<p class="block-text"><img src="img/form.png" alt="" style="height:30px; width:auto;margin-right:10px;">Rellena este formulario y nos pondremos en contacto contigo</p>
 				<form>
 				  <div class="form-group">
-				    <!-- <label for="name">Nombre y apellidos</label> -->
 				    <input type="text" class="form-control" id="name" placeholder="Nombre y apellidos">
 						<input type="email" class="form-control" id="email" placeholder="Correo electrónico">
 				  </div>
-
 				  <div class="form-group">
-				  	<!-- <label for="message">Mensaje</label> -->
-		   			<textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
+				  	<textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
 				  </div>
-				  <button type="submit" class="btn btn-primary btn--submit">ENVIAR</button>
+				  <button type="submit" class="btn btn--submit">ENVIAR</button>
 				</form>
 			</div>
 			<div class="col-sm-6 contactData_section">
 				<div  class="contactData_item">
 					<p class="block-text"><img src="img/email.png" alt="" style="height:30px; width:auto;margin-right:10px;">Escríbenos a nuestra dirección de correo</p>
-					<span class="contactData--details"><a href="mailto:email@email.com?subject=Formulario">email@email.com</a></span>
+					<span class="contactData--details"><a href="mailto:empleoyformacion@fmujeresprogresistas.org?subject=Formulario">empleoyformacion@fmujeresprogresistas.org</a></span>
 				</div>
 				<div class="contactData_item">
 					<p class="block-text"><img src="img/phone.png" alt="" style="height:30px; width:auto; margin-right:10px;">Llámanos</p>
-					<span class="contactData--details"><a href="tel:900000000">+34 900 00 00 00</a></span>
+					<span class="contactData--details"><a href="tel:915390238">+34 91.539.02.38</a></span>
 				</div>
 			</div>
 		</div>
@@ -81,14 +101,14 @@
 
 		<div class="row row_footer">
 			<div class="col-md-4 row_footer_column">
-				<img src="img/federacion.png" alt="" class="footer_image">
+				<a href="http://fmujeresprogresistas.org/" target="_blank"><img src="img/federacion.png" alt="logo federacion mujeres progresistas" class="footer_image"></a>
 				<p class="footer_text">Federación de Mujeres Progresistas<br><i class="fa fa-map-marker" aria-hidden="true"></i> Ribera de Curtidores, 3 <br>28005 Madrid - España</p>
 			</div>
 			<div class="col-md-4 row_footer_column">
-				<img src="img/caixa_negro.jpg" alt="" class="footer_image" style="height:60px;width:150px;">
+					<a href="https://obrasociallacaixa.org/es/" target="_blank"><img src="img/caixa_negro.jpg" alt="" class="footer_image" style="height:60px;width:150px;"></a>
 			</div>
 			<div class="col-md-4 row_footer_column">
-				<img src="img/adalab.png" alt="" class="footer_image">
+				<a href="http://adalab.es" target="_blank"><img src="img/adalab.png" alt="" class="footer_image"></a>
 			</div>
 		</div>
 
@@ -96,14 +116,15 @@
 			<div class="col-md-12 row_copy_column">
 				<small>&copy; 2017 K.I.S.S &nbsp;|&nbsp; Aviso legal &nbsp;|&nbsp; Protección de datos</small>
 			</div>
-		<div class="row">
+		</div>
 	</footer>
 
 </div>
 <script type="text/javascript" scr="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" scr="js/bootstrap.min.js"></script>
-<script type="text/javascript" scr="js/main.js"></script>
 <script type="text/javascript" scr="js/smooth-scroll.js"></script>
+<script type="text/javascript" scr="js/main.js"></script>
+
 
 </body>
 </html>

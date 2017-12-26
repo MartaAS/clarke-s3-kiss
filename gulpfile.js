@@ -13,19 +13,11 @@ var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 
-
-
-
-
 // > Gestiona los errores
 var onError = function (err) {
 	gutil.beep();
 	console.log(err);
 };
-
-
-
-
 
 // > Procesa los archivos SASS/SCSS, añade sourcemaps y autoprefixer
 gulp.task('styles', function(cb) {
@@ -51,10 +43,6 @@ gulp.task('styles', function(cb) {
 		.pipe(notify({message: 'CSS OK', onLast: true}));
 });
 
-
-
-
-
 // > Procesa los archivos SASS/SCSS, sin sourcemaps, minimizados y con autoprefixer
 gulp.task('styles-min', function(cb) {
 	return gulp.src(config.scss.src)
@@ -76,10 +64,6 @@ gulp.task('styles-min', function(cb) {
 		.pipe(notify({message: 'CSS MIN OK', onLast: true}));
 });
 
-
-
-
-
 // > Procesa los scripts concatenando
 gulp.task('scripts', function(){
 	return gulp.src(config.js.src)
@@ -93,10 +77,6 @@ gulp.task('scripts', function(){
 		.pipe(notify({message: 'JS OK', onLast: true}));
 });
 
-
-
-
-
 // > Procesa los scripts concatenando, minimizando y sin sourcemaps
 gulp.task('scripts-min', function(){
 	return gulp.src(config.js.src)
@@ -106,11 +86,6 @@ gulp.task('scripts-min', function(){
 		.pipe(gulp.dest(config.js.dest))
 		.pipe(notify({message: 'JS MIN OK', onLast: true}));
 });
-
-
-
-
-
 
 // > Arranca el servidor web con BrowserSync
 gulp.task('default', ['styles', 'scripts'], function () {
@@ -127,15 +102,9 @@ gulp.task('default', ['styles', 'scripts'], function () {
 	gulp.watch(config.html, ['bs-reload']);
 });
 
-
-
-
 // > Genera una versión lista para producción
 gulp.task('deploy', ['styles-min', 'scripts-min'], function () {
 });
-
-
-
 
 
 // > Recarga las ventanas del navegador
