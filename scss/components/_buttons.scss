@@ -1,0 +1,66 @@
+.btn{
+	font-weight: $font-weight-bold;
+	letter-spacing: 2px;
+	font-size: 13px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow:none;
+}
+/*boton formulario*/
+.btn--submit{
+	background: $color-secondary;
+	color:white;
+	border:2px solid $color-secondary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: $color-primary;
+		border:2px solid $color-secondary;
+		color: $color-secondary;
+	}
+}
+
+.btn--submit:active{
+	outline: 0;
+	background: $color-primary;
+	border:2px solid $color-secondary;
+	color: $color-secondary;
+}
+/*boton más información*/
+.btn--info, .btn--yellow {
+	background: $color-primary;
+	color:$color-secondary;
+	border:2px solid $color-secondary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: $color-secondary;
+		border:2px solid $color-secondary;
+		color: white;
+	}
+}
+/*botón llámanos*/
+.btn--call, .btn--aqua {
+	background: $color-tertiary;
+	color:white;
+	border:2px solid $color-tertiary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: $color-midtone;
+		border:2px solid $color-midtone;
+		color: $color-secondary;
+	}
+}
+/*botón compartir curso*/
+.btn--share, .btn--transparent{
+	background: transparent;
+	color:$color-secondary;
+	border:2px solid $color-secondary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: $color-secondary;
+		border:2px solid $color-secondary;
+		color: white;
+	}
+}
