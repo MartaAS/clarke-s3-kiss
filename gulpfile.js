@@ -106,7 +106,6 @@ gulp.task('default', ['styles', 'scripts'], function () {
 gulp.task('deploy', ['styles-min', 'scripts-min'], function () {
 });
 
-
 // > Recarga las ventanas del navegador
 gulp.task('bs-reload', function () {
 	browserSync.reload();
