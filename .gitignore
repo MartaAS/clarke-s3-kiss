@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-*.DS_Store
 
-# Dependency directories
-node_modules/
-=======
 # Created by https://www.gitignore.io/api/sass,node,bower,macos
 
 ### Bower ###
@@ -54,4 +49,3 @@ node_modules/
 
 ### JS Sourcemaps ###
 *.js.map
->>>>>>> 5b5f89755c40977b41aee0a52301736534852b45
