@@ -1,45 +1,5 @@
 @charset "UTF-8";
-<<<<<<< HEAD
-=======
 
-.block_contact {
-  background: #ffdc60;
-  padding: 14px 25px;
-}
-
-.block_contact .block-title {
-  text-align: center;
-  padding: 5px 0;
-}
-
-.row_contact {
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-.form_section,.contactData_section {
-  margin-top: 20px;
-}
-
-.block_contact a {
-  text-decoration: none;
-  color: #182b3a;
-}
-
-.contactData_item {
-  margin-bottom: 20px;
-  font-size: 19px;
-}
-
-.contactData--details {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #182b3a;
-}
-
->>>>>>> virginia
 .btn {
   font-weight: 700;
   letter-spacing: 2px;
@@ -120,7 +80,7 @@
   margin-bottom: 10px;
 }
 
-.form_section, .contactData_section {
+.form_section,.contactData_section {
   margin-top: 20px;
 }
 
@@ -142,7 +102,7 @@
   color: #182b3a;
 }
 
-.form-section, .contactData_section {
+.form-section,.contactData_section {
   margin-top: 10px;
 }
 
@@ -188,7 +148,6 @@ input#name {
   width: 49%;
   display: inline-block;
 }
-<<<<<<< HEAD
 
 input#email {
   border: none;
@@ -207,13 +166,6 @@ input#name {
   width: 49%;
   display: inline-block;
 }
-@media all and (max-width: 938px) {
-  input#name {
-    width: 100%;
-  }
-}
-=======
->>>>>>> virginia
 
 input#email {
   border: none;
@@ -233,6 +185,10 @@ textarea#message {
   position: absolute;
   bottom: 5%;
   left: 50%;
+}
+
+.prueba_share {
+  position: relative;
 }
 
 .prueba_scroll a {
