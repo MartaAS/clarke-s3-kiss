@@ -1,5 +1,5 @@
 {
-	"name": "Proyecto Empleo Joven",
+	"name": "ProyectoEmpleoJoven",
 	"version": "1.0.0",
 	"description": "Proyecto sprint 3",
 	"dependencies": {},
@@ -9,11 +9,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "git+ssh://git@github.com:Adalab/clarke-s3-kiss.git"
 	},
 	"author": "Adalab",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/Adalab/clarke-s3-kiss",
 	"dependencies": {
 		"browser-sync": "*",
 		"gulp-autoprefixer": "*",
