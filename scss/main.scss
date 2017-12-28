@@ -1,6 +1,8 @@
 @import 'core/variables';
 @import 'components/buttons';
 @import 'components/blockContact';
+@import 'components/blockInfo';
+@import 'components/blockIntro';
 @import 'components/forms';
 @import 'components/scroll';
 @import 'components/shareSocial';
@@ -8,3 +10,5 @@
 @import 'layout/mainPage';
 @import 'layout/footer';
 @import 'layout/bootstrap-grid.min';
+@import 'pages/avisoLegal';
+@import 'pages/proteccioonDatos';

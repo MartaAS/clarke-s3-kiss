@@ -2,7 +2,7 @@
 	"scss": {
 		"src": "scss/**/*.scss",
 
-		"dest": "css/main.css"
+		"dest": "css/"
 	},
 	"js": {
 		"src": [
@@ -11,7 +11,7 @@
 			"js/smooth-scroll.js",
 			"js/main.js"
 		],
-		"dest": "js/main.js"
+		"dest": "js/"
 	},
 	"images": "img/**/*.{gif,jpg,png,svg}",
 	"html": "**/*.html"
