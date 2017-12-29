@@ -8,8 +8,9 @@
 			"js/jquery-3.2.1.min.js",
 			"js/popper.min.js",
 			"js/bootstrap.min.js",
+			"js/smooth-scroll.js",
 			"js/data-graphics.js",
-			"js/smooth-scroll.js"
+			"js/main.js"
 		],
 		"dest": "js/"
 	},
