@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
- 	<title>Proyecto Empleo Joven</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--llamada al js grafica barras-->
+
+	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+
+	<!--llamada al js grafica quesito-->
+
+	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+	<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+	<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+
+
+	<title>Proyecto Empleo Joven</title>
+</head>
 <body>
+	<section>
+		<div>
+			<div style="text-align: center;">
+				<h1>Datos del sector de la Hostelería</h1>
+			</div>
+			<div style="text-align: center;">
+				<p>El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
+			</div>
+		</div>
+		<div>
+			<div id="chartdiv" style="width: 100%;height: 500px;">
+			</div>
+			<div id="chartdiv2" style="width: 100%;height: 500px;">
+			</div>
+		</div>
+		<div>
+			<div style="text-align: center;">
+				<h2>¿Por qué hostelería?</h2>
+			</div>
+			<div style="display: flex; flex; flex-direction: row; justify-content: space-around;">
+				<ul>
+					<li>Conocerás gente de todos sitios y condiciones.</li>
+					<li>Tendrás un aprendizaje constante.</li>
+					<li>Es un trabajo adrenalínico.</li>
+					<li>Evolucionarás a diario</li>
+					<li>Tendrás la posibilidad de encontrar empleo dentro y fuera de España.</li>
+					<li>No tendrás un trabajo monótono.</li>
+					<li>Tendrás un oficio con un alto porcentaje de inserción laboral.</li>
+					<li>Verás inmediatamente la satisfacción del trabajo bien hecho.</li>
+				</ul>
+				<div>
+					<img src="http://www.dickson-constant.com/medias/images/catalogue/api/6088-gris-680.jpg"width="150" height="150" alt="">
+				</div>
+			</div>
+		</div>
+		<div>
+			<p>* Según datos de la Encuesta de Población Activa (EPA) publicada por el Instituto Nacional de Estadística (INE) y recogidos por la Federación Española de Hos­telería (FEHR)</p>
+		</div>
+	</section>
+
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 
 	<!--BOTON BACK TO TOP-->
@@ -133,6 +191,7 @@
 
 	<script src="js/main.min.js"></script>
 	<script src="js/smooth-scroll.js"></script>
+	<script src="js/data-graphics.js"></script>
 
 
 
