@@ -1,9 +1,13 @@
 @import 'core/variables.scss';
+@import 'core/mixins.scss';
 @import 'layout/mainPage.scss';
+@import 'layout/header.scss';
 @import 'layout/footer.scss';
 @import 'layout/bootstrap-grid.min.scss';
+@import 'components/hero.scss';
 @import 'components/buttons.scss';
 @import 'components/blockContact.scss';
+@import 'components/blockData.scss';
 @import 'components/blockInfo.scss';
 @import 'components/blockIntro.scss';
 @import 'components/forms.scss';

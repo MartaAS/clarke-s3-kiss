@@ -1,29 +1,18 @@
 {
 	"scss": {
 		"src": "scss/**/*.scss",
-<<<<<<< HEAD
-
-=======
->>>>>>> fix-data
 		"dest": "css/"
 	},
 	"js": {
 		"src": [
 			"js/jquery-3.2.1.min.js",
-<<<<<<< HEAD
-=======
 			"js/popper.min.js",
->>>>>>> fix-data
 			"js/bootstrap.min.js",
-			"js/smooth-scroll.js",
-			"js/main.js"
+			"js/data-graphics.js",
+			"js/smooth-scroll.js"
 		],
 		"dest": "js/"
 	},
-<<<<<<< HEAD
 	"images": "img/**/*.{gif,jpg,png,svg}",
-=======
-	"images": "images/**/*.{gif,jpg,png,svg}",
->>>>>>> fix-data
 	"html": "**/*.html"
 }
