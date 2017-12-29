@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+*.DS_Store
+
+# Dependency directories
+node_modules/
+=======
+>>>>>>> fix-data
 # Created by https://www.gitignore.io/api/sass,node,bower,macos
 
 ### Bower ###
@@ -48,3 +58,7 @@ node_modules/
 
 ### JS Sourcemaps ###
 *.js.map
+<<<<<<< HEAD
+=======
+>>>>>>> weLgulp
+>>>>>>> fix-data
