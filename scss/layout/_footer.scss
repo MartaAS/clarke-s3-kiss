@@ -1,6 +1,8 @@
 .row_social{
 	background: $color-midtone;
 	padding: 10px 0;
+	margin-left: 0;
+    margin-right: 0
 }
 .social_container{
 	display: flex;
@@ -16,6 +18,8 @@
 	background: $color-secondary;
 	padding-top: 20px;
 	color: white;
+	margin-left: 0;
+    margin-right: 0
 }
 .row_footer_column {
     display: flex;
@@ -31,10 +35,13 @@
 .row_copy{
 		background:#0b141b;
 		color: white;
+		margin-left: 0;
+    margin-right: 0
 }
 .row_copy_column{
-	margin-top: 19px;
-  margin-left: 20px;
+	padding-top:10px;
+	// margin-top: 19px;
+  // margin-left: 20px;
 	    margin-bottom: 19px;
 }
 
