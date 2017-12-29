@@ -547,9 +547,50 @@ html {
   color: #182b3a;
 }
 
-.info_image {
-  width: 230px;
-  height: 200px;
+.image__subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #f6f7f8;
+}
+
+.image__container {
+  background-color: #182b3a;
+  padding-top: 10px;
+  margin: 8px 0;
+  max-width: 350px;
+  height: 230px;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.info__image {
+  width: auto;
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.image__text {
+  margin: 0 10px;
+  color: #ffdc60;
+  font-weight: 700;
 }
 
 .form-section,.contactData_section {

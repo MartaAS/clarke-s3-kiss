@@ -1,4 +1,29 @@
-.info_image{
-	width: 230px; 
-	height: 200px;
+.image__subtitle{
+	font-size: 20px;
+	text-align: center;
+	color: $color-light;
+}
+.image__container{
+
+	background-color: $color-secondary;
+	padding-top: 10px;
+	margin: 8px 0;
+	max-width: 350px;
+	height: 230px;
+	border: 1px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.info__image{
+	width: auto;
+	height: 175px;
+	display: flex;
+	flex-direction: column;
+  justify-content: flex-end;
+}
+.image__text{
+	margin: 0 10px;
+	color: $color-primary;
+	font-weight: $font-weight-bold;
 }
