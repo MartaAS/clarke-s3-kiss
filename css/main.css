@@ -1,131 +1,4 @@
 @charset "UTF-8";
-<<<<<<< HEAD:css/old/main.css
-.btn {
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 13px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn:focus {
-  outline: 0;
-  box-shadow: none;
-}
-
-/*boton formulario*/
-.btn--submit {
-  background: #182b3a;
-  color: white;
-  border: 2px solid #182b3a;
-  font-weight: 700;
-}
-.btn--submit:hover {
-  background: #ffdc60;
-  border: 2px solid #182b3a;
-  color: #182b3a;
-}
-
-.btn--submit:active {
-  outline: 0;
-  background: #ffdc60;
-  border: 2px solid #182b3a;
-  color: #182b3a;
-}
-
-/*boton más información*/
-.btn--info, .btn--yellow {
-  background: #ffdc60;
-  color: #182b3a;
-  border: 2px solid #182b3a;
-  font-weight: 700;
-}
-.btn--info:hover, .btn--yellow:hover {
-  background: #182b3a;
-  border: 2px solid #182b3a;
-  color: white;
-}
-
-/*botón llámanos*/
-.btn--call, .btn--aqua {
-  background: #2ec4b6;
-  color: white;
-  border: 2px solid #2ec4b6;
-  font-weight: 700;
-}
-.btn--call:hover, .btn--aqua:hover {
-  background: #c1c1c1;
-  border: 2px solid #c1c1c1;
-  color: #182b3a;
-}
-
-/*botón compartir curso*/
-.btn--share, .btn--transparent {
-  background: transparent;
-  color: #182b3a;
-  border: 2px solid #182b3a;
-  font-weight: 700;
-}
-.btn--share:hover, .btn--transparent:hover {
-  background: #182b3a;
-  border: 2px solid #182b3a;
-  color: white;
-}
-
-.block_contact {
-  background: #ffdc60;
-  padding: 14px 25px;
-}
-
-.block_contact .block-title {
-  text-align: center;
-  padding: 5px 0;
-}
-
-.row_contact {
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-.form_section, .contactData_section {
-  margin-top: 20px;
-}
-
-.block_contact a {
-  text-decoration: none;
-  color: #182b3a;
-}
-
-.contactData_item {
-  margin-bottom: 20px;
-  font-size: 19px;
-}
-
-.contactData--details {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #182b3a;
-}
-
-.form-section, .contactData_section {
-  margin-top: 10px;
-}
-
-.form-control {
-  display: block;
-  width: 80%;
-  padding: 0.2rem .5rem;
-}
-
-.form-control:focus {
-  border: none;
-}
-
-form {
-  width: 80%;
-=======
 /*!
  * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -220,7 +93,6 @@ html {
   flex: 0 0 auto;
   width: auto;
   max-width: none;
->>>>>>> virginia:css/main.css
 }
 
 .col-1 {
@@ -265,57 +137,6 @@ html {
   max-width: 58.333333%;
 }
 
-<<<<<<< HEAD:css/old/main.css
-input#name {
-  border: none;
-  background: white;
-  border: 2px solid #182b3a;
-  border-radius: 5px;
-  width: 49%;
-  display: inline-block;
-}
-@media all and (max-width: 938px) {
-  input#name {
-    width: 100%;
-  }
-}
-
-input#email {
-  border: none;
-  background: white;
-  border: 2px solid #182b3a;
-  border-radius: 5px;
-  width: 49%;
-  display: inline-block;
-}
-@media all and (max-width: 938px) {
-  input#email {
-    width: 100%;
-    margin-top: 10px;
-  }
-}
-
-textarea#message {
-  border: none;
-  background: white;
-  border: 2px solid #182b3a;
-  border-radius: 5px;
-}
-
-/*SCROLL MOUSE*/
-.prueba_scroll {
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-}
-
-.prueba_share {
-  position: relative;
-}
-
-.prueba_scroll a {
-  text-decoration: none;
-=======
 .col-8 {
   -ms-flex: 0 0 66.666667%;
   flex: 0 0 66.666667%;
@@ -326,7 +147,6 @@ textarea#message {
   -ms-flex: 0 0 75%;
   flex: 0 0 75%;
   max-width: 75%;
->>>>>>> virginia:css/main.css
 }
 
 .col-10 {
@@ -341,22 +161,10 @@ textarea#message {
   max-width: 91.666667%;
 }
 
-<<<<<<< HEAD:css/old/main.css
-#mouse-scroll .mouse {
-  height: 23px;
-  width: 16px;
-  border-radius: 10px;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-  border: 2px solid red;
-  top: 170px;
-=======
 .col-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
->>>>>>> virginia:css/main.css
 }
 
 .order-first {
@@ -364,56 +172,9 @@ textarea#message {
   order: -1;
 }
 
-<<<<<<< HEAD:css/old/main.css
-#mouse-scroll .mouse-in {
-  -webkit-animation: animated-mouse 1.2s ease infinite;
-  -moz-animation: mouse-animated 1.2s ease infinite;
-}
-
-@-webkit-keyframes animated-mouse {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateY(6px);
-    -ms-transform: translateY(6px);
-    transform: translateY(6px);
-  }
-}
-@-webkit-keyframes mouse-scroll {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes mouse-scroll {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-/*SCROLL FLECHAS*/
-.shareSocial {
-  list-style-type: none;
-=======
 .order-1 {
   -ms-flex-order: 1;
   order: 1;
->>>>>>> virginia:css/main.css
 }
 
 .order-2 {
@@ -475,16 +236,8 @@ textarea#message {
   margin-left: 8.333333%;
 }
 
-<<<<<<< HEAD:css/old/main.css
-.social_container {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
-  margin: 5px 0;
-=======
 .offset-2 {
   margin-left: 16.666667%;
->>>>>>> virginia:css/main.css
 }
 
 .offset-3 {
@@ -495,15 +248,8 @@ textarea#message {
   margin-left: 33.333333%;
 }
 
-<<<<<<< HEAD:css/old/main.css
-.row_footer_column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-=======
 .offset-5 {
   margin-left: 41.666667%;
->>>>>>> virginia:css/main.css
 }
 
 .offset-6 {
@@ -522,44 +268,13 @@ textarea#message {
   margin-left: 75%;
 }
 
-<<<<<<< HEAD:css/old/main.css
-ul.social_container {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-=======
 .offset-10 {
   margin-left: 83.333333%;
->>>>>>> virginia:css/main.css
 }
 
 .offset-11 {
   margin-left: 91.666667%;
 }
-<<<<<<< HEAD:css/old/main.css
-.rrss a:hover {
-  border: 2px solid #ffdc60;
-  background-color: #ffdc60;
-}
-
-/*!
- * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-@-ms-viewport {
-  width: device-width;
-}
-html {
-  box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
-}
-
-*, ::after, ::before {
-  box-sizing: inherit;
-}
-=======
 
 @media (min-width: 576px) {
   .col-sm {
@@ -582,7 +297,6 @@ html {
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
->>>>>>> virginia:css/main.css
 
   .col-sm-2 {
     -ms-flex: 0 0 16.666667%;
@@ -590,44 +304,6 @@ html {
     max-width: 16.666667%;
   }
 
-<<<<<<< HEAD:css/old/main.css
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-.container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-=======
   .col-sm-3 {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
@@ -639,7 +315,6 @@ html {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
->>>>>>> virginia:css/main.css
 
   .col-sm-5 {
     -ms-flex: 0 0 41.666667%;
@@ -647,258 +322,6 @@ html {
     max-width: 41.666667%;
   }
 
-<<<<<<< HEAD:css/old/main.css
-.no-gutters > .col, .no-gutters > [class*=col-] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.col {
-  -ms-flex-preferred-size: 0;
-  flex-basis: 0;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  max-width: 100%;
-}
-
-.col-auto {
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  width: auto;
-  max-width: none;
-}
-
-.col-1 {
-  -ms-flex: 0 0 8.333333%;
-  flex: 0 0 8.333333%;
-  max-width: 8.333333%;
-}
-
-.col-2 {
-  -ms-flex: 0 0 16.666667%;
-  flex: 0 0 16.666667%;
-  max-width: 16.666667%;
-}
-
-.col-3 {
-  -ms-flex: 0 0 25%;
-  flex: 0 0 25%;
-  max-width: 25%;
-}
-
-.col-4 {
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-
-.col-5 {
-  -ms-flex: 0 0 41.666667%;
-  flex: 0 0 41.666667%;
-  max-width: 41.666667%;
-}
-
-.col-6 {
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-
-.col-7 {
-  -ms-flex: 0 0 58.333333%;
-  flex: 0 0 58.333333%;
-  max-width: 58.333333%;
-}
-
-.col-8 {
-  -ms-flex: 0 0 66.666667%;
-  flex: 0 0 66.666667%;
-  max-width: 66.666667%;
-}
-
-.col-9 {
-  -ms-flex: 0 0 75%;
-  flex: 0 0 75%;
-  max-width: 75%;
-}
-
-.col-10 {
-  -ms-flex: 0 0 83.333333%;
-  flex: 0 0 83.333333%;
-  max-width: 83.333333%;
-}
-
-.col-11 {
-  -ms-flex: 0 0 91.666667%;
-  flex: 0 0 91.666667%;
-  max-width: 91.666667%;
-}
-
-.col-12 {
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-.order-first {
-  -ms-flex-order: -1;
-  order: -1;
-}
-
-.order-1 {
-  -ms-flex-order: 1;
-  order: 1;
-}
-
-.order-2 {
-  -ms-flex-order: 2;
-  order: 2;
-}
-
-.order-3 {
-  -ms-flex-order: 3;
-  order: 3;
-}
-
-.order-4 {
-  -ms-flex-order: 4;
-  order: 4;
-}
-
-.order-5 {
-  -ms-flex-order: 5;
-  order: 5;
-}
-
-.order-6 {
-  -ms-flex-order: 6;
-  order: 6;
-}
-
-.order-7 {
-  -ms-flex-order: 7;
-  order: 7;
-}
-
-.order-8 {
-  -ms-flex-order: 8;
-  order: 8;
-}
-
-.order-9 {
-  -ms-flex-order: 9;
-  order: 9;
-}
-
-.order-10 {
-  -ms-flex-order: 10;
-  order: 10;
-}
-
-.order-11 {
-  -ms-flex-order: 11;
-  order: 11;
-}
-
-.order-12 {
-  -ms-flex-order: 12;
-  order: 12;
-}
-
-.offset-1 {
-  margin-left: 8.333333%;
-}
-
-.offset-2 {
-  margin-left: 16.666667%;
-}
-
-.offset-3 {
-  margin-left: 25%;
-}
-
-.offset-4 {
-  margin-left: 33.333333%;
-}
-
-.offset-5 {
-  margin-left: 41.666667%;
-}
-
-.offset-6 {
-  margin-left: 50%;
-}
-
-.offset-7 {
-  margin-left: 58.333333%;
-}
-
-.offset-8 {
-  margin-left: 66.666667%;
-}
-
-.offset-9 {
-  margin-left: 75%;
-}
-
-.offset-10 {
-  margin-left: 83.333333%;
-}
-
-.offset-11 {
-  margin-left: 91.666667%;
-}
-
-@media (min-width: 576px) {
-  .col-sm {
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
-  }
-
-  .col-sm-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-  }
-
-  .col-sm-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
-  }
-
-  .col-sm-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-
-  .col-sm-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-
-  .col-sm-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-
-  .col-sm-5 {
-=======
   .col-sm-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -1095,214 +518,6 @@ html {
   }
 
   .col-md-5 {
->>>>>>> virginia:css/main.css
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
-  }
-
-  .col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-  .col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-  }
-
-  .col-md-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
-
-  .col-md-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-
-  .col-md-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-  }
-
-  .col-md-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
-  }
-
-  .col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .order-md-first {
-    -ms-flex-order: -1;
-    order: -1;
-  }
-
-  .order-md-1 {
-    -ms-flex-order: 1;
-    order: 1;
-  }
-
-  .order-md-2 {
-    -ms-flex-order: 2;
-    order: 2;
-  }
-
-  .order-md-3 {
-    -ms-flex-order: 3;
-    order: 3;
-  }
-
-  .order-md-4 {
-    -ms-flex-order: 4;
-    order: 4;
-  }
-
-  .order-md-5 {
-    -ms-flex-order: 5;
-    order: 5;
-  }
-
-  .order-md-6 {
-    -ms-flex-order: 6;
-    order: 6;
-  }
-
-  .order-md-7 {
-    -ms-flex-order: 7;
-    order: 7;
-  }
-
-  .order-md-8 {
-    -ms-flex-order: 8;
-    order: 8;
-  }
-
-  .order-md-9 {
-    -ms-flex-order: 9;
-    order: 9;
-  }
-
-  .order-md-10 {
-    -ms-flex-order: 10;
-    order: 10;
-  }
-
-  .order-md-11 {
-    -ms-flex-order: 11;
-    order: 11;
-  }
-
-  .order-md-12 {
-    -ms-flex-order: 12;
-    order: 12;
-  }
-
-  .offset-md-0 {
-    margin-left: 0;
-  }
-
-  .offset-md-1 {
-    margin-left: 8.333333%;
-  }
-
-  .offset-md-2 {
-    margin-left: 16.666667%;
-  }
-
-  .offset-md-3 {
-    margin-left: 25%;
-  }
-
-  .offset-md-4 {
-    margin-left: 33.333333%;
-  }
-
-  .offset-md-5 {
-    margin-left: 41.666667%;
-  }
-
-  .offset-md-6 {
-    margin-left: 50%;
-  }
-
-  .offset-md-7 {
-    margin-left: 58.333333%;
-  }
-
-  .offset-md-8 {
-    margin-left: 66.666667%;
-  }
-
-  .offset-md-9 {
-    margin-left: 75%;
-  }
-
-  .offset-md-10 {
-    margin-left: 83.333333%;
-  }
-
-  .offset-md-11 {
-    margin-left: 91.666667%;
-  }
-}
-<<<<<<< HEAD:css/old/main.css
-@media (min-width: 768px) {
-  .col-md {
-=======
-@media (min-width: 992px) {
-  .col-lg {
->>>>>>> virginia:css/main.css
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
-<<<<<<< HEAD:css/old/main.css
-  }
-
-  .col-md-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-  }
-
-  .col-md-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
-  }
-
-  .col-md-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-
-  .col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-
-  .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-
-  .col-md-5 {
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
@@ -1465,204 +680,6 @@ html {
 }
 @media (min-width: 992px) {
   .col-lg {
-=======
-  }
-
-  .col-lg-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-  }
-
-  .col-lg-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%;
-  }
-
-  .col-lg-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-  }
-
-  .col-lg-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-
-  .col-lg-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-
-  .col-lg-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
-  }
-
-  .col-lg-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-  .col-lg-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-  }
-
-  .col-lg-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
-  }
-
-  .col-lg-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
-  }
-
-  .col-lg-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-  }
-
-  .col-lg-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%;
-  }
-
-  .col-lg-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .order-lg-first {
-    -ms-flex-order: -1;
-    order: -1;
-  }
-
-  .order-lg-1 {
-    -ms-flex-order: 1;
-    order: 1;
-  }
-
-  .order-lg-2 {
-    -ms-flex-order: 2;
-    order: 2;
-  }
-
-  .order-lg-3 {
-    -ms-flex-order: 3;
-    order: 3;
-  }
-
-  .order-lg-4 {
-    -ms-flex-order: 4;
-    order: 4;
-  }
-
-  .order-lg-5 {
-    -ms-flex-order: 5;
-    order: 5;
-  }
-
-  .order-lg-6 {
-    -ms-flex-order: 6;
-    order: 6;
-  }
-
-  .order-lg-7 {
-    -ms-flex-order: 7;
-    order: 7;
-  }
-
-  .order-lg-8 {
-    -ms-flex-order: 8;
-    order: 8;
-  }
-
-  .order-lg-9 {
-    -ms-flex-order: 9;
-    order: 9;
-  }
-
-  .order-lg-10 {
-    -ms-flex-order: 10;
-    order: 10;
-  }
-
-  .order-lg-11 {
-    -ms-flex-order: 11;
-    order: 11;
-  }
-
-  .order-lg-12 {
-    -ms-flex-order: 12;
-    order: 12;
-  }
-
-  .offset-lg-0 {
-    margin-left: 0;
-  }
-
-  .offset-lg-1 {
-    margin-left: 8.333333%;
-  }
-
-  .offset-lg-2 {
-    margin-left: 16.666667%;
-  }
-
-  .offset-lg-3 {
-    margin-left: 25%;
-  }
-
-  .offset-lg-4 {
-    margin-left: 33.333333%;
-  }
-
-  .offset-lg-5 {
-    margin-left: 41.666667%;
-  }
-
-  .offset-lg-6 {
-    margin-left: 50%;
-  }
-
-  .offset-lg-7 {
-    margin-left: 58.333333%;
-  }
-
-  .offset-lg-8 {
-    margin-left: 66.666667%;
-  }
-
-  .offset-lg-9 {
-    margin-left: 75%;
-  }
-
-  .offset-lg-10 {
-    margin-left: 83.333333%;
-  }
-
-  .offset-lg-11 {
-    margin-left: 91.666667%;
-  }
-}
-@media (min-width: 1200px) {
-  .col-xl {
->>>>>>> virginia:css/main.css
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
     -ms-flex-positive: 1;
@@ -1670,255 +687,150 @@ html {
     max-width: 100%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-auto {
-=======
-  .col-xl-auto {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: auto;
     max-width: none;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-1 {
-=======
-  .col-xl-1 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 8.333333%;
     flex: 0 0 8.333333%;
     max-width: 8.333333%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-2 {
-=======
-  .col-xl-2 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-3 {
-=======
-  .col-xl-3 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-4 {
-=======
-  .col-xl-4 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-5 {
-=======
-  .col-xl-5 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
     max-width: 41.666667%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-6 {
-=======
-  .col-xl-6 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-7 {
-=======
-  .col-xl-7 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
     max-width: 58.333333%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-8 {
-=======
-  .col-xl-8 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 66.666667%;
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-9 {
-=======
-  .col-xl-9 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 75%;
     flex: 0 0 75%;
     max-width: 75%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-10 {
-=======
-  .col-xl-10 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 83.333333%;
     flex: 0 0 83.333333%;
     max-width: 83.333333%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-11 {
-=======
-  .col-xl-11 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 91.666667%;
     flex: 0 0 91.666667%;
     max-width: 91.666667%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .col-lg-12 {
-=======
-  .col-xl-12 {
->>>>>>> virginia:css/main.css
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-first {
-=======
-  .order-xl-first {
->>>>>>> virginia:css/main.css
     -ms-flex-order: -1;
     order: -1;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-1 {
-=======
-  .order-xl-1 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 1;
     order: 1;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-2 {
-=======
-  .order-xl-2 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 2;
     order: 2;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-3 {
-=======
-  .order-xl-3 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 3;
     order: 3;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-4 {
-=======
-  .order-xl-4 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 4;
     order: 4;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-5 {
-=======
-  .order-xl-5 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 5;
     order: 5;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-6 {
-=======
-  .order-xl-6 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 6;
     order: 6;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-7 {
-=======
-  .order-xl-7 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 7;
     order: 7;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-8 {
-=======
-  .order-xl-8 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 8;
     order: 8;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-9 {
-=======
-  .order-xl-9 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 9;
     order: 9;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-10 {
-=======
-  .order-xl-10 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 10;
     order: 10;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-11 {
-=======
-  .order-xl-11 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 11;
     order: 11;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .order-lg-12 {
-=======
-  .order-xl-12 {
->>>>>>> virginia:css/main.css
     -ms-flex-order: 12;
     order: 12;
   }
 
-<<<<<<< HEAD:css/old/main.css
   .offset-lg-0 {
     margin-left: 0;
   }
@@ -2369,257 +1281,6 @@ html {
     justify-content: space-between !important;
   }
 
-=======
-  .offset-xl-0 {
-    margin-left: 0;
-  }
-
-  .offset-xl-1 {
-    margin-left: 8.333333%;
-  }
-
-  .offset-xl-2 {
-    margin-left: 16.666667%;
-  }
-
-  .offset-xl-3 {
-    margin-left: 25%;
-  }
-
-  .offset-xl-4 {
-    margin-left: 33.333333%;
-  }
-
-  .offset-xl-5 {
-    margin-left: 41.666667%;
-  }
-
-  .offset-xl-6 {
-    margin-left: 50%;
-  }
-
-  .offset-xl-7 {
-    margin-left: 58.333333%;
-  }
-
-  .offset-xl-8 {
-    margin-left: 66.666667%;
-  }
-
-  .offset-xl-9 {
-    margin-left: 75%;
-  }
-
-  .offset-xl-10 {
-    margin-left: 83.333333%;
-  }
-
-  .offset-xl-11 {
-    margin-left: 91.666667%;
-  }
-}
-.flex-row {
-  -ms-flex-direction: row !important;
-  flex-direction: row !important;
-}
-
-.flex-column {
-  -ms-flex-direction: column !important;
-  flex-direction: column !important;
-}
-
-.flex-row-reverse {
-  -ms-flex-direction: row-reverse !important;
-  flex-direction: row-reverse !important;
-}
-
-.flex-column-reverse {
-  -ms-flex-direction: column-reverse !important;
-  flex-direction: column-reverse !important;
-}
-
-.flex-wrap {
-  -ms-flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
-}
-
-.flex-nowrap {
-  -ms-flex-wrap: nowrap !important;
-  flex-wrap: nowrap !important;
-}
-
-.flex-wrap-reverse {
-  -ms-flex-wrap: wrap-reverse !important;
-  flex-wrap: wrap-reverse !important;
-}
-
-.justify-content-start {
-  -ms-flex-pack: start !important;
-  justify-content: flex-start !important;
-}
-
-.justify-content-end {
-  -ms-flex-pack: end !important;
-  justify-content: flex-end !important;
-}
-
-.justify-content-center {
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
-}
-
-.justify-content-between {
-  -ms-flex-pack: justify !important;
-  justify-content: space-between !important;
-}
-
-.justify-content-around {
-  -ms-flex-pack: distribute !important;
-  justify-content: space-around !important;
-}
-
-.align-items-start {
-  -ms-flex-align: start !important;
-  align-items: flex-start !important;
-}
-
-.align-items-end {
-  -ms-flex-align: end !important;
-  align-items: flex-end !important;
-}
-
-.align-items-center {
-  -ms-flex-align: center !important;
-  align-items: center !important;
-}
-
-.align-items-baseline {
-  -ms-flex-align: baseline !important;
-  align-items: baseline !important;
-}
-
-.align-items-stretch {
-  -ms-flex-align: stretch !important;
-  align-items: stretch !important;
-}
-
-.align-content-start {
-  -ms-flex-line-pack: start !important;
-  align-content: flex-start !important;
-}
-
-.align-content-end {
-  -ms-flex-line-pack: end !important;
-  align-content: flex-end !important;
-}
-
-.align-content-center {
-  -ms-flex-line-pack: center !important;
-  align-content: center !important;
-}
-
-.align-content-between {
-  -ms-flex-line-pack: justify !important;
-  align-content: space-between !important;
-}
-
-.align-content-around {
-  -ms-flex-line-pack: distribute !important;
-  align-content: space-around !important;
-}
-
-.align-content-stretch {
-  -ms-flex-line-pack: stretch !important;
-  align-content: stretch !important;
-}
-
-.align-self-auto {
-  -ms-flex-item-align: auto !important;
-  align-self: auto !important;
-}
-
-.align-self-start {
-  -ms-flex-item-align: start !important;
-  align-self: flex-start !important;
-}
-
-.align-self-end {
-  -ms-flex-item-align: end !important;
-  align-self: flex-end !important;
-}
-
-.align-self-center {
-  -ms-flex-item-align: center !important;
-  align-self: center !important;
-}
-
-.align-self-baseline {
-  -ms-flex-item-align: baseline !important;
-  align-self: baseline !important;
-}
-
-.align-self-stretch {
-  -ms-flex-item-align: stretch !important;
-  align-self: stretch !important;
-}
-
-@media (min-width: 576px) {
-  .flex-sm-row {
-    -ms-flex-direction: row !important;
-    flex-direction: row !important;
-  }
-
-  .flex-sm-column {
-    -ms-flex-direction: column !important;
-    flex-direction: column !important;
-  }
-
-  .flex-sm-row-reverse {
-    -ms-flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
-  }
-
-  .flex-sm-column-reverse {
-    -ms-flex-direction: column-reverse !important;
-    flex-direction: column-reverse !important;
-  }
-
-  .flex-sm-wrap {
-    -ms-flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
-  }
-
-  .flex-sm-nowrap {
-    -ms-flex-wrap: nowrap !important;
-    flex-wrap: nowrap !important;
-  }
-
-  .flex-sm-wrap-reverse {
-    -ms-flex-wrap: wrap-reverse !important;
-    flex-wrap: wrap-reverse !important;
-  }
-
-  .justify-content-sm-start {
-    -ms-flex-pack: start !important;
-    justify-content: flex-start !important;
-  }
-
-  .justify-content-sm-end {
-    -ms-flex-pack: end !important;
-    justify-content: flex-end !important;
-  }
-
-  .justify-content-sm-center {
-    -ms-flex-pack: center !important;
-    justify-content: center !important;
-  }
-
-  .justify-content-sm-between {
-    -ms-flex-pack: justify !important;
-    justify-content: space-between !important;
-  }
-
->>>>>>> virginia:css/main.css
   .justify-content-sm-around {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important;
@@ -3258,6 +1919,20 @@ html {
   color: #182b3a;
 }
 
+.form-section, .contactData_section {
+  margin-top: 10px;
+}
+
+.form-control {
+  display: block;
+  width: 80%;
+  padding: 0.2rem .5rem;
+}
+
+.form-control:focus {
+  border: none;
+}
+
 form {
   width: 80%;
 }
@@ -3281,9 +1956,24 @@ form {
 .form-control::-ms-input-placeholder {
   color: black;
 }
-<<<<<<< HEAD:css/old/main.css
-/*# sourceMappingURL=bootstrap-grid.min.css.map */
-=======
+
+input#name {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+  width: 49%;
+  display: inline-block;
+}
+
+input#email {
+  border: none;
+  background: white;
+  border: 2px solid #182b3a;
+  border-radius: 5px;
+  width: 49%;
+  display: inline-block;
+}
 
 input#name {
   border: none;
@@ -3326,6 +2016,10 @@ textarea#message {
   position: absolute;
   bottom: 5%;
   left: 50%;
+}
+
+.prueba_share {
+  position: relative;
 }
 
 .prueba_scroll a {
@@ -3535,6 +2229,5 @@ ul.social_container {
   border: 2px solid #ffdc60;
   background-color: #ffdc60;
 }
->>>>>>> virginia:css/main.css
 
 /*# sourceMappingURL=main.css.map */
