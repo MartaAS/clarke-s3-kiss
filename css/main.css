@@ -547,6 +547,11 @@ html {
   color: #182b3a;
 }
 
+.info_image {
+  width: 230px;
+  height: 200px;
+}
+
 .form-section,.contactData_section {
   margin-top: 10px;
 }
