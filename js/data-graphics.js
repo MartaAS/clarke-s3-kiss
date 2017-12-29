@@ -97,33 +97,21 @@ var chart2 = AmCharts.makeChart( "chartdiv2", {
   "type": "pie",
   "theme": "none",
   "titles": [ {
-    "text": "Visitors countries",
+    "text": "Tasas de paro en España dutante el tercer trimestre de 2017",
     "size": 16
   } ],
   "dataProvider": [ {
-    "country": "United States",
-    "visits": 7252
+    "country": "Menores de 20 años",
+    "visits": 150000000
   }, {
-    "country": "China",
-    "visits": 3882
+    "country": "Entre 20 y 24 años",
+    "visits": 429000000
   }, {
-    "country": "Japan",
-    "visits": 1809
+    "country": "Entre 25 y 54 años",
+    "visits": 2629000000
   }, {
-    "country": "Germany",
-    "visits": 1322
-  }, {
-    "country": "United Kingdom",
-    "visits": 1122
-  }, {
-    "country": "France",
-    "visits": 414
-  }, {
-    "country": "India",
-    "visits": 384
-  }, {
-    "country": "Spain",
-    "visits": 211
+    "country": "Mayores de 55 años",
+    "visits": 524000000
   } ],
   "valueField": "visits",
   "titleField": "country",
