@@ -671,6 +671,24 @@ textarea#message {
 #mouse-scroll .mouse-in {
   -webkit-animation: animated-mouse 1.2s ease infinite;
   -moz-animation: mouse-animated 1.2s ease infinite;
+}
+
+#backTop {
+  display: none;
+  position: fixed;
+  bottom: 0.8em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 1em;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#backTop:hover {
+  background-color: rgba(0, 0, 0, 0.6);
 }/*SCROLL FLECHAS*/.shareSocial {
   list-style-type: none;
 }
@@ -732,11 +750,14 @@ a {
 
 .overflow {
   overflow-x: hidden;
+  width: auto;
 }
 
 .row_social {
   background: #c1c1c1;
   padding: 10px 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .social_container {
@@ -759,6 +780,8 @@ a {
   background: #182b3a;
   padding-top: 20px;
   color: white;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .row_footer_column {
@@ -785,11 +808,12 @@ a {
 .row_copy {
   background: #0b141b;
   color: white;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .row_copy_column {
-  margin-top: 19px;
-  margin-left: 20px;
+  padding-top: 10px;
   margin-bottom: 19px;
 }
 
