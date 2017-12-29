@@ -6,12 +6,13 @@
 	"js": {
 		"src": [
 			"js/jquery-3.2.1.min.js",
+			"js/popper.min.js",
 			"js/bootstrap.min.js",
-			"js/smooth-scroll.js",
-			"js/main.min.js"
+			"js/data-graphics.js",
+			"js/smooth-scroll.js"
 		],
 		"dest": "js/"
 	},
-	"images": "images/**/*.{gif,jpg,png,svg}",
+	"images": "img/**/*.{gif,jpg,png,svg}",
 	"html": "**/*.html"
 }
