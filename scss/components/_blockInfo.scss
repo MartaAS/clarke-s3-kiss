@@ -1,3 +1,7 @@
+.row-info{
+	width: 100%;
+	justify-content: center;
+}
 .block-title, .block-subtitle, .block-text{
 	text-align: center;
 }
@@ -19,7 +23,7 @@
 }
 .info__image{
 	width: auto;
-	height: 175px;
+	height: 187px;
 	display: flex;
 	flex-direction: column;
   justify-content: flex-end;

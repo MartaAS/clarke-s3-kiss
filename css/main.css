@@ -547,6 +547,13 @@ html {
   color: #182b3a;
 }
 
+.row-info {
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .block-title,.block-subtitle,.block-text {
   text-align: center;
 }
@@ -578,7 +585,7 @@ html {
 
 .info__image {
   width: auto;
-  height: 175px;
+  height: 187px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
