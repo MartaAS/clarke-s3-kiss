@@ -510,6 +510,10 @@ html {
   color: white;
 }
 
+.buttons-container {
+  margin: 20px;
+}
+
 .block_contact {
   background: #ffdc60;
   padding: 14px 25px;
@@ -545,6 +549,78 @@ html {
   font-size: 14px;
   font-weight: 700;
   color: #182b3a;
+}
+
+.row-info {
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.block-title,.block-subtitle,.block-text {
+  text-align: center;
+}
+
+.image__subtitle {
+  font-size: 20px;
+  text-align: center;
+  color: #f6f7f8;
+}
+
+.image__container {
+  background-color: #182b3a;
+  padding-top: 10px;
+  margin: 8px 0;
+  max-width: 350px;
+  height: 230px;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.info__image {
+  width: auto;
+  height: 187px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.image__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px;
+  color: #182b3a;
+  font-weight: 700;
+  background-color: rgba(255, 220, 96, 0.6);
+  width: 100%;
+  height: 40%;
+  margin: 0;
 }
 
 .form-section,.contactData_section {
@@ -703,6 +779,7 @@ textarea#message {
   position: absolute;
   padding: 0;
   top: 100%;
+  text-align: left;
 }
 
 .share:hover .shareList {
