@@ -5,6 +5,10 @@ var chart = AmCharts.makeChart("chartdiv", {
     "theme": "light",
     "type": "serial",
 	"startDuration": 2,
+	"titles": [ {
+    "text": "Tasas de colocacion según situacion de la demanda en diferentes sectores",
+    "size": 16
+  } ],
     "dataProvider": [{
         "country": "Act. Administrativas",
         "visits": 356596,
@@ -53,14 +57,6 @@ var chart = AmCharts.makeChart("chartdiv", {
         "country": "Otros Servicios",
         "visits": 20127,
         "color": "#CD0D74"
-    }, {
-        "country": "Protección y Seguridad",
-        "visits": 7366,
-        "color": "#754DEB"
-    }, {
-        "country": "Directores y Gerentes",
-        "visits": 5088,
-        "color": "#DDDDDD"
     }],
     "valueAxes": [{
         "position": "left",
