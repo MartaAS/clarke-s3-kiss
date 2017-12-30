@@ -7,7 +7,6 @@
 		"src": [
 			"js/jquery-3.2.1.min.js",
 			"js/popper.min.js",
-			"js/slides.js",
 			"js/bootstrap.min.js",
 			"js/smooth-scroll.js",
 			"js/data-graphics.js",
