@@ -510,6 +510,10 @@ html {
   color: white;
 }
 
+.buttons-container {
+  margin: 20px;
+}
+
 .block_contact {
   background: #ffdc60;
   padding: 14px 25px;
@@ -757,6 +761,7 @@ textarea#message {
   position: absolute;
   padding: 0;
   top: 100%;
+  text-align: left;
 }
 
 .share:hover .shareList {
