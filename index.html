@@ -70,6 +70,11 @@
 
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 
+	<!--BOTON BACK TO TOP-->
+		<a href="#" class="scroll" data-speed="1000" id="backTop">TOP</a>
+	<!--FIN BOTON BACK TO TOP-->
+
+	<!--BLOQUE INTRO-->
 		<div style="text-align: center; background: pink" >
 				<div>///////////////////Animación///////////////</div>
 				<h2> TÍTULO DEL CURSO </h2>
@@ -81,24 +86,26 @@
 						<button style="background: blue;border: none; border-radius: 5px; margin: 10px; color: white;"> Comparte</button>
 						<img src="http://placehold.it/40x40" alt="" style="border-radius: 5px; margin: 10px; color: white;" >
 				</div>
-		</div>
+		</div> <!--FIN INTRO-->
 
 
-		<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
 
-		<div class="prueba_share" style="height:100vh; background:white; display:flex;justify-content:space-around;align-items: center; postition:relative;">
 
-			<div><!--Boton compartir curso-->
-				<ul class="shareSocial">
-					<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
-						<ul class="shareList" id="shareList">
-							<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
-							<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
-							<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
-							<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-							<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
-						</ul>
-					</li>
+
+
+<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
+
+<div class="prueba_share" style="height:100vh; background:lavender; display:flex;justify-content:space-around;align-items: center; postition:relative;">
+
+	<div><!--Boton compartir curso-->
+		<ul class="shareSocial">
+			<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+				<ul class="shareList" id="shareList">
+					<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+					<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+					<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
 				</ul>
 			</div><!--fin Boton compartir curso-->
 
