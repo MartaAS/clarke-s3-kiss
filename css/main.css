@@ -765,7 +765,11 @@ textarea#message {
 
 #backTop:hover {
   background-color: rgba(0, 0, 0, 0.6);
-}/*SCROLL FLECHAS*/.shareSocial {
+}/*SCROLL FLECHAS*/.explainData {
+  font-size: 10px;
+}
+
+.shareSocial {
   list-style-type: none;
 }
 
