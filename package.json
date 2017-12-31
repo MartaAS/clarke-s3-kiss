@@ -1,0 +1,33 @@
+{
+	"name": "ProyectoEmpleoJoven",
+	"version": "1.0.0",
+	"description": "Proyecto sprint 3",
+	"dependencies": {
+		"browser-sync": "*",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "*",
+		"gulp-clean-css": "*",
+		"gulp-combine-mq": "*",
+		"gulp-concat": "*",
+		"gulp-notify": "*",
+		"gulp-plumber": "*",
+		"gulp-rename": "*",
+		"gulp-sass": "*",
+		"gulp-sourcemaps": "*",
+		"gulp-uglify": "*",
+		"gulp-util": "*",
+		"gulp-zip": "*",
+		"run-sequence": "*"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:Adalab/clarke-s3-kiss.git"
+	},
+	"author": "Adalab",
+	"license": "MIT",
+	"homepage": "https://github.com/Adalab/clarke-s3-kiss"
+}
