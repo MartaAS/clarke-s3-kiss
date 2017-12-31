@@ -617,10 +617,21 @@ html {
   padding: 0 10px;
   color: #182b3a;
   font-weight: 700;
+  line-height: 17px;
   background-color: rgba(255, 220, 96, 0.6);
   width: 100%;
   height: 40%;
   margin: 0;
+}
+
+.carousel-indicators .indicator-item {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
 }
 
 .form-section,.contactData_section {
