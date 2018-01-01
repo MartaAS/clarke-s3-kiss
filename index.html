@@ -1,17 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
- 	<title>Proyecto Empleo Joven</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--llamada al js grafica barras-->
+
+	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+
+	<!--llamada al js grafica quesito-->
+
+	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+	<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+	<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+
+	<!--Llamada a carousel-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+
+	<title>Proyecto Empleo Joven</title>
+</head>
 <body>
+	<header class="header">
+		<div class="btn-group">
+		  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">menu</button>
+		  <div class="dropdown-menu dropdown-menu-right">
+		    <button class="dropdown-item" type="button">Inicio</button>
+		    <button class="dropdown-item" type="button">Curso ayudante cocina</button>
+		    <button class="dropdown-item" type="button">Por qué ayudante cocina</button>
+		    <button class="dropdown-item" type="button">Más información del curso</button>
+		    <button class="dropdown-item" type="button">Desglose del curso</button>
+		    <button class="dropdown-item" type="button">Contáctanos</button>
+		  </div>
+		</div>
+		<h1>Federacion de Mujeres Progresistas</h1>
+		<h2>Empleo Joven</h2>
+		<h2>Nuevo Curso de Ayudante de Cocina</h2>
+	</header>
+	<section>
+		<div>
+			<div style="text-align: center;">
+				<h1>Datos del sector de la Hostelería</h1>
+			</div>
+			<div style="text-align: center;">
+				<p>El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
+			</div>
+		</div>
+		<div>
+			<div id="chartdiv" style="width: 100%;height: 500px;">
+			</div>
+			<div id="chartdiv2" style="width: 100%;height: 500px;">
+			</div>
+		</div>
+		<div>
+			<div style="text-align: center;">
+				<h2>¿Por qué hostelería?</h2>
+			</div>
+			<div style="display: flex; flex; flex-direction: row; justify-content: space-around;">
+				<ul>
+					<li>Conocerás gente de todos sitios y condiciones.</li>
+					<li>Tendrás un aprendizaje constante.</li>
+					<li>Es un trabajo adrenalínico.</li>
+					<li>Evolucionarás a diario</li>
+					<li>Tendrás la posibilidad de encontrar empleo dentro y fuera de España.</li>
+					<li>No tendrás un trabajo monótono.</li>
+					<li>Tendrás un oficio con un alto porcentaje de inserción laboral.</li>
+					<li>Verás inmediatamente la satisfacción del trabajo bien hecho.</li>
+				</ul>
+				<div>
+					<img src="http://www.dickson-constant.com/medias/images/catalogue/api/6088-gris-680.jpg"width="150" height="150" alt="">
+				</div>
+			</div>
+		</div>
+		<div>
+			<p>* Según datos de la Encuesta de Población Activa (EPA) publicada por el Instituto Nacional de Estadística (INE) y recogidos por la Federación Española de Hos­telería (FEHR)</p>
+		</div>
+	</section>
+
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 
+	<!--BOTON BACK TO TOP-->
+		<a href="#" class="scroll" data-speed="1000" id="backTop">TOP</a>
+	<!--FIN BOTON BACK TO TOP-->
+
+	<!--BLOQUE INTRO-->
 		<div style="text-align: center; background: pink" >
 				<div>///////////////////Animación///////////////</div>
 				<h2> TÍTULO DEL CURSO </h2>
@@ -23,29 +108,119 @@
 						<button style="background: blue;border: none; border-radius: 5px; margin: 10px; color: white;"> Comparte</button>
 						<img src="http://placehold.it/40x40" alt="" style="border-radius: 5px; margin: 10px; color: white;" >
 				</div>
-		</div>
+		</div> <!--FIN INTRO-->
 
-
-		<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
-
-		<div class="prueba_share" style="height:100vh; background:white; display:flex;justify-content:space-around;align-items: center; postition:relative;">
-
-			<div><!--Boton compartir curso-->
-				<ul class="shareSocial">
-					<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
-						<ul class="shareList" id="shareList">
-							<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
-							<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
-							<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
-							<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-							<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
-						</ul>
-					</li>
-				</ul>
+		<section>
+			<h2 class="block-title">CURSO DE AYUDANTE/A DE COCINA EN COLECTIVIDADES</h2>
+			<h3 class="block-subtitle">¿A quién va dirigido?</h3>
+			<p class="block-text">A jóvenes desempleados/as de entre 18 y 35 años con interés por trabajar en hostelería.</p>
+			<div class="row row-info">
+				<div class="col-xs-12">
+					<div id="carousel-info" class="carousel slide" data-ride="carousel">
+						<!--Indicadores para pasar de una imagen a otra directamente-->
+						<ol class="carousel-indicators">
+							<li class="indicator-item" data-target="#carousel-info" data-slide-to="0" class="active"></li>
+							<li class="indicator-item" data-target="#carousel-info" data-slide-to="1"></li>
+							<li class="indicator-item" data-target="#carousel-info" data-slide-to="2"></li>
+							<li class="indicator-item" data-target="#carousel-info" data-slide-to="3"></li>
+							<li class="indicator-item" data-target="#carousel-info" data-slide-to="4"></li>
+							<li class="indicator-item" data-target="#carousel-info" data-slide-to="5"></li>
+						</ol>
+						<!--Contenido de los slides-->
+						<div class="carousel-inner" role="listbox">
+							<div class="carousel-item active image__container">
+								<h4 class="image__subtitle">FORMACIÓN TEÓRICA</h4>
+								<div class="info__image" style="background: url(img/1-fabrizio-magoni.jpg) no-repeat center; background-size: cover;">
+									<p class="image__text">Fórmate como ayudante/a de cocina para trabajar en colectividades.</p>
+								</div>
+							</div>
+							<div class="carousel-item image__container">
+								<h4 class="image__subtitle">FORMACIÓN PRÁCTICA</h4>
+								<div class="info__image" style="background: url(img/2-michael-browning.jpg) no-repeat center; background-size: cover;">
+									<p class="image__text">Realiza prácticas como ayudante de cocina en importante empresa.</p>
+								</div>
+							</div>
+							<div class="carousel-item image__container">
+								<h4 class="image__subtitle">COMPETENCIAS DIGITALES</h4>
+								<div class="info__image" style="background: url(img/3-glenn-carstens-peters.jpg) no-repeat center; background-size: cover;">
+									<p class="image__text">Aprende a sacar el máximo partido a tu búsqueda de empleo a través de internet y RRSS.</p>
+								</div>
+							</div>
+							<div class="carousel-item image__container">
+								<h4 class="image__subtitle">COMPETENCIAS TRANSVERSALES</h4>
+								<div class="info__image" style="background: url(img/4-competencias.jpg) no-repeat center; background-size: cover;">
+									<p class="image__text">Entrena habilidades fundamentales para la comunicación, la inteligencia emocional, etc.</p>
+								</div>
+							</div>
+							<div class="carousel-item image__container">
+								<h4 class="image__subtitle">APOYO PERSONALIZADO</h4>
+								<div class="info__image" style="background: url(img/5-apoyo.jpg) no-repeat center; background-size: cover;">
+									<p class="image__text">Recibe asesoramiento profesional individualizado y ajustado a tus intereses y necesidades.</p>
+								</div>
+							</div>
+							<div class="carousel-item image__container">
+								<h4 class="image__subtitle">CONTACTO CON EMPRESAS</h4>
+								<div class="info__image" style="background: url(img/6-masterclass.jpeg) no-repeat center; background-size: cover;">
+									<p class="image__text">Asiste a Masterclass y conoce empresas y profesionales del sector a los/as que podrás enviar tu CV.</p>
+								</div>
+							</div>
+						</div>
+						<!--Flechitas para pasar al anterior o posterior slide-->
+						<a class="carousel-control-prev" href="#carousel-info" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#carousel-info" role="button" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+					</div>
+				</div>
 			</div>
+			<div class="row buttons-container">
+				<div class="col-sm-4" style="text-align:center;"><button type="button" class="btn btn--info btn--yellow" name="button-enroll"><a href="#block_contact"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a></button></div>
+				<div class="col-sm-4" style="text-align:center;"><button type="button" class="btn btn--call btn--aqua scroll" name="button-call"><a href="#block_contact"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a></button></div>
+				<script type="text/javascript">
+				var ub = window.location;
+				var uf="https://www.facebook.com/sharer.php?u="+"https://github.com/Adalab/clarke-s3-kiss";
+				var ut="https://twitter.com/share?url="+"https://github.com/Adalab/clarke-s3-kiss";
+				var ug="https://plus.google.com/share?url="+"https://github.com/Adalab/clarke-s3-kiss";
+				var up="https://www.pinterest.com/pin/create/button/?url="+"https://github.com/Adalab/clarke-s3-kiss";
+				var ul="https://www.linkedin.com/shareArticle?mini=true&url="+"https://github.com/Adalab/clarke-s3-kiss";
+				</script>
+				<div class="col-sm-4" style="text-align:center;"><!--Boton compartir curso-->
+					<ul class="shareSocial" style="height:250px;">
+						<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+							<ul class="shareList" id="shareList">
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(uf,&quot;gplusshare&quot;,&quot; toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Facebook"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ut,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Twitter"><img height="40" width="40" src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ul,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en linkedin"><img height="40" width="40" src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ug,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img height="40" width="40" src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(up,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Pinterest"><img height="40" width="40" src="https://cdn.tahonadedonpio.es/wp-content/uploads/social/pinterest-long.png" title="Compartir en pinterest" alt="logo pinterest"> Pinterest</a></li>
+								<li class="share-item"><a href="https://www.whatsapp.com/?l=es"><img height="40" width="40" src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
+
+<div class="prueba_share" style="height:100vh; background:lavender; display:flex;justify-content:space-around;align-items: center; postition:relative;">
+
+	<div><!--Boton compartir curso-->
+		<ul class="shareSocial">
+			<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+				<ul class="shareList" id="shareList">
+					<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+					<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+					<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+				</ul>
+			</div><!--fin Boton compartir curso-->
 
 			<div><!--Boton más info-->
-				 <a href="#block_contact" class="btn btn--info btn--yellow"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a>
+				 <a href="#block_contact" class="btn btn--info btn--yellow scroll "><i class="fa fa-info" aria-hidden="true"  data-speed="1000"></i> MÁS INFORMACIÓN</a>
 			</div>
 
 			<div><!--Boton llámanos-->
@@ -54,16 +229,17 @@
 
 			<div class="prueba_scroll">
 				<a href="#block_contact" class="scroll" data-speed="1000">
-					<div id="scroll-down-container">
-				  	<div class="arrow" id="point1"></div>
-				  	<div class="arrow" id="point2"></div>
+					<div id="mouse-scroll">
+  					<div class="mouse">
+    					<div class="mouse-in"></div>
+  					</div>
 					</div>
 				</a>
-			</div>
-		</div><!--fin prueba-->
+			</div><!--fin prueba_scroll"-->
+		</div><!--fin div de botones y scroll prueba-->
 
-	<!--contact section-->
-		<div class="block block_contact" id="block_contact">
+<!--contact section-->
+	<div class="block block_contact" id="block_contact">
 			<h2 class="block-title">¿QUIERES MÁS INFORMACIÓN?</h2>
 			<div class="row row_contact">
 				<div class="col-sm-6 form_section">
@@ -123,10 +299,7 @@
 		</footer>
 	</div><!--end overflow-->
 
-	<script type="text/javascript" scr="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" scr="js/bootstrap.min.js"></script>
-	<script type="text/javascript" scr="js/smooth-scroll.js"></script>
-	<script type="text/javascript" scr="js/main.js"></script>
+	<script src="js/main.min.js"></script>
 
 </body>
 </html>

@@ -13,6 +13,7 @@ var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 
+
 // > Gestiona los errores
 var onError = function (err) {
 	gutil.beep();
@@ -105,7 +106,6 @@ gulp.task('default', ['styles', 'scripts'], function () {
 // > Genera una versión lista para producción
 gulp.task('deploy', ['styles-min', 'scripts-min'], function () {
 });
-
 
 // > Recarga las ventanas del navegador
 gulp.task('bs-reload', function () {
