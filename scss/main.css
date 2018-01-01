@@ -1522,13 +1522,13 @@ html {
   margin-left: 10px;
   margin-bottom: 10px; }
 
+.form_section, .contactData_section {
+  margin-top: 20px; }
+
 .block_contact a {
   text-decoration: none;
   color: #182b3a;
   font-size: 11px; }
-  @media all and (min-width: 872px) {
-    .block_contact a {
-      font-size: 14px; } }
 
 .contactData_item {
   margin-bottom: 20px;
@@ -1540,17 +1540,6 @@ html {
   font-size: 14px;
   font-weight: 700;
   color: #182b3a; }
-
-.block-text.block_contact_text {
-  text-align: left; }
-  @media all and (max-width: 872px) {
-    .block-text.block_contact_text {
-      font-size: 16px; } }
-
-.block_contact_text img {
-  height: 30px;
-  width: auto;
-  margin-right: 10px; }
 
 .row-info {
   width: 100%;
@@ -1609,10 +1598,8 @@ html {
 
 .form-control {
   display: block;
-  padding: 0.2rem 0.5rem; }
-  @media all and (max-width: 872px) {
-    .form-control {
-      font-size: 0.8rem; } }
+  width: 80%;
+  padding: 0.2rem .5rem; }
 
 .form-control:focus {
   border: none; }
@@ -1679,16 +1666,6 @@ textarea#message {
   background: white;
   border: 2px solid #182b3a;
   border-radius: 5px; }
-
-/*borrar luego*/
-.prueba_share {
-  height: 100vh;
-  background: lavender;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-  flex-wrap: wrap; }
 
 /*SCROLL MOUSE*/
 .prueba_scroll {
@@ -1775,9 +1752,6 @@ textarea#message {
   color: white; }
 
 /*SCROLL FLECHAS*/
-ul.shareList, ul.shareSocial {
-  margin-bottom: 0; }
-
 .shareSocial {
   list-style-type: none; }
 
@@ -1816,12 +1790,8 @@ a {
 .block-title {
   font-weight: 700;
   line-height: 45px;
-  font-size: 28px;
+  font-size: 30px;
   letter-spacing: 2px; }
-  @media all and (max-width: 660px) {
-    .block-title {
-      line-height: 41px;
-      font-size: 21px; } }
 
 .block-text {
   font-size: 19px; }
@@ -1861,13 +1831,9 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  @media all and (max-width: 575px) {
-    .row_footer_column {
-      margin-bottom: 22px; } }
 
 .footer_text {
-  text-align: left;
-  font-size: 13px; }
+  text-align: left; }
 
 .footer_image {
   margin-bottom: 10px; }
@@ -1900,11 +1866,5 @@ ul.social_container {
   .rrss a:hover {
     border: 2px solid #ffdc60;
     background-color: #ffdc60; }
-
-small {
-  font-size: 80%; }
-  @media all and (max-width: 660px) {
-    small {
-      font-size: 75%; } }
 
 /*# sourceMappingURL=main.css.map */
