@@ -1,6 +1,8 @@
 .row_social{
 	background: $color-midtone;
 	padding: 10px 0;
+	margin-left: 0;
+    margin-right: 0
 }
 .social_container{
 	display: flex;
@@ -16,14 +18,20 @@
 	background: $color-secondary;
 	padding-top: 20px;
 	color: white;
+	margin-left: 0;
+    margin-right: 0
 }
 .row_footer_column {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media all and (max-width:575px) {
+		margin-bottom: 22px;
+	}
 }
 .footer_text{
 	text-align: left;
+	font-size: 13px;
 }
 .footer_image {
     margin-bottom: 10px;
@@ -31,11 +39,13 @@
 .row_copy{
 		background:#0b141b;
 		color: white;
+		margin-left: 0;
+    margin-right: 0
 }
 .row_copy_column{
-	margin-top: 19px;
-  margin-left: 20px;
-	    margin-bottom: 19px;
+	padding-top:10px;
+	margin-bottom: 19px;
+	
 }
 
 
@@ -44,7 +54,7 @@ ul.social_container{
 	justify-content: center;
 	list-style: none;
 }
-//
+
 .rrss a{
 	width: 45px;
 	height: 45px;
@@ -60,3 +70,11 @@ ul.social_container{
 		background-color: $color-primary;
 	}
 }
+
+small{
+	font-size: 80%;
+	@media all and (max-width:660px) {
+		font-size: 75%;
+	}
+}
+	

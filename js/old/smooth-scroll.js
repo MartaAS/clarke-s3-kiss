@@ -44,23 +44,3 @@
 		});
 	}
 })();
-
-//back to top button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        document.querySelector(".toTop").style.display = "block";
-    } else {
-        document.querySelector(".toTop").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-
-var backTop = document.querySelector('#backTop');
-backTop.addEventListener('click',topFunction);

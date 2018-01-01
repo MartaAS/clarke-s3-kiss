@@ -1,51 +1,196 @@
-#scroll-down-container {
-	text-align: center;
-	p {
-	color:white;
-	margin: 0;
-	}
+/*borrar luego*/
+.prueba_share{
+  height:100vh;
+  background:lavender; 
+  display:flex;
+  justify-content:space-around;
+  align-items:center; 
+  position:relative;
+  flex-wrap: wrap;
 }
+
+
+/*SCROLL MOUSE*/
 .prueba_scroll{
 	position:absolute;
 	bottom:5%;
 	left:50%;
 }
 
+.prueba_share{
+	position: relative;
+}
+
+
 .prueba_scroll a{
 	text-decoration: none;
 }
 
-.arrow {
-	display: inline-block;
-	background-color: red;
-	border-radius: 10px;
-	width:30px;
-	height:4px;
-	position: relative;
-	top: 10px;
-	left: 10px;
+#mouse-scroll {
+  style: block;
+}
+#mouse-scroll {
+  -webkit-transform: translateX(-50%);
+  z-index: 9999;
+}
+#mouse-scroll .mouse {
+  height: 23px;
+  width: 16px;
+  border-radius: 10px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  border: 2px solid red;
+  top: 170px;
+}
+#mouse-scroll .mouse-in {
+  height: 7px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: red;
+  position: relative;
+}
+#mouse-scroll .mouse-in {
+-webkit-animation: animated-mouse 1.2s ease infinite;
+-moz-animation: mouse-animated 1.2s ease infinite;
 }
 
-#point1 {
-	transform-origin: 0% 50%;
-	animation: anim1 .5s ease infinite alternate;
+@-webkit-keyframes animated-mouse {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+     opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-#point2 {
-	transform-origin: 100% 50%;
-	animation: anim2 .5s ease infinite alternate;
+//Back to top
+.toTop{
+  display: none;
+  position: fixed;
+  bottom: 0.25em;
+  right: 2em;
+  z-index: 1000;
 }
-
-@keyframes anim1 {
-	from {transform: translateX(7px) rotate(30deg);}
-	to {transform: translateX(4px) rotate(10deg);}
-}
-
-@keyframes anim2 {
-	from {transform: translateX(-7px) rotate(-30deg);}
-	to {transform: translateX(-4px) rotate(-10deg);}
-}
-
-a{
+#backTop{
+  width:100%;
+  height:100%;
 	text-decoration: none;
+	color: #5b5b5ba3;
+	font-size: 30px!important;
+	cursor: pointer;
+  
 }
+
+#backTop:hover {
+	color:  white;
+}
+
+
+
+
+
+// #backTop {
+//   display: none;
+//   position: fixed;
+//   bottom: 20px;
+//   right: 30px;
+//   z-index: 99;
+//   border: none;
+//   outline: none;
+//   background-color: red;
+//   color: white;
+//   cursor: pointer;
+//   padding: 15px;
+//   border-radius: 10px;
+// }
+//
+// #backTop:hover {
+//   background-color: #555;
+// }
+
+
+
+
+
+/*SCROLL FLECHAS*/
+// #scroll-down-container {
+// 	text-align: center;
+// 	p {
+// 	color:white;
+// 	margin: 0;
+// 	}
+// }
+// .prueba_scroll{
+// 	position:absolute;
+// 	bottom:5%;
+// 	left:50%;
+// }
+//
+// .prueba_scroll a{
+// 	text-decoration: none;
+// }
+//
+// .arrow {
+// 	display: inline-block;
+// 	background-color: red;
+// 	border-radius: 10px;
+// 	width:30px;
+// 	height:4px;
+// 	position: relative;
+// 	top: 10px;
+// 	left: 10px;
+// }
+//
+// #point1 {
+// 	transform-origin: 0% 50%;
+// 	animation: anim1 .5s ease infinite alternate;
+// }
+//
+// #point2 {
+// 	transform-origin: 100% 50%;
+// 	animation: anim2 .5s ease infinite alternate;
+// }
+//
+// @keyframes anim1 {
+// 	from {transform: translateX(7px) rotate(30deg);}
+// 	to {transform: translateX(4px) rotate(10deg);}
+// }
+//
+// @keyframes anim2 {
+// 	from {transform: translateX(-7px) rotate(-30deg);}
+// 	to {transform: translateX(-4px) rotate(-10deg);}
+// }
+//
+// a{
+// 	text-decoration: none;
+// }
