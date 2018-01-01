@@ -1,0 +1,34 @@
+.shareSocial{
+	list-style-type: none;
+}
+
+.shareSocial li{
+	position:relative;
+	display: inline-block;
+}
+
+.shareList {
+	display: none;
+	position: absolute;
+  padding: 0;
+	top:100%;
+	text-align: left;
+}
+.share:hover .shareList{
+	display: block;
+}
+
+.share-item img{
+	display:inline-block;
+	width: 20px;
+	height: auto;
+}
+
+.share-item a{
+	text-decoration: none;
+}
+
+li.share-item {
+  width: 100%;
+  margin: 7px;
+}
