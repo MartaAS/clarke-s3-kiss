@@ -7,9 +7,12 @@ a{text-decoration: none;}
 .block-title{
 	font-weight: $font-weight-bold;
 	line-height: $font-height;
-	font-size: 25px;
+	font-size: 28px;
 	letter-spacing: 2px;
-
+	@media all and (max-width:660px) {
+		line-height: 41px;
+    	font-size: 21px;
+	}
 }
 
 .block-text{
