@@ -9,6 +9,11 @@
   outline: 0;
   box-shadow:none;
 }
+
+.block-butons{
+	text-align: center;
+}
+
 /*boton formulario*/
 .btn--submit{
 	background: $color-secondary;
@@ -40,6 +45,19 @@
 		color: white;
 	}
 }
+// botón más información 2 - sobre azul
+.btn--info2, .btn--yellow2 {
+	background: $color-primary;
+	color:$color-secondary;
+	border:2px solid $color-secondary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: transparent;
+		border:2px solid $color-primary;
+		color: $color-primary;
+	}
+}
+
 /*botón llámanos*/
 .btn--call, .btn--aqua {
 	background: $color-tertiary;
@@ -50,6 +68,19 @@
 		background: $color-midtone;
 		border:2px solid $color-midtone;
 		color: $color-secondary;
+	}
+}
+
+// botón llámanos 2 - sobre fondo azul
+.btn--call2, .btn--aqua2 {
+	background: $color-tertiary;
+	color:white;
+	border:2px solid $color-tertiary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: transparent;
+		border:2px solid $color-tertiary;
+		color: $color-tertiary;
 	}
 }
 /*botón compartir curso*/
@@ -63,4 +94,21 @@
 		border:2px solid $color-secondary;
 		color: white;
 	}
+}
+
+// botón compartir curso 2 - sobre fondo azul
+.btn--share2, .btn--transparent2{
+	background: transparent;
+	color:$color-light;
+	border:2px solid $color-light;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: $color-light;
+		border:2px solid $color-secondary;
+		color: $color-secondary;
+	}
+}
+
+.botonesazules{
+	text-align: center;
 }
