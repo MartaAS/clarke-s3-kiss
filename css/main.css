@@ -516,7 +516,7 @@ html {
 
 .block_contact {
   background: #ffdc60;
-  padding: 14px 25px;
+  padding: 14px 0;
 }
 
 .block_contact .block-title {
@@ -529,13 +529,10 @@ html {
   margin-bottom: 10px;
 }
 
-.form_section,.contactData_section {
-  margin-top: 20px;
-}
-
 .block_contact a {
   text-decoration: none;
   color: #182b3a;
+  font-size: 11px;
 }
 
 .contactData_item {
@@ -549,6 +546,16 @@ html {
   font-size: 14px;
   font-weight: 700;
   color: #182b3a;
+}
+
+.block-text.block_contact_text {
+  text-align: left;
+}
+
+.block_contact_text img {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
 }
 
 .row-info {
@@ -617,10 +624,21 @@ html {
   padding: 0 10px;
   color: #182b3a;
   font-weight: 700;
+  line-height: 17px;
   background-color: rgba(255, 220, 96, 0.6);
   width: 100%;
   height: 40%;
   margin: 0;
+}
+
+.carousel-indicators .indicator-item {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
 }
 
 .form-section,.contactData_section {
@@ -629,8 +647,7 @@ html {
 
 .form-control {
   display: block;
-  width: 80%;
-  padding: 0.2rem .5rem;
+  padding: 0.2rem 0.5rem;
 }
 
 .form-control:focus {
@@ -702,6 +719,20 @@ textarea#message {
   background: white;
   border: 2px solid #182b3a;
   border-radius: 5px;
+}/*borrar luego*/.prueba_share {
+  height: 100vh;
+  background: lavender;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }/*SCROLL MOUSE*/.prueba_scroll {
   position: absolute;
   bottom: 5%;
@@ -749,22 +780,25 @@ textarea#message {
   -moz-animation: mouse-animated 1.2s ease infinite;
 }
 
-#backTop {
+.toTop {
   display: none;
   position: fixed;
-  bottom: 0.8em;
+  bottom: 0.25em;
   right: 2em;
+  z-index: 1000;
+}
+
+#backTop {
+  width: 100%;
+  height: 100%;
   text-decoration: none;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
-  font-size: 12px;
-  padding: 1em;
-  border-radius: 100%;
+  color: #5b5b5b;
+  font-size: 30px !important;
   cursor: pointer;
 }
 
 #backTop:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
 }/*SCROLL FLECHAS*/.dataTitle1 {
   font-weight: 700;
   line-height: 45px;
@@ -803,6 +837,10 @@ textarea#message {
 #chartdiv2 {
   width: 100%;
   height: 400px;
+}
+
+ul.shareList,ul.shareSocial {
+  margin-bottom: 0;
 }
 
 .shareSocial {
@@ -852,12 +890,16 @@ a {
 .block-title {
   font-weight: 700;
   line-height: 45px;
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 2px;
 }
 
 .block-text {
   font-size: 19px;
+}
+
+.header {
+  height: 100vh;
 }
 
 * {
@@ -916,6 +958,7 @@ a {
 
 .footer_text {
   text-align: left;
+  font-size: 13px;
 }
 
 .footer_image {
@@ -959,6 +1002,10 @@ ul.social_container {
 .rrss a:hover {
   border: 2px solid #ffdc60;
   background-color: #ffdc60;
+}
+
+small {
+  font-size: 80%;
 }
 
 @media (min-width: 576px) {
@@ -1748,6 +1795,12 @@ ul.social_container {
   .align-self-md-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
+  }
+}
+
+@media all and (min-width: 872px) {
+  .block_contact a {
+    font-size: 14px;
   }
 }
 
@@ -2549,6 +2602,33 @@ ul.social_container {
   input#email {
     width: 100%;
     margin-top: 10px;
+  }
+}
+
+@media all and (max-width: 872px) {
+  .block-text.block_contact_text {
+    font-size: 16px;
+  }
+
+  .form-control {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 660px) {
+  .block-title {
+    line-height: 41px;
+    font-size: 21px;
+  }
+
+  small {
+    font-size: 75%;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .row_footer_column {
+    margin-bottom: 22px;
   }
 }
 
