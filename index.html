@@ -16,14 +16,14 @@
 	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 
-
+<!-- llamada a quesito comentado-->
 	<!--llamada al js grafica quesito-->
 
-	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<!--<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 	<script src="https://www.amcharts.com/lib/3/pie.js"></script>
 	<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-	<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+	<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>-->
 	<!--fin Llamada a grafica quesito-->
 
 	<title>Proyecto Empleo Joven</title>
@@ -55,26 +55,37 @@
 		<div class="ContainerNumbers">
 		<div  class="container-fluid">
 			<div class="row" >
-				<h2 class="dataTitle1 col-12 col-md-5">DATOS DEL SECTOR DE LA HOSTELERÍA</h2>
+				<h2 class="dataTitle1 col-12">DATOS DEL SECTOR DE LA HOSTELERÍA</h2>
 			</div>
-			<div class="containerParagraph col-12 col-md-5">
+			<div class="containerParagraph col-12">
 				<p class="dataParagraph">El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
 			</div>
 		</div>
-		<div class="containerGraphicB col-12 col-md-5">
-			<div id="chartdiv">
+		<div class="containerGraphicB row col-12" style="background-color: blue;">
+			<div class="col-12 col-md-9" id="chartdiv">
 			</div>
+			<!--duplico grafica-->
+			<div class="col-12 col-md-9" id="chartdivTwo">
+			</div>
+			<div class="containerCheck col-offset-2" >
+			<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label for="radio-1-1">
+  		Helllo
+			</label>
+			<br/>
+			<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label for="radio-1-2">Me Again</label>
+  		</div>
+			<!-- div quesito comentado
 			<div id="chartdiv2">
-			</div>
+			</div>-->
 		</div>
 	</div>
 	<div class="containerText container-fluid">
 		<div class="row">
-			<div class="col-12 col-md-5">
+			<div class="col-12">
 			<div>
 				<h2 class="dataTitle1">¿POR QUÉ HOSTELERÍA?</h2>
 			</div>
-			<div class="containerTitle2 col-12 col-md-5">
+			<div class="containerTitle2 col-12">
 				<ul class="dataParagraph2">
 					<li>Conocerás gente de todos sitios y condiciones.</li>
 					<li>Conocerás gente de todos sitios y condiciones.</li>

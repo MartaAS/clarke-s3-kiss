@@ -87,9 +87,107 @@ var chart = AmCharts.makeChart("chartdiv", {
      }
 
 });
+//segunda grafica
+var chart = AmCharts.makeChart("chartdivTwo", {
+    "theme": "light",
+    "type": "serial",
+	"startDuration": 2,
+	"titles": [ {
+    "text": "Tasas de colocacion según situacion de la demanda en diferentes sectores",
+    "size": 16
+  } ],
+    "dataProvider": [{
+        "country": "0",
+        "visits": 356596,
+        "color": "#c64f1d"
+    }, {
+        "country": "Agricultura y pesca",
+        "visits": 218333,
+        "color": "#FF6600"
+    }, {
+        "country": "Hostelería",
+        "visits": 175716,
+        "color": "#FF9E01"
+    }, {
+        "country": "Restauración y Comercio",
+        "visits": 121559,
+        "color": "#FCD202"
+    }, {
+        "country": "Comercio",
+        "visits": 107062,
+        "color": "#F8FF01"
+    }, {
+        "country": "Industria",
+        "visits": 96206,
+        "color": "#B0DE09"
+    }, {
+        "country": "Construcción",
+        "visits": 90935,
+        "color": "#04D215"
+    }, {
+        "country": "Act. Sanitarias",
+        "visits": 94648,
+        "color": "#0D8ECF"
+    }, {
+        "country": "Tec. Profesionales de Apoyo",
+        "visits": 58556,
+        "color": "#0D52D1"
+    }, {
+        "country": "Educación",
+        "visits": 39445,
+        "color": "#2A0CD0"
+    }, {
+        "country": "Tec. Prof. Salud y Enseñanza",
+        "visits": 34820,
+        "color": "#8A0CCF"
+    }, {
+        "country": "Otros Servicios",
+        "visits": 20127,
+        "color": "#CD0D74"
+    }],
+    "valueAxes": [{
+        "position": "left",
+        "title": "Colocaciones"
+    }],
+    "graphs": [{
+        "balloonText": "[[category]]: <b>[[value]]</b>",
+        "fillColorsField": "color",
+        "fillAlphas": 1,
+        "lineAlpha": 0.1,
+        "type": "column",
+        "valueField": "visits"
+    }],
+    "depth3D": 20,
+	"angle": 30,
+    "chartCursor": {
+        "categoryBalloonEnabled": false,
+        "cursorAlpha": 0,
+        "zoomable": false
+    },
+    "categoryField": "country",
+    "categoryAxis": {
+        "gridPosition": "start",
+        "labelRotation": 90
+    },
+    "export": {
+    	"enabled": true
+     }
+
+});
+//cunado marcas el check se muestra otra grafica
+function changeGraphic (id){
+	document.getElementById(id).style.display="block";
+	
+	if(id=="chartdiv"){
+		document.getElementById("chartdivTwo").style.display="none";
+	}
+	else if(id=="chartdivTwo"){
+		document.getElementById("chartdiv").style.display="none";
+	}
+}
 //fin grafico barras
 //quesito
-var chart2 = AmCharts.makeChart( "chartdiv2", {
+/* quesito cometadovar chart2 = AmCharts.makeChart( "chartdiv2", {
   "type": "pie",
   "theme": "none",
   "titles": [ {
@@ -121,5 +219,5 @@ var chart2 = AmCharts.makeChart( "chartdiv2", {
   "export": {
     "enabled": true
   }
-} );
+} );*/
 //fin quesito
