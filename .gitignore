@@ -1,6 +1,3 @@
-
-<<<<<<< HEAD
-=======
 # Created by https://www.gitignore.io/api/sass,node,bower,macos
 
 ### Bower ###
@@ -10,7 +7,6 @@ bower_components
 .bower-tmp
 
 ### macOS ###
->>>>>>> virginia
 *.DS_Store
 .AppleDouble
 .LSOverride

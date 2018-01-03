@@ -12,19 +12,21 @@
 	<body>
 		<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 
-			<!-- INTRO SECTION -->
+			<!--****************************** INTRO SECTION************************************* -->
 			<div class="block block_intro" id="block_intro">
-				<div class="col-left-intro">
+				<div class="content-intro"> <!-- Las dos secciones importantes -->
 
-					<div class="square-animation">
+					<div class="col-left-intro">
+
+					<div class="intro-logo-top">
 						<img src="img/federacion.png" alt="" class="image_logo">
 					</div>
 
-					<div class="square-animation2">
+					<div class="intro-logo-center">
 						<img src="img/caixa_transparente.png" alt="" class="image_logo">
 					</div>
 
-					<div class="square-animation3">
+					<div class="intro-logo-bottom">
 						<p> MINUS 35 CONSTRUYENDO FUTURO </p>
 					</div>
 				</div>
@@ -34,12 +36,12 @@
 					<div class="title-animation">
 
 						<p class="title-animation-visible">
-							CURSO DE AYUDANTE
+							CURSO DE AYUDANTE/A
 						</p>
 						<div class="text-move">
 							<ul class="title-animation-ul">
 								<li> DE COCINA </li>
-								<li> EN COLECTIVIDADES </li>
+								<li> en colectividades </li>
 								<li> DE COCINA </li>
 							</ul>
 						</div>
@@ -79,40 +81,47 @@
 						</div>
 					</div>
 				</div>
-			</div>
+</div> <!-- Fin del content-intro (las dos secciones con toda la info) -->
 
-			<div class="row block-butons">
-				<div class="col-4">
-					<div><!--Boton compartir curso-->
-						<ul class="shareSocial">
-							<li class="share"><button type="submit" class="btn btn--share2 btn--transparent2"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
-								<ul class="shareList" id="shareList">
-									<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
-									<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
-									<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
-									<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-									<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+				<div class="container-fluid"> <!-- Contenedor con las columnas de botones -->
+					<div class="row block-butons"><!-- Fila única de los botones -->
+
+						<div class="col-4"><!-- Primera columna -->
+							<div><!--Boton compartir curso-->
+								<ul class="shareSocial">
+									<li class="share"><button type="submit" class="btn btn--share2 btn--transparent2"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+										<ul class="shareList" id="shareList">
+											<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+											<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+											<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+											<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+											<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+										</ul>
+									</li>
 								</ul>
-							</li>
-						</ul>
-					</div>
-				</div>
+							</div> <!--Fin botón compartir curso-->
+						</div> <!-- Fin primera columna -->
 
-				<div class="col-4">
-					<div><!--Boton más info-->
-						<a href="#block_contact" class="btn btn--info2 btn--yellow2"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a>
-					</div>
-				</div>
+						<div class="col-4"> <!-- Segunda columna -->
+							<div><!--Boton más info-->
+								<a href="#block_contact" class="btn btn--info2 btn--yellow2"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a>
+							</div>
+						</div><!-- Fin de segunda columna -->
 
-				<div class="col-4">
-					<div><!--Boton llámanos-->
-						<a href="#block_contact" class="btn btn--call2 btn--aqua2 scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
-					</div>
-				</div>
+						<div class="col-4"> <!-- Tercera columna -->
+							<div><!--Boton llámanos-->
+								<a href="#block_contact" class="btn btn--call2 btn--aqua2 scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
+							</div>
+						</div> <!-- Fin tercera columna -->
+
+					</div> <!-- Fin de la fila de los botones -->
+
+				</div> <!-- Fin contenedor con las columnas de botones -->
 
 			</div>
-		</div>
-	</div>
+<!-- **************************Fin de la sección Intro ************************************-->
+
+
 
 	<div class="prueba_scroll"> <!-- botón rojo para bajar al footer -->
 		<a href="#block_contact" class="scroll" data-speed="1000">
@@ -122,8 +131,9 @@
 				</div>
 			</div>
 		</a>
-	</div>
-</div> <!-- final del bloque intro -->
+	</div><!-- Fin del botón rojo para bajar al footer -->
+
+</div> <!-- Fin del bloque intro-->
 
 
 

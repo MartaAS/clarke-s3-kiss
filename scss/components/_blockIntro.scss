@@ -2,7 +2,12 @@
 .block_intro{
 	background: $color-secondary;
 	padding: 14px 25px;
-  height: 100vh;
+  height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.content-intro{
 	display: flex;
 }
 
@@ -21,21 +26,65 @@
 	flex-direction: column;
 	text-align: center;
 	color: $color-light;
-	// height: 70vh;
 	margin-top: 50px;
-	// background-color: blue;
 }
 
 .text-move{
 	height: 40px;
 	overflow: hidden;
+	margin-top: 7px;
 }
-// ANIMACIONES
+
+// **************************************** LOGOS ******************************************
+
+.image_logo{
+	height: 50px;
+}
+
+.intro-logo-top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 50px;
+	margin-top: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: $color-tertiary;
+	border-radius: 50% 50% 50% 50%;
+}
+
+
+.intro-logo-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: flex-end;
+  width: 150px;
+  height: 150px;
+  background-color: $color-light;
+	border-radius: 50% 50% 50% 50%;
+  }
+
+
+.intro-logo-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	text-align: center;
+  width: 150px;
+  height: 150px;
+  background-color: $color-primary;
+	border-radius: 50% 50% 50% 50%;
+}
+
+// **********************************ANIMACIONES************************************************
+
+// ***************Animación del título************************
 
 .title-animation {
   font-size:36px;
   color:#ecf0f1;
-  // background-color: purple;
 	display: flex;
 	overflow: hidden;
 	text-align: center;
@@ -80,18 +129,16 @@
   -webkit-animation:6s linear 0s normal none infinite change;
   -moz-animation:6s linear 0s normal none infinite change;
   -o-animation:6s linear 0s normal none infinite change;
-		// background-color: red;
-		overflow: hidden;
-		font-size: 36px;
-		color: $color-primary;
-		font-weight: bold;
+	overflow: hidden;
+	font-size: 36px;
+	color: $color-primary;
+	font-weight: bold;
 	}
 
 .title-animation-ul li {
   margin:0;
 	line-height:40px;
 	height: 40px;
-	// background-color: turquoise;
 }
 
 @-webkit-keyframes opacity {
@@ -128,134 +175,6 @@
   100% {margin-top:0;}
 }
 
-// **************************Animación cuadrados en movimiento******************************
-.image_logo{
-	height: 50px;
-
-}
-
-.square-animation {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-left: 50px;
-	margin-top: 15px;
-  width: 150px;
-  height: 150px;
-  background-color: $color-tertiary;
-	border-radius: 50% 50% 50% 50%;
-  -webkit-animation: squareToCircle 0s 0s infinite alternate;
-
-}
-
-@-webkit-keyframes squareToCircle {
-    0% {
-      border-radius: 50% 50% 50% 50%;
-      // background: coral;
-      transform: rotate(0deg);
-    }
-    25% {
-      border-radius: 50% 0 0 0;
-      // background: darksalmon;
-      transform: rotate(45deg);
-    }
-    50% {
-      border-radius: 50% 50% 0 0;
-      // background: indianred;
-      transform: rotate(90deg);
-    }
-    75% {
-      border-radius: 50% 50% 50% 0;
-      // background: lightcoral;
-      transform: rotate(135deg);
-    }
-    100% {
-      border-radius: 50% 50% 50% 50%;
-      // background: darksalmon;
-      transform: rotate(180deg);
-    }
-}
-
-.square-animation2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	align-self: flex-end;
-  width: 150px;
-  height: 150px;
-  background-color: $color-light;
-	border-radius: 50% 50% 50% 50%;
-  -webkit-animation: squareToCircle2 0s 0s infinite alternate;
-}
-
-@-webkit-keyframes squareToCircle2 {
-    0% {
-      border-radius: 50% 50% 50% 50%;
-      // background: coral;
-      transform: rotate(0deg);
-    }
-    25% {
-      border-radius: 50% 0 0 0;
-      // background: darksalmon;
-      transform: rotate(45deg);
-    }
-    50% {
-      border-radius: 50% 50% 0 0;
-      // background: indianred;
-      transform: rotate(90deg);
-    }
-    75% {
-      border-radius: 50% 50% 50% 0;
-      // background: lightcoral;
-      transform: rotate(135deg);
-    }
-    100% {
-      border-radius: 50% 50% 50% 50%;
-      // background: darksalmon;
-      transform: rotate(180deg);
-    }
-}
-
-.square-animation3 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	align-self: center;
-	text-align: center;
-  width: 150px;
-  height: 150px;
-  background-color: $color-primary;
-	border-radius: 50% 50% 50% 50%;
-  -webkit-animation: squareToCircle3 0s 0s infinite alternate;
-}
-
-@-webkit-keyframes squareToCircle3 {
-    0% {
-      border-radius: 50% 50% 50% 50%;
-      // background: coral;
-      transform: rotate(0deg);
-    }
-    25% {
-      border-radius: 50% 0 0 0;
-      // background: darksalmon;
-      transform: rotate(45deg);
-    }
-    50% {
-      border-radius: 50% 50% 0 0;
-      // background: indianred;
-      transform: rotate(90deg);
-    }
-    75% {
-      border-radius: 50% 50% 50% 0;
-      // background: lightcoral;
-      transform: rotate(135deg);
-    }
-    100% {
-      border-radius: 50% 50% 50% 50%;
-      // background: darksalmon;
-      transform: rotate(180deg);
-    }
-}
 	// ********************************Animación checks***************************************
 
 .exp {
@@ -387,105 +306,3 @@ input[type="checkbox"] {
   }
 }
 // *****************************Fin animación checks**********************************
-
-
-// ANIMACIÓN TÍTULO SEGUNDA PRUEBA
-
-//
-// .content {
-//   width:237px;
-//   font-size:36px;
-//   line-height:40px;
-//   font-family:'Muli';
-//   color:#ecf0f1;
-//   height:40px;
-//   position:absolute;
-//   // top:50%;
-//   // left:50%;
-//   // margin-left:-118px;
-// 	// margin-top:-15px;
-//
-//   &:before {
-//     content:'[';
-//     position:absolute;
-//     left:-30px;
-//     line-height:40px;
-//   }
-//   &:after {
-//     content:']';
-//     position:absolute;
-//     right:-30px;
-//     line-height:40px;
-//   }
-//   &:after, &:before {
-//     color:#16a085;
-//     font-size:42px;
-//     animation:2s linear 0s normal none infinite opacity;
-//     -webkit-animation:2s ease-out 0s normal none infinite opacity;
-//     -moz-animation:2s ease-out 0s normal none infinite opacity;
-//     -o-animation:2s ease-out 0s normal none infinite opacity;
-//   }
-// }
-//
-// .visible {
-//   float:left;
-//   font-weight:600;
-//   overflow:hidden;
-//   height:40px;
-// }
-//
-// p {
-//   display:inline;
-//   float:left;
-//   margin:0;
-// }
-//
-// .animation-ul {
-//   margin-top:0;
-//   padding-left:110px;
-//   text-align:left;
-//   list-style:none;
-//   animation:6s linear 0s normal none infinite change;
-//   -webkit-animation:6s linear 0s normal none infinite change;
-//   -moz-animation:6s linear 0s normal none infinite change;
-//   -o-animation:6s linear 0s normal none infinite change;
-// }
-//
-// .animation-ul li {
-//   line-height:40px;
-//   margin:0;
-// }
-//
-// @-webkit-keyframes opacity {
-//   0%   {opacity:0;}
-//   50%  {opacity:1;}
-//   100% {opacity:0;}
-// }
-// @keyframes opacity {
-//   0%   {opacity:0;}
-//   50%  {opacity:1;}
-//   100% {opacity:0;}
-// }
-//
-// @-webkit-keyframes change {
-//   0%   {margin-top:0;}
-//   15%  {margin-top:0;}
-//   25%  {margin-top:-40px;}
-//   40%  {margin-top:-40px;}
-//   50%  {margin-top:-80px;}
-//   65%  {margin-top:-80px;}
-//   75%  {margin-top:-40px;}
-//   85%  {margin-top:-40px;}
-//   100% {margin-top:0;}
-// }
-// @keyframes change {
-//   0%   {margin-top:0;}
-//   15%  {margin-top:0;}
-//   25%  {margin-top:-40px;}
-//   40%  {margin-top:-40px;}
-//   50%  {margin-top:-80px;}
-//   65%  {margin-top:-80px;}
-//   75%  {margin-top:-40px;}
-//   85%  {margin-top:-40px;}
-//   100% {margin-top:0;}
-// }
