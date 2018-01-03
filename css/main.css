@@ -898,8 +898,35 @@ a {
   font-size: 19px;
 }
 
-.header {
+.block_header {
   height: 100vh;
+  padding: 20px 5%;
+  margin: 0;
+  background-color: #ffdc60;
+}
+
+.title-fmp {
+  margin-top: 5vh;
+}
+
+.header_titles {
+  border-radius: 5px;
+  border: solid, 1px, blue;
+  background: white;
+  width: 40%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.employ-title {
+  margin-top: 5vh;
+}
+
+.new-curse-title {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 * {

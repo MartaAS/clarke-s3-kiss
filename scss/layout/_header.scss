@@ -1,3 +1,22 @@
-.header {
+.block_header {
 	height: 100vh;
+	padding: 20px 5%;
+	margin: 0;
+	background-color: #ffdc60;
+}
+.title-fmp {
+	margin-top: 5vh;
+}
+.header_titles {
+	border-radius: 5px;
+	border: solid, 1px, blue;
+	background: white;
+	width: 40%;
+	align-items: center;
+}
+.employ-title {
+	margin-top: 5vh;
+}
+.new-curse-title {
+	justify-content: flex-end;
 }
