@@ -99,47 +99,47 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     "dataProvider": [{
         "country": "0",
         "visits": 356596,
-        "color": "#c64f1d"
+        "color": "#CD0D74"
     }, {
         "country": "Agricultura y pesca",
         "visits": 218333,
-        "color": "#FF6600"
+        "color": "#CD0D74"
     }, {
         "country": "Hostelería",
         "visits": 175716,
-        "color": "#FF9E01"
+        "color": "#CD0D74"
     }, {
         "country": "Restauración y Comercio",
         "visits": 121559,
-        "color": "#FCD202"
+        "color": "#CD0D74"
     }, {
         "country": "Comercio",
         "visits": 107062,
-        "color": "#F8FF01"
+        "color": "#CD0D74"
     }, {
         "country": "Industria",
         "visits": 96206,
-        "color": "#B0DE09"
+        "color": "#CD0D74"
     }, {
         "country": "Construcción",
         "visits": 90935,
-        "color": "#04D215"
+        "color": "#CD0D74"
     }, {
         "country": "Act. Sanitarias",
         "visits": 94648,
-        "color": "#0D8ECF"
+        "color": "#CD0D74"
     }, {
         "country": "Tec. Profesionales de Apoyo",
         "visits": 58556,
-        "color": "#0D52D1"
+        "color": "#CD0D74"
     }, {
         "country": "Educación",
         "visits": 39445,
-        "color": "#2A0CD0"
+        "color": "#CD0D74"
     }, {
         "country": "Tec. Prof. Salud y Enseñanza",
         "visits": 34820,
-        "color": "#8A0CCF"
+        "color": "#CD0D74"
     }, {
         "country": "Otros Servicios",
         "visits": 20127,
@@ -177,7 +177,7 @@ var chart = AmCharts.makeChart("chartdivTwo", {
 //cunado marcas el check se muestra otra grafica
 function changeGraphic (id){
 	document.getElementById(id).style.display="block";
-	
+
 	if(id=="chartdiv"){
 		document.getElementById("chartdivTwo").style.display="none";
 	}
