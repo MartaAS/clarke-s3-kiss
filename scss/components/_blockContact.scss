@@ -1,6 +1,6 @@
 .block_contact{
 	background: $color-primary;
-	padding: 14px 25px;
+	padding: 14px 0;
 }
 
 .block_contact .block-title{
@@ -13,17 +13,22 @@
 	margin-bottom: 10px;
 }
 
-.form_section, .contactData_section{
-margin-top: 20px;
-}
+// .form_section{
+// margin-top: 20px;
+// }
 
 .block_contact a{
 	text-decoration: none;
-	color: $color-secondary;;
+	color: $color-secondary;
+	font-size:11px;
+	@media all and (min-width:872px) {
+		font-size: 14px;
+	}
 }
 .contactData_item{
 	margin-bottom: 20px;
 	font-size: 19px;
+	
 }
 
 .contactData--details{
@@ -32,4 +37,15 @@ margin-top: 20px;
 	font-size: 14px;
 	font-weight: $font-weight-bold;
 	color: $color-secondary;
+}
+
+.block-text.block_contact_text{
+	text-align:left;
+	@media all and (max-width:872px) {
+		font-size: 16px;
+	}
+}
+
+.block_contact_text img{
+	height:30px; width:auto; margin-right:10px;
 }

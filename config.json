@@ -14,6 +14,6 @@
 		],
 		"dest": "js/"
 	},
-	"images": "images/**/*.{gif,jpg,png,svg}",
-	"html": "**/*.html"
+	"images": "img/**/*.{gif,jpg,png,svg}",
+	"html": "*.html"
 }
