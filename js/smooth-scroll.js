@@ -38,7 +38,7 @@
 				var dataTarget = document.querySelector(dataID);
 				var dataSpeed = toggle.getAttribute('data-speed');
 				if (dataTarget) {
-					smoothScroll(dataTarget, dataSpeed || 1000);
+					smoothScroll(dataTarget, dataSpeed || 500);
 				}
 			}, false);
 		});
