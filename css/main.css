@@ -789,8 +789,8 @@ textarea#message {
 
 #backTop:hover {
   color: white;
-}/*SCROLL FLECHAS*/.dataPrincipalContainer {
-  background-color: #A3E4D7;
+}/*SCROLL FLECHAS*/.block__data {
+  background-color: #f6f7f8;
 }
 
 .dataTitle1 {
@@ -860,13 +860,13 @@ textarea#message {
 
 .ui-radio + label:before {
   background-color: #fff;
-  border: 1px solid #30b0d7;
+  border: 2px solid #182b3a;
   border-radius: 50px;
   display: inline-block;
   position: absolute;
   content: ' ';
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   top: 0px;
   left: 0px;
 }
@@ -877,14 +877,14 @@ textarea#message {
   height: 12px;
   border-radius: 50px;
   position: absolute;
-  background: #30b0d7;
-  top: 3px;
-  left: 3px;
+  background: #2ec4b6;
+  top: 3.7px;
+  left: 3.7px;
 }
 
 .ui-radio:checked + label:before {
   color: #99a1a7;
-  border: 1px solid #30b0d7;
+  border: 2px solid #182b3a;
 }
 
 ul.shareList,ul.shareSocial {
