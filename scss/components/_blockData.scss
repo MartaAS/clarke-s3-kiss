@@ -2,12 +2,8 @@
 	background-color: $color-light;
 }
 .dataTitle1{
-	font-weight: $font-weight-bold;
-	line-height: $font-height;
-	font-size: 18px;
 	line-height: inherit;
 	text-align: center;
-	margin-bottom: 26px;
 }
 .dataParagraph{
 	line-height: $font-height;
@@ -29,7 +25,7 @@
 	display: none;
 }
 .explainData{
-		font-size: 10px;
+		font-size: 15px;
 }
 #chartdiv{
 	width: 100%;

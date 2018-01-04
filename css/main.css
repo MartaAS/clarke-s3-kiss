@@ -794,12 +794,8 @@ textarea#message {
 }
 
 .dataTitle1 {
-  font-weight: 700;
-  line-height: 45px;
-  font-size: 18px;
   line-height: inherit;
   text-align: center;
-  margin-bottom: 26px;
 }
 
 .dataParagraph {
@@ -826,7 +822,7 @@ textarea#message {
 }
 
 .explainData {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 #chartdiv {
