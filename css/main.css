@@ -334,8 +334,7 @@ a {
 
 .block_intro {
   background: #182b3a;
-  padding: 14px 25px;
-  height: auto;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,6 +381,12 @@ a {
   height: 40px;
   overflow: hidden;
   margin-top: 7px;
+}
+
+.checkbox-sentences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .image_logo {
@@ -523,7 +528,6 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 10px;
 }
 
 label {
@@ -2769,6 +2773,60 @@ html {
   input#email {
     width: 100%;
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .col-left-intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 95vw;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .circle-logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .image_logo {
+    width: 35px;
+    height: auto;
+  }
+
+  .intro-logo-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .intro-logo-bottom p {
+    font-size: 7px;
+    margin-bottom: 0px;
   }
 }
 

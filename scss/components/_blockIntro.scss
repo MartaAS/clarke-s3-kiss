@@ -1,8 +1,7 @@
 
 .block_intro{
 	background: $color-secondary;
-	padding: 14px 25px;
-  height: auto;
+  min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
@@ -17,7 +16,6 @@
 	margin-top: 50px;
 	margin-bottom: 70px;
 	width: 60vw;
-	// background-color: cyan;
 }
 
 .col-right-intro{
@@ -35,6 +33,9 @@
 	margin-top: 7px;
 }
 
+.checkbox-sentences{
+	display: flex;
+}
 // **************************************** LOGOS ******************************************
 
 .image_logo{
@@ -139,6 +140,7 @@
   margin:0;
 	line-height:40px;
 	height: 40px;
+
 }
 
 @-webkit-keyframes opacity {
@@ -183,13 +185,10 @@
 
   .checkbox {
     display: flex;
-    // width: 100%;
     height: 50vh;
 		justify-content: center;
     text-align: center;
 		align-items: center;
-		margin-top: 10px;
-		// background-color: pink;
   }
 }
 
@@ -306,3 +305,44 @@ input[type="checkbox"] {
   }
 }
 // *****************************Fin animación checks**********************************
+
+// **************Mediaqueries***************
+
+@media (max-width: 768px) {
+.content-intro{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.col-left-intro{
+display: flex;
+flex-direction: row;
+width: 95vw;
+justify-content: space-between;
+order: 2;
+}
+
+
+
+
+.circle-logo {
+	width: 70px;
+	height: 70px;
+}
+
+.image_logo{
+	width: 35px;
+	height: auto;
+}
+
+.intro-logo-top{
+	display: flex;
+	margin-left: 0px;
+}
+
+.intro-logo-bottom p{
+font-size: 7px;
+margin-bottom: 0px;
+}
+
+}
