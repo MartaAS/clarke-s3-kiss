@@ -804,17 +804,21 @@ textarea#message {
 
 .dataParagraph {
   line-height: 45px;
-  font-size: 15px;
+  font-size: 19px;
   line-height: inherit;
   text-align: center;
 }
 
 .dataParagraph2 {
   line-height: 45px;
-  font-size: 15px;
+  font-size: 19px;
   line-height: inherit;
   text-align: left;
   margin-left: 20px;
+}
+
+.containerParagraphDuplic {
+  display: none;
 }
 
 .dataPhoto {
@@ -1839,6 +1843,25 @@ small {
   .align-self-md-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .containerParagraph {
+    display: none;
+  }
+
+  .containerParagraphDuplic {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .containerCheck {
+    margin-top: 40px;
+  }
+
+  .dataPhoto {
+    display: block;
   }
 }
 

@@ -11,24 +11,25 @@
 }
 .dataParagraph{
 	line-height: $font-height;
-	font-size: 15px;
+	font-size: 19px;
 	line-height: inherit;
 	text-align: center;
 }
 .dataParagraph2{
 	line-height: $font-height;
-	font-size: 15px;
+	font-size: 19px;
 	line-height: inherit;
 	text-align: left;
 	margin-left: 20px;
+}
+.containerParagraphDuplic{
+	display: none;
 }
 .dataPhoto{
 	display: none;
 }
 .explainData{
 		font-size: 10px;
-}
-.containerText{
 }
 #chartdiv{
 	width: 100%;
@@ -85,4 +86,19 @@
 .ui-radio:checked + label:before {
     color: #99a1a7;
     border: 1px solid #30b0d7;
+}
+@media all and (min-width:768px) {
+	.containerParagraph{
+		display: none;
+	}
+	.containerParagraphDuplic{
+		display: block;
+		margin-top: 50px;
+	}
+	.containerCheck{
+		margin-top: 40px;
+	}
+	.dataPhoto{
+		display: block;
+	}
 }

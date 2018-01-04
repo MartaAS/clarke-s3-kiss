@@ -15,7 +15,7 @@
 	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-	
+
 
 <!-- llamada a quesito comentado-->
 	<!--llamada al js grafica quesito-->
@@ -63,17 +63,19 @@
 			</div>
 		</div>
 		<div class="containerGraphicB row col-12" style="background-color: blue;">
-			<div class="col-12 col-md-9" id="chartdiv">
+			<div class="col-12 col-md-7" id="chartdiv">
 			</div>
 			<!--duplico grafica-->
-			<div class="col-12 col-md-9" id="chartdivTwo">
+			<div class="col-12 col-md-7" id="chartdivTwo">
 			</div>
-			<div class="containerCheck col-offset-2" >
+			<div class="containerCheck col-md-5" >
 			<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label for="radio-1-1">
-  		Grafica 1
-			</label>
+  		Tasas de colocacion según situacion de la demanda en hosteleria en hombres y mujeres</label>
 			<br/>
-			<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label for="radio-1-2">Grafica 2</label>
+			<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label for="radio-1-2">Tasas de colocacion según situacion de la demanda en diferentes sectores</label>
+			<div class="containerParagraphDuplic">
+				<p class="dataParagraph">El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
+			</div>
   		</div>
 			<!-- div quesito comentado
 			<div id="chartdiv2">
@@ -82,11 +84,10 @@
 	</div>
 	<div class="containerText container-fluid">
 		<div class="row">
-			<div class="col-12">
-			<div>
-				<h2 class="dataTitle1">¿POR QUÉ HOSTELERÍA?</h2>
-			</div>
-			<div class="containerTitle2 col-12">
+			<h2 class="dataTitle1 col-12">¿POR QUÉ HOSTELERÍA?</h2>
+		</div>
+		<div class="row">
+			<div class="containerTitle2 col-md-8">
 				<ul class="dataParagraph2">
 					<li>Conocerás gente de todos sitios y condiciones.</li>
 					<li>Conocerás gente de todos sitios y condiciones.</li>
@@ -98,13 +99,12 @@
 					<li>Tendrás un oficio con un alto porcentaje de inserción laboral.</li>
 					<li>Verás inmediatamente la satisfacción del trabajo bien hecho.</li>
 				</ul>
-				<div>
 				</div>
+				<div class="col-md-4">
 					<img class="dataPhoto" src="http://www.dickson-constant.com/medias/images/catalogue/api/6088-gris-680.jpg"width="150" height="150" alt="">
 				</div>
-			</div>
 		</div>
-		<div class="col-12 col-md-5">
+		<div class="col-12">
 			<p class="explainData">* Según datos de la Encuesta de Población Activa (EPA) publicada por el Instituto Nacional de Estadística (INE) y recogidos por la Federación Española de Hos­telería (FEHR)</p>
 		</div>
 	</div>

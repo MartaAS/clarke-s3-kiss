@@ -93,56 +93,24 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     "type": "serial",
 	"startDuration": 2,
 	"titles": [ {
-    "text": "Tasas de colocacion según situacion de la demanda en diferentes sectores",
+    "text": "Tasas de colocacion según situacion de la demanda en hosteleria en hombres y mujeres",
     "size": 16
   } ],
     "dataProvider": [{
-        "country": "0",
-        "visits": 356596,
+        "country": "Servicios de comidas y bebidas",
+        "visits": 70013,
         "color": "#CD0D74"
     }, {
-        "country": "Agricultura y pesca",
-        "visits": 218333,
+        "country": "Servicios de comidas y bebidas",
+        "visits": 66493,
         "color": "#CD0D74"
     }, {
-        "country": "Hostelería",
-        "visits": 175716,
+        "country": "Servicios de alojamiento",
+        "visits": 21871,
         "color": "#CD0D74"
     }, {
-        "country": "Restauración y Comercio",
-        "visits": 121559,
-        "color": "#CD0D74"
-    }, {
-        "country": "Comercio",
-        "visits": 107062,
-        "color": "#CD0D74"
-    }, {
-        "country": "Industria",
-        "visits": 96206,
-        "color": "#CD0D74"
-    }, {
-        "country": "Construcción",
-        "visits": 90935,
-        "color": "#CD0D74"
-    }, {
-        "country": "Act. Sanitarias",
-        "visits": 94648,
-        "color": "#CD0D74"
-    }, {
-        "country": "Tec. Profesionales de Apoyo",
-        "visits": 58556,
-        "color": "#CD0D74"
-    }, {
-        "country": "Educación",
-        "visits": 39445,
-        "color": "#CD0D74"
-    }, {
-        "country": "Tec. Prof. Salud y Enseñanza",
-        "visits": 34820,
-        "color": "#CD0D74"
-    }, {
-        "country": "Otros Servicios",
-        "visits": 20127,
+        "country": "Servicios de comidas y bebidas",
+        "visits": 17339,
         "color": "#CD0D74"
     }],
     "valueAxes": [{
