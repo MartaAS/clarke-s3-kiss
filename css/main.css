@@ -796,6 +796,7 @@ textarea#message {
 .dataTitle1 {
   line-height: inherit;
   text-align: center;
+  margin-top: 10px;
 }
 
 .dataParagraph {
@@ -819,6 +820,7 @@ textarea#message {
 
 .dataPhoto {
   display: none;
+  height: 190px;
 }
 
 .explainData {

@@ -4,6 +4,7 @@
 .dataTitle1{
 	line-height: inherit;
 	text-align: center;
+	margin-top: 10px;
 }
 .dataParagraph{
 	line-height: $font-height;
@@ -23,6 +24,7 @@
 }
 .dataPhoto{
 	display: none;
+	height: 190px;
 }
 .explainData{
 		font-size: 15px;
