@@ -1,0 +1,19 @@
+.cookies{
+	position: absolute;
+	top:-100px;
+	}
+
+.show{
+	height:50px;
+	width:100%;
+	background:#ccc;
+	position:absolute;
+	top:0;
+	left:0;
+	line-height:50px;
+	text-align:center;
+	font-size:13px;
+	transition: top 0.5s;
+	position:fixed;
+	top:0;
+}

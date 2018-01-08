@@ -1,3 +1,4 @@
+'use strict';
 var acceptBtn = document.getElementById('acceptBtn');
 acceptBtn.addEventListener('click', closeCookies);
 
