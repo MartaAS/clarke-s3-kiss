@@ -45,16 +45,13 @@
 .row_copy_column{
 	padding-top:10px;
 	margin-bottom: 19px;
-	
 }
-
 
 ul.social_container{
 	display: flex;
 	justify-content: center;
 	list-style: none;
 }
-
 .rrss a{
 	width: 45px;
 	height: 45px;
@@ -77,4 +74,11 @@ small{
 		font-size: 75%;
 	}
 }
-	
+
+footer a {
+	color: white;
+	&:hover{
+		color: $color-primary;
+		text-decoration: none;
+	}
+}

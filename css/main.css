@@ -445,7 +445,79 @@ html {
 .align-self-stretch {
   -ms-flex-item-align: stretch !important;
   align-self: stretch !important;
-}/*# sourceMappingURL=bootstrap-grid.min.css.map */.btn {
+}/*# sourceMappingURL=bootstrap-grid.min.css.map */.aviso {
+  margin: 86px 50px;
+}
+
+ul.circle li {
+  list-style-type: circle;
+}
+
+.aviso-title {
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.aviso-subtitle {
+  font-size: 21px;
+  margin-top: 35px;
+}
+
+.aviso-text {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.aviso-text a {
+  color: #182b3a;
+}
+
+.aviso-text a:hover {
+  color: #ffdc60;
+  text-decoration: none;
+}
+
+.aviso {
+  margin: 86px 50px;
+}
+
+ul.circle li {
+  list-style-type: circle;
+}
+
+.aviso-title {
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.aviso-subtitle {
+  font-size: 21px;
+  margin-top: 35px;
+}
+
+.aviso-text {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.mailto {
+  color: #182b3a;
+}
+
+.mailto:hover {
+  color: #ffdc60;
+  text-decoration: none;
+}
+
+.btn {
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 13px;
@@ -996,6 +1068,15 @@ ul.social_container {
 
 small {
   font-size: 80%;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #ffdc60;
+  text-decoration: none;
 }
 
 @media (min-width: 576px) {
@@ -2606,6 +2687,16 @@ small {
 }
 
 @media all and (max-width: 660px) {
+  .aviso-title {
+    line-height: 41px;
+    font-size: 21px;
+  }
+
+  .aviso-title {
+    line-height: 41px;
+    font-size: 21px;
+  }
+
   .block-title {
     line-height: 41px;
     font-size: 21px;
