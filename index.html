@@ -31,7 +31,7 @@
 <body>
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 		<div class="toTop"><!--BOTON BACK TO TOP-->
-			<a href="#" class="scroll" data-speed="500" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#" class="scroll" data-speed="1000" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
 		</div>	<!--FIN BOTON BACK TO TOP-->
 
 	<header class="header">
@@ -109,83 +109,164 @@
 				</div>
 		</div> <!--FIN INTRO-->
 
-		<section>
+		<section class="block block-info">
 			<h2 class="block-title">CURSO DE AYUDANTE/A DE COCINA EN COLECTIVIDADES</h2>
 			<h3 class="block-subtitle">¿A quién va dirigido?</h3>
 			<p class="block-text">A jóvenes desempleados/as de entre 18 y 35 años con interés por trabajar en hostelería.</p>
-			<div class="row row-info">
-				<div class="col-xs-12">
-					<div id="carousel-info" class="carousel slide" data-ride="carousel">
-						<!--Indicadores para pasar de una imagen a otra directamente-->
-						<ol class="carousel-indicators">
-							<li class="indicator-item" data-target="#carousel-info" data-slide-to="0" class="active"></li>
-							<li class="indicator-item" data-target="#carousel-info" data-slide-to="1"></li>
-							<li class="indicator-item" data-target="#carousel-info" data-slide-to="2"></li>
-							<li class="indicator-item" data-target="#carousel-info" data-slide-to="3"></li>
-							<li class="indicator-item" data-target="#carousel-info" data-slide-to="4"></li>
-							<li class="indicator-item" data-target="#carousel-info" data-slide-to="5"></li>
-						</ol>
-						<!--Contenido de los slides-->
-						<div class="carousel-inner" role="listbox">
-							<div class="carousel-item active image__container">
-								<h4 class="image__subtitle">FORMACIÓN TEÓRICA</h4>
-								<div class="info__image" style="background: url(img/1-fabrizio-magoni.jpg) no-repeat center; background-size: cover;">
-									<p class="image__text">Fórmate como ayudante/a de cocina para trabajar en colectividades.</p>
+			<div class="info__container-carousel">
+				<div class="row row-info">
+					<div class="col-xs-12">
+						<div id="carousel-info" class="carousel slide" data-ride="carousel">
+							<!--Indicadores para pasar de una imagen a otra directamente-->
+							<ol class="carousel-indicators">
+								<li class="indicator-item" data-target="#carousel-info" data-slide-to="0" class="active"></li>
+								<li class="indicator-item" data-target="#carousel-info" data-slide-to="1"></li>
+								<li class="indicator-item" data-target="#carousel-info" data-slide-to="2"></li>
+								<li class="indicator-item" data-target="#carousel-info" data-slide-to="3"></li>
+								<li class="indicator-item" data-target="#carousel-info" data-slide-to="4"></li>
+								<li class="indicator-item" data-target="#carousel-info" data-slide-to="5"></li>
+							</ol>
+							<!--Contenido de los slides-->
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<div class="image__container info__image image-1">
+										<h4 class="image__subtitle">FORMACIÓN TEÓRICA</h4>
+										<p class="image__text">Fórmate como ayudante/a de cocina para trabajar en colectividades.</p>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="image__container info__image image-2">
+										<h4 class="image__subtitle">FORMACIÓN PRÁCTICA</h4>
+										<p class="image__text">Realiza prácticas como ayudante de cocina en importante empresa.</p>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="image__container info__image image-3">
+										<h4 class="image__subtitle">COMPETENCIAS DIGITALES</h4>
+										<p class="image__text">Aprende a sacar el máximo partido a tu búsqueda de empleo a través de internet y RRSS.</p>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="image__container info__image image-4">
+										<h4 class="image__subtitle">COMPETENCIAS TRANSVERSALES</h4>
+										<p class="image__text">Entrena habilidades fundamentales para la comunicación, la inteligencia emocional...</p>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="image__container info__image image-5">
+										<h4 class="image__subtitle">APOYO PERSONALIZADO</h4>
+										<p class="image__text">Recibe asesoramiento profesional individualizado y ajustado a tus intereses y necesidades.</p>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="image__container image-6">
+										<h4 class="image__subtitle">CONTACTO CON EMPRESAS</h4>
+										<p class="image__text">Asiste a Masterclass y conoce empresas y profesionales del sector a los/as que podrás enviar tu CV.</p>
+									</div>
 								</div>
 							</div>
-							<div class="carousel-item image__container">
-								<h4 class="image__subtitle">FORMACIÓN PRÁCTICA</h4>
-								<div class="info__image" style="background: url(img/2-michael-browning.jpg) no-repeat center; background-size: cover;">
-									<p class="image__text">Realiza prácticas como ayudante de cocina en importante empresa.</p>
-								</div>
-							</div>
-							<div class="carousel-item image__container">
-								<h4 class="image__subtitle">COMPETENCIAS DIGITALES</h4>
-								<div class="info__image" style="background: url(img/3-glenn-carstens-peters.jpg) no-repeat center; background-size: cover;">
-									<p class="image__text">Aprende a sacar el máximo partido a tu búsqueda de empleo a través de internet y RRSS.</p>
-								</div>
-							</div>
-							<div class="carousel-item image__container">
-								<h4 class="image__subtitle">COMPETENCIAS TRANSVERSALES</h4>
-								<div class="info__image" style="background: url(img/4-competencias.jpg) no-repeat center; background-size: cover;">
-									<p class="image__text">Entrena habilidades fundamentales para la comunicación, la inteligencia emocional...</p>
-								</div>
-							</div>
-							<div class="carousel-item image__container">
-								<h4 class="image__subtitle">APOYO PERSONALIZADO</h4>
-								<div class="info__image" style="background: url(img/5-apoyo.jpg) no-repeat center; background-size: cover;">
-									<p class="image__text">Recibe asesoramiento profesional individualizado y ajustado a tus intereses y necesidades.</p>
-								</div>
-							</div>
-							<div class="carousel-item image__container">
-								<h4 class="image__subtitle">CONTACTO CON EMPRESAS</h4>
-								<div class="info__image" style="background: url(img/6-masterclass.jpeg) no-repeat center; background-size: cover;">
-									<p class="image__text">Asiste a Masterclass y conoce empresas y profesionales del sector a los/as que podrás enviar tu CV.</p>
-								</div>
-							</div>
+							<!--Flechitas para pasar al anterior o posterior slide-->
+							<a class="carousel-control-prev" href="#carousel-info" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+							<a class="carousel-control-next" href="#carousel-info" role="button" data-slide="next">
+								<span class="carousel-control-next-icon"></span>
+							</a>
 						</div>
-						<!--Flechitas para pasar al anterior o posterior slide-->
-						<a class="carousel-control-prev" href="#carousel-info" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon"></span>
-						</a>
-						<a class="carousel-control-next" href="#carousel-info" role="button" data-slide="next">
-							<span class="carousel-control-next-icon"></span>
-						</a>
 					</div>
 				</div>
 			</div>
+			<div class="info__container-desk">
+				<div class="row">
+					<div class="col-lg-4 col-sm-6">
+						<div class="view info__container-desk">
+							<div class="image-desk image-1">
+								<h4 class="image__subtitle-desk">FORMACIÓN TEÓRICA</h4>
+							</div>
+							<div class="info__image-desk">
+								<p class="image__text-desk">Fórmate como ayudante/a de cocina para trabajar en colectividades.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="view info__container-desk">
+							<div class="image-desk image-2">
+								<h4 class="image__subtitle-desk">FORMACIÓN PRÁCTICA</h4>
+							</div>
+							<div class="info__image-desk">
+								<p class="image__text-desk">Realiza prácticas como ayudante de cocina en importante empresa.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="view info__container-desk">
+							<div class="image-desk image-3">
+								<h4 class="image__subtitle-desk">COMPETENCIAS DIGITALES</h4>
+							</div>
+							<div class="info__image-desk">
+								<p class="image__text-desk">Aprende a sacar el máximo partido a tu búsqueda de empleo a través de internet y RRSS.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="view info__container-desk">
+							<div class="image-desk image-4">
+								<h4 class="image__subtitle-desk">COMPETENCIAS TRANSVERSALES</h4>
+							</div>
+							<div class="info__image-desk">
+								<p class="image__text-desk">Entrena habilidades fundamentales para la comunicación, la inteligencia emocional...</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="view info__container-desk">
+							<div class="image-desk image-5">
+								<h4 class="image__subtitle-desk">APOYO PERSONALIZADO</h4>
+							</div>
+							<div class="info__image-desk">
+								<p class="image__text-desk">Recibe asesoramiento profesional individualizado y ajustado a tus intereses y necesidades.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6">
+						<div class="view info__container-desk">
+							<div class="image-desk image-6">
+								<h4 class="image__subtitle-desk">CONTACTO CON EMPRESAS</h4>
+							</div>
+							<div class="info__image-desk">
+								<p class="image__text-desk">Asiste a Masterclass y conoce empresas y profesionales del sector a los/as que podrás enviar tu CV.</p>
+							</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
 			<div class="row buttons-container">
 				<div class="col-sm-6 col-md-4" style="text-align:center;"><button type="button" class="btn btn--info btn--yellow" name="button-enroll"><a href="#block_contact"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a></button></div>
-				<div class="col-sm-6 col-md-4" style="text-align:center;"><button type="button" class="btn btn--call btn--aqua scroll" name="button-call"><a href="#block_contact"><i class="fa fa-phone" aria-hidden="true" data-speed="500"></i> LLÁMANOS</a></button></div>
+				<div class="col-sm-6 col-md-4" style="text-align:center;"><button type="button" class="btn btn--call btn--aqua scroll" name="button-call"><a href="#block_contact"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a></button></div>
+				<script type="text/javascript">
+				var ub = window.location;
+				var uf="https://www.facebook.com/sharer.php?u="+"https://github.com/Adalab/clarke-s3-kiss";
+				var ut="https://twitter.com/share?url="+"https://github.com/Adalab/clarke-s3-kiss";
+				var ug="https://plus.google.com/share?url="+"https://github.com/Adalab/clarke-s3-kiss";
+				var up="https://www.pinterest.com/pin/create/button/?url="+"https://github.com/Adalab/clarke-s3-kiss";
+				var ul="https://www.linkedin.com/shareArticle?mini=true&url="+"https://github.com/Adalab/clarke-s3-kiss";
+				</script>
 				<div class="col-sm-12 col-md-4" style="text-align:center;"><!--Boton compartir curso-->
 					<ul class="shareSocial" style="height:250px;">
 						<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
 							<ul class="shareList" id="shareList">
-								<li class="share-item"><a href="https://facebook.com/sharer.php?u=https://adalab.github.io/clarke-s3-kiss/" target="_blank"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
-								<li class="share-item"><a href="https://twitter.com/intent/tweet?url=https://adalab.github.io/clarke-s3-kiss/&text=Nuevo%20curso%20ayudante%20de%20cocina&via=adalab" target="_blank"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
-								<li class="share-item"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://adalab.github.io/clarke-s3-kiss/" target="_blank"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
-								<li class="share-item"><a href="https://plus.google.com/share?url=/https://adalab.github.io/clarke-s3-kiss/"  target="_blank"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-								<li class="share-item"><a href="whatsapp://send?text=http://webdevelopmentscripts.com"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(uf,&quot;gplusshare&quot;,&quot; toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Facebook"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ut,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Twitter"><img height="40" width="40" src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ul,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en linkedin"><img height="40" width="40" src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ug,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img height="40" width="40" src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(up,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Pinterest"><img height="40" width="40" src="https://cdn.tahonadedonpio.es/wp-content/uploads/social/pinterest-long.png" title="Compartir en pinterest" alt="logo pinterest"> Pinterest</a></li>
+								<li class="share-item"><a href="https://www.whatsapp.com/?l=es"><img height="40" width="40" src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -196,30 +277,31 @@
 <!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
 
 <div class="prueba_share">
+
 	<div><!--Boton más info-->
-		<a href="#block_contact" class="btn btn--info btn--yellow scroll "><i class="fa fa-info" aria-hidden="true"  data-speed="500"></i> MÁS INFORMACIÓN</a>
+		<a href="#block_contact" class="btn btn--info btn--yellow scroll "><i class="fa fa-info" aria-hidden="true"  data-speed="1000"></i> MÁS INFORMACIÓN</a>
 	</div>
 
 	<div><!--Boton llámanos-->
-		<a href="#block_contact" class="btn btn--call btn--aqua scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="500"></i> LLÁMANOS</a>
+		<a href="#block_contact" class="btn btn--call btn--aqua scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
 	</div>
 
 	<div><!--Boton compartir curso-->
 		<ul class="shareSocial">
 			<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
 				<ul class="shareList" id="shareList">
-					<li class="share-item"><a href="https://facebook.com/sharer.php?u=https://adalab.github.io/clarke-s3-kiss/" target="_blank"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
-					<li class="share-item"><a href="https://twitter.com/intent/tweet?url=https://adalab.github.io/clarke-s3-kiss/&text=Nuevo%20curso%20ayudante%20de%20cocina&via=adalab" target="_blank"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
-					<li class="share-item"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://adalab.github.io/clarke-s3-kiss/" target="_blank"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
-					<li class="share-item"><a href="https://plus.google.com/share?url=/https://adalab.github.io/clarke-s3-kiss/"  target="_blank"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-					<li class="share-item"><a href="whatsapp://send?text=http://webdevelopmentscripts.com"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
+					<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
+					<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
+					<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
+					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
 				</ul>
 			</li>
 		</ul>
 	</div><!--fin Boton compartir curso-->
 
 	<div class="prueba_scroll">
-		<a href="#block_contact" class="scroll" data-speed="500">
+		<a href="#block_contact" class="scroll" data-speed="1000">
 			<div id="mouse-scroll">
   				<div class="mouse">
     				<div class="mouse-in"></div>
@@ -259,15 +341,6 @@
 	</div>
 </div>
 
-<!--BARRA DE COOKIES-->
-<div class="cookies" id="cookies">
-	ESTE SITIO WEB USA COOKIES
-	<button class="btn btn--cookies" id="acceptBtn">Aceptar</button>
-</div>
-
-
-<!--FIN BARRA DE COOKIES-->
-
 <footer>
 	<div class="row row_social">
 		<div class="col-md-12 ">
@@ -293,15 +366,13 @@
 	</div>
 	<div class="row row_copy">
 		<div class="col-md-12 row_copy_column">
-			<small>&copy; 2017 K.I.S.S &nbsp;|&nbsp; <a href="aviso-legal.html">Aviso legal</a> &nbsp;|&nbsp; <a href="proteccion-datos.html">Protección de datos</a></small>
+			<small>&copy; 2017 K.I.S.S &nbsp;|&nbsp; Aviso legal &nbsp;|&nbsp; Protección de datos</small>
 		</div>
 	</div>
 </footer>
 </div><!--end overflow-->
 
 	<script src="js/main.min.js"></script>
-	<script src="js/cookies.js"></script>
-
 
 </body>
 </html>
