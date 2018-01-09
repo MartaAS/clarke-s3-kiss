@@ -1,6 +1,8 @@
 'use strict';
 
 //smooth scroll function
+
+
 (function() {
 	if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
 		var smoothScroll = function (anchor, duration) {
@@ -10,7 +12,7 @@
 			var increments = distance/(duration/16);
 			var stopAnimation;
 			var animateScroll = function () {
-				window.scrollBy(0, increments);
+				window.scrollBy(100, increments);
 				stopAnimation();
 			};
 			if ( increments >= 0 ) {
@@ -46,14 +48,16 @@
 })();
 
 //back to top button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function(){
+	scrollFunction()
+};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        document.querySelector(".toTop").style.display = "block";
-    } else {
-        document.querySelector(".toTop").style.display = "none";
-    }
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    document.querySelector(".toTop").style.display = "block";
+  } else {
+    document.querySelector(".toTop").style.display = "none";
+  }
 }
 
 // When the user clicks on the button, scroll to the top of the document
