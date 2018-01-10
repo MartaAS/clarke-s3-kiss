@@ -990,7 +990,7 @@ textarea#message {
 }
 
 #mouse-scroll {
-  style: block;
+  display: block;
 }
 
 #mouse-scroll {
@@ -1034,14 +1034,18 @@ textarea#message {
   width: 100%;
   height: 100%;
   text-decoration: none;
-  color: #5b5b5b;
+  font-size: 30px !important;
+  cursor: pointer;
+  color: rgba(91, 91, 91, 0.64);
   font-size: 30px !important;
   cursor: pointer;
 }
 
 #backTop:hover {
-  color: white;
-}/*SCROLL FLECHAS*/.dataTitle1 {
+  color: #5b5b5b;
+}
+
+.dataTitle1 {
   font-weight: 700;
   line-height: 45px;
   font-size: 18px;
@@ -1102,13 +1106,20 @@ ul.shareList,ul.shareSocial {
   text-align: left;
 }
 
+.shareList li {
+  display: inline;
+  top: 5px;
+  left: 0;
+  right: 0;
+}
+
 .share:hover .shareList {
   display: block;
 }
 
 .share-item img {
   display: inline-block;
-  width: 20px;
+  width: 26px;
   height: auto;
 }
 
@@ -1118,7 +1129,8 @@ ul.shareList,ul.shareSocial {
 
 li.share-item {
   width: 100%;
-  margin: 7px;
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 body {
