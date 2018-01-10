@@ -561,6 +561,7 @@ ul.circle li {
   position: relative;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-right: 0;
 }/*boton más información*/.btn--info,.btn--yellow {
   background: #ffdc60;
   color: #182b3a;
@@ -626,6 +627,7 @@ ul.circle li {
 .row_contact {
   margin-left: 10px;
   margin-bottom: 10px;
+  margin-right: 0;
 }
 
 .block_contact a {
@@ -904,7 +906,7 @@ ul.circle li {
   top: 0;
 }
 
-.form-section,.contactData_section {
+.form-section {
   margin-top: 10px;
 }
 
