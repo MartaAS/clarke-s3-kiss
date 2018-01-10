@@ -25,7 +25,7 @@
 			} else {
 				stopAnimation = function () {
 					var travelled = window.pageYOffset;
-					if ( travelled <= (endLocation || -1) ) {
+					if ( travelled <= (endLocation || 0) ) {
 						clearInterval(runAnimation);
 					}
 				};
@@ -61,10 +61,10 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+// function topFunction() {
+//     document.body.scrollTop = 0;
+//     document.documentElement.scrollTop = 0;
+// }
 
-var backTop = document.querySelector('#backTop');
-backTop.addEventListener('click',topFunction);
+// var backTop = document.querySelector('#backTop');
+// backTop.addEventListener('click',topFunction);
