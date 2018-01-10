@@ -16,7 +16,6 @@
 	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 
-
 	<!--llamada al js grafica quesito-->
 
 	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
@@ -25,16 +24,16 @@
 	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 	<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
 	<!--fin Llamada a grafica quesito-->
-
 	<title>Proyecto Empleo Joven</title>
 </head>
+
 <body>
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 		<div class="toTop"><!--BOTON BACK TO TOP-->
-			<a href="#" class="scroll" data-speed="1000" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+			<a href="#header" class="scroll" data-speed="1000" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
 		</div>	<!--FIN BOTON BACK TO TOP-->
 
-	<header class="header">
+	<header class="header" id="header">
 		<div class="btn-group">
 		  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">menu</button>
 		  <div class="dropdown-menu dropdown-menu-right">
@@ -270,7 +269,6 @@
 								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ut,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Twitter"><img height="40" width="40" src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
 								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ul,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en linkedin"><img height="40" width="40" src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
 								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ug,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+"><img height="40" width="40" src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(up,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Pinterest"><img height="40" width="40" src="https://cdn.tahonadedonpio.es/wp-content/uploads/social/pinterest-long.png" title="Compartir en pinterest" alt="logo pinterest"> Pinterest</a></li>
 								<li class="share-item"><a href="https://www.whatsapp.com/?l=es"><img height="40" width="40" src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
 							</ul>
 						</li>
@@ -288,6 +286,45 @@
 			</div><!--fin scroll container"-->
 		</section>
 
+
+
+<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
+
+<!--<div class="prueba_share">-->
+
+<!-- 	<div><!--Boton más info-->
+	<!-- 	<a href="#block_contact" class="btn btn--info btn--yellow scroll "><i class="fa fa-info" aria-hidden="true"  data-speed="1000"></i> MÁS INFORMACIÓN</a>
+	<!-- </div>-->
+
+	<!-- <div><!--Boton llámanos-->
+		<a href="#block_contact" class="btn btn--call btn--aqua scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
+	<!-- </div>
+
+	<div>--><!--Boton compartir curso-->
+		<!-- <ul class="shareSocial">
+			<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+				<ul class="shareList" id="shareList">
+					<li class="share-item"><a href="javascript:void(0);" onclick="window.open(uf,&quot;gplusshare&quot;,&quot; toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Facebook" target="_blank"><img src="img/shareFacebook.png" alt="logo facebook"></a></li>
+					<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ut,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Twitter" target="_blank"><img height="40" width="40" src="img/shareTwitter.png" alt="logo twitter"></a></li>
+					<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ul,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en linkedin" target="_blank"><img height="40" width="40" src="img/shareLinkedin.png" alt="logo linkedin" ></a></li>
+					<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ug,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Google+" target="_blank"><img height="40" width="40" src="img/shareGoogle.png" alt="logo google plus"></a></li>
+					<li class="share-item"><a href="https://www.whatsapp.com/?l=es" target="_blank"><img height="40" width="40" src="img/shareWhatsapp.png" alt="logo whatsapp"></a></li>
+				</ul>
+			</li>
+		</ul>-->
+	<!-- </div>--><!--fin Boton compartir curso-->
+
+	<!-- <div class="prueba_scroll">
+		<a href="#block_contact" class="scroll" data-speed="1000">
+			<div id="mouse-scroll">
+  				<div class="mouse">
+    				<div class="mouse-in"></div>
+  				</div>
+			</div>
+		</a>-->
+	<!--</div>--><!--fin prueba_scroll"-->
+<!--</div>-->
+  <!--fin div de botones y scroll prueba--> 
 
 
 <!--contact section-->
