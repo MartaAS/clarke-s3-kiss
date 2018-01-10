@@ -1,25 +1,11 @@
-/*borrar luego*/
-.prueba_share{
-  height:100vh;
-  background:lavender;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  position:relative;
-  flex-wrap: wrap;
-}
-
 /*SCROLL MOUSE*/
-.prueba_scroll{
+.scroll--container{
 	position:absolute;
 	bottom:5%;
 	left:50%;
-}
-.prueba_share{
-	position: relative;
-}
-.prueba_scroll a{
-	text-decoration: none;
+	& a{
+		text-decoration: none;
+	}
 }
 
 #mouse-scroll {

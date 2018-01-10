@@ -523,6 +523,7 @@ ul.circle li {
   font-size: 13px;
   border-radius: 5px;
   cursor: pointer;
+  margin: 5px;
 }
 
 .btn:focus {
@@ -531,7 +532,7 @@ ul.circle li {
   box-shadow: none;
 }/*boton formulario*/.btn--submit {
   background: #182b3a;
-  color: white;
+  color: #ffffff;
   border: 2px solid #182b3a;
   font-weight: 700;
 }
@@ -547,6 +548,19 @@ ul.circle li {
   background: #ffdc60;
   border: 2px solid #182b3a;
   color: #182b3a;
+}/*contenedor de botones*/.buttons-container {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }/*boton más información*/.btn--info,.btn--yellow {
   background: #ffdc60;
   color: #182b3a;
@@ -557,10 +571,10 @@ ul.circle li {
 .btn--info:hover,.btn--yellow:hover {
   background: #182b3a;
   border: 2px solid #182b3a;
-  color: white;
+  color: #ffffff;
 }/*botón llámanos*/.btn--call,.btn--aqua {
   background: #2ec4b6;
-  color: white;
+  color: #ffffff;
   border: 2px solid #2ec4b6;
   font-weight: 700;
 }
@@ -579,11 +593,17 @@ ul.circle li {
 .btn--share:hover,.btn--transparent:hover {
   background: #182b3a;
   border: 2px solid #182b3a;
-  color: white;
+  color: #ffffff;
+}/*botón para fondos oscuros*/.btn--yellow--back-dark {
+  background: #ffdc60;
+  color: #182b3a;
+  font-weight: 700;
 }
 
-.buttons-container {
-  margin: 20px;
+.btn--yellow--back-dark:hover {
+  background: #2ec4b6;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .btn--cookies {
@@ -641,6 +661,7 @@ ul.circle li {
   min-height: 100vh;
   color: #f6f7f8;
   background-color: #182b3a;
+  padding-bottom: 60px;
 }
 
 .row-info {
@@ -961,31 +982,13 @@ textarea#message {
   background: white;
   border: 2px solid #182b3a;
   border-radius: 5px;
-}/*borrar luego*/.prueba_share {
-  height: 100vh;
-  background: lavender;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}/*SCROLL MOUSE*/.prueba_scroll {
+}/*SCROLL MOUSE*/.scroll--container {
   position: absolute;
   bottom: 5%;
   left: 50%;
 }
 
-.prueba_share {
-  position: relative;
-}
-
-.prueba_scroll a {
+.scroll--container a {
   text-decoration: none;
 }
 
@@ -1164,6 +1167,10 @@ a {
 .overflow {
   overflow-x: hidden;
   width: auto;
+  position: relative;
+}
+
+.block {
   position: relative;
 }
 
