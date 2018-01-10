@@ -12,7 +12,7 @@
 			var increments = distance/(duration/16);
 			var stopAnimation;
 			var animateScroll = function () {
-				window.scrollBy(100, increments);
+				window.scrollBy(0, increments);
 				stopAnimation();
 			};
 			if ( increments >= 0 ) {
@@ -25,7 +25,7 @@
 			} else {
 				stopAnimation = function () {
 					var travelled = window.pageYOffset;
-					if ( travelled <= (endLocation || 0) ) {
+					if ( travelled <= (endLocation || -1) ) {
 						clearInterval(runAnimation);
 					}
 				};
@@ -40,7 +40,7 @@
 				var dataTarget = document.querySelector(dataID);
 				var dataSpeed = toggle.getAttribute('data-speed');
 				if (dataTarget) {
-					smoothScroll(dataTarget, dataSpeed || 500);
+					smoothScroll(dataTarget, dataSpeed || 1000);
 				}
 			}, false);
 		});
