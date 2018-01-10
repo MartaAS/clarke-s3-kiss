@@ -1,25 +1,11 @@
-/*borrar luego*/
-.prueba_share{
-  height:100vh;
-  background:lavender;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  position:relative;
-  flex-wrap: wrap;
-}
-
 /*SCROLL MOUSE*/
-.prueba_scroll{
+.scroll--container{
 	position:absolute;
 	bottom:5%;
 	left:50%;
-}
-.prueba_share{
-	position: relative;
-}
-.prueba_scroll a{
-	text-decoration: none;
+	& a{
+		text-decoration: none;
+	}
 }
 
 #mouse-scroll {
@@ -110,83 +96,3 @@
 #backTop:hover {
 	color:  white;
 }
-
-
-
-
-
-// #backTop {
-//   display: none;
-//   position: fixed;
-//   bottom: 20px;
-//   right: 30px;
-//   z-index: 99;
-//   border: none;
-//   outline: none;
-//   background-color: red;
-//   color: white;
-//   cursor: pointer;
-//   padding: 15px;
-//   border-radius: 10px;
-// }
-//
-// #backTop:hover {
-//   background-color: #555;
-// }
-
-
-
-
-
-/*SCROLL FLECHAS*/
-// #scroll-down-container {
-// 	text-align: center;
-// 	p {
-// 	color:white;
-// 	margin: 0;
-// 	}
-// }
-// .prueba_scroll{
-// 	position:absolute;
-// 	bottom:5%;
-// 	left:50%;
-// }
-//
-// .prueba_scroll a{
-// 	text-decoration: none;
-// }
-//
-// .arrow {
-// 	display: inline-block;
-// 	background-color: red;
-// 	border-radius: 10px;
-// 	width:30px;
-// 	height:4px;
-// 	position: relative;
-// 	top: 10px;
-// 	left: 10px;
-// }
-//
-// #point1 {
-// 	transform-origin: 0% 50%;
-// 	animation: anim1 .5s ease infinite alternate;
-// }
-//
-// #point2 {
-// 	transform-origin: 100% 50%;
-// 	animation: anim2 .5s ease infinite alternate;
-// }
-//
-// @keyframes anim1 {
-// 	from {transform: translateX(7px) rotate(30deg);}
-// 	to {transform: translateX(4px) rotate(10deg);}
-// }
-//
-// @keyframes anim2 {
-// 	from {transform: translateX(-7px) rotate(-30deg);}
-// 	to {transform: translateX(-4px) rotate(-10deg);}
-// }
-//
-// a{
-// 	text-decoration: none;
-// }

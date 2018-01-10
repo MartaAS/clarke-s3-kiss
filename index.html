@@ -246,9 +246,14 @@
 						</div>
 					</div>
 
-			<div class="row buttons-container">
-				<div class="col-sm-6 col-md-4" style="text-align:center;"><button type="button" class="btn btn--info btn--yellow" name="button-enroll"><a href="#block_contact"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a></button></div>
-				<div class="col-sm-6 col-md-4" style="text-align:center;"><button type="button" class="btn btn--call btn--aqua scroll" name="button-call"><a href="#block_contact"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a></button></div>
+			<div class="buttons-container">
+				<div><!--Boton más info-->
+					<a href="#block_contact" class="btn btn--yellow--back-dark"><i class="fa fa-info" aria-hidden="true"  data-speed="1000"></i> MÁS INFORMACIÓN</a>
+				</div>
+				<div><!--Boton llámanos-->
+					<a href="#block_contact" class="btn btn--yellow--back-dark"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
+				</div>
+
 				<script type="text/javascript">
 				var ub = window.location;
 				var uf="https://www.facebook.com/sharer.php?u="+"https://github.com/Adalab/clarke-s3-kiss";
@@ -257,9 +262,9 @@
 				var up="https://www.pinterest.com/pin/create/button/?url="+"https://github.com/Adalab/clarke-s3-kiss";
 				var ul="https://www.linkedin.com/shareArticle?mini=true&url="+"https://github.com/Adalab/clarke-s3-kiss";
 				</script>
-				<div class="col-sm-12 col-md-4" style="text-align:center;"><!--Boton compartir curso-->
-					<ul class="shareSocial" style="height:250px;">
-						<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
+				<div><!--Boton compartir curso-->
+					<ul class="shareSocial">
+						<li class="share"><button type="submit" class="btn btn--yellow--back-dark"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
 							<ul class="shareList" id="shareList">
 								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(uf,&quot;gplusshare&quot;,&quot; toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Facebook"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
 								<li class="share-item"><a href="javascript:void(0);" onclick="window.open(ut,&quot;gplusshare&quot;,&quot;toolbar=0,status=0,width=548,height=325&quot;);" rel="nofollow" title="Compartir en Twitter"><img height="40" width="40" src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
@@ -272,44 +277,18 @@
 					</ul>
 				</div>
 			</div>
+			<div class="scroll--container">
+				<a href="#block_contact" class="scroll" data-speed="1000">
+					<div id="mouse-scroll">
+		  				<div class="mouse">
+		    				<div class="mouse-in"></div>
+		  				</div>
+					</div>
+				</a>
+			</div><!--fin scroll container"-->
 		</section>
 
-<!--ESTE DIV TIENE LA ESTRUCTURA PARA EL BOTON DE COMPARTIR EN REDES SOCIALES, EN SCSS/COMPONENTS/SHARESOCIAL ESTAN LOS ESTILOS, BOTONES DE MAS INO Y LLAMANOS ESTILOS EN SCSS/COMPONENTS/BUTTONS Y EL SCROLL PERO NO ME FUNCIONA EL JS-->
 
-<div class="prueba_share">
-
-	<div><!--Boton más info-->
-		<a href="#block_contact" class="btn btn--info btn--yellow scroll "><i class="fa fa-info" aria-hidden="true"  data-speed="1000"></i> MÁS INFORMACIÓN</a>
-	</div>
-
-	<div><!--Boton llámanos-->
-		<a href="#block_contact" class="btn btn--call btn--aqua scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
-	</div>
-
-	<div><!--Boton compartir curso-->
-		<ul class="shareSocial">
-			<li class="share"><button type="submit" class="btn btn--share btn--transparent"><i class="fa fa-share-alt" aria-hidden="true"></i> COMPARTE ESTE CURSO</button>
-				<ul class="shareList" id="shareList">
-					<li class="share-item"><a href="https://es-es.facebook.com/"><img src="img/shareFacebook.png" alt="logo facebook"> Facebook</a></li>
-					<li class="share-item"><a href="https://twitter.com/"><img src="img/shareTwitter.png" alt="logo twitter"> Twitter</a></li>
-					<li class="share-item"><a href="https://www.linkedin.com/"><img src="img/shareLinkedin.png" alt="logo linkedin"> Linkedin</a></li>
-					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareGoogle.png" alt="logo google plus"> Google+</a></li>
-					<li class="share-item"><a href="https://plus.google.com/"><img src="img/shareWhatsapp.png" alt="logo whatsapp"> Whatsapp</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div><!--fin Boton compartir curso-->
-
-	<div class="prueba_scroll">
-		<a href="#block_contact" class="scroll" data-speed="1000">
-			<div id="mouse-scroll">
-  				<div class="mouse">
-    				<div class="mouse-in"></div>
-  				</div>
-			</div>
-		</a>
-	</div><!--fin prueba_scroll"-->
-</div><!--fin div de botones y scroll prueba-->
 
 <!--contact section-->
 <section class="block block_contact" id="block_contact">
