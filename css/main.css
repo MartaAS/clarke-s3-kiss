@@ -1189,6 +1189,10 @@ a {
   text-decoration: none;
 }
 
+.block-title-h1 {
+  font-size: 30px;
+}
+
 .block-title {
   font-weight: 700;
   line-height: 45px;
@@ -1483,43 +1487,52 @@ input[type="checkbox"] {
 }
 
 .block_header {
-  height: 100vh;
-  padding: 20px 5%;
-  margin: 0;
   background-color: #ffdc60;
+  background-image: url("../img/6-masterclass.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.block_header_title-fmp {
-  margin-top: 5vh;
-  color: #182b3a;
-}
-
-.block_header_titleh2-row {
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.block_header_titleh2 {
-  padding: 10px 20px;
-  margin: 0;
+.block_header_title {
+  padding: 0;
+  margin: 8vh 0 8vh 0;
+  text-align: center;
   color: #182b3a;
   border-radius: 5px;
   border: 1px solid #c1c1c1;
-  background: #f6f7f8;
-  width: 30%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+}
+
+.block_header_title-fmp {
+  background: rgba(246, 247, 248, 0.7);
+}
+
+.block_header_title-h2 {
+  background: rgba(255, 220, 96, 0.9);
+}
+
+.block_header_title-employ {
+  left: -100px;
+  -webkit-transition: left ease 0.8s;
+  transition: left ease 0.8s;
+}
+
+.page_load .block_header_title-employ {
+  left: 0;
+  z-index: 2;
+  margin-left: 20%;
 }
 
 .block_header_title-new-curse {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  right: -100%;
+  -webkit-transition: left ease 0.8s;
+  transition: left ease 0.8s;
+}
+
+.page_load .block_header_title-new-curse {
+  right: 0;
+  z-index: 2;
+  margin-right: 20%;
 }
 
 * {
@@ -1535,6 +1548,8 @@ input[type="checkbox"] {
 
 .block {
   position: relative;
+  height: 100vh;
+  padding: 76px 4% 0 4%;
 }
 
 .row_social {
@@ -2438,6 +2453,10 @@ footer a:hover {
   .image__subtitle {
     min-height: 48px;
   }
+
+  .block_header_title {
+    margin: 12vh 20% 12vh 20%;
+  }
 }
 
 @media all and (min-width: 872px) {
@@ -3330,6 +3349,11 @@ footer a:hover {
   .aviso-title {
     line-height: 41px;
     font-size: 21px;
+  }
+
+  .block-title-h1 {
+    line-height: 41px;
+    font-size: 30px;
   }
 
   .block-title {
