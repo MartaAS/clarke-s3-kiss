@@ -14,8 +14,17 @@
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
-	margin-bottom: 70px;
+	margin-left: 30px;
+	// margin-bottom: 70px;
+	height: auto;
 	width: 60vw;
+	position: relative;
+	// Animación fotos movimiento desde la izq
+	animation: mymove 2s;
+}
+@keyframes mymove {
+    from {left: -400px;}
+    to {left: 0px;}
 }
 
 .col-right-intro{
@@ -36,7 +45,7 @@
 .checkbox-sentences{
 	display: flex;
 }
-// **************************************** LOGOS ******************************************
+// ******************* LOGOS ***********************
 
 .image_logo{
 	height: 50px;
@@ -62,8 +71,9 @@
 	align-self: flex-end;
   width: 150px;
   height: 150px;
-  background-color: $color-light;
+  background-color: $colo-white;
 	border-radius: 50% 50% 50% 50%;
+	margin-top: -50px;
   }
 
 
@@ -79,9 +89,9 @@
 	border-radius: 50% 50% 50% 50%;
 }
 
-// **********************************ANIMACIONES************************************************
+// *********************ANIMACIONES**************
 
-// ***************Animación del título************************
+// *************Animación del título****************
 
 .title-animation {
   font-size:36px;
@@ -177,7 +187,7 @@
   100% {margin-top:0;}
 }
 
-	// ********************************Animación checks***************************************
+	// **********Animación checks **********************
 
 .exp {
   display: flex; // to center the item
@@ -193,11 +203,9 @@
 }
 
 label {
-    display: inline-block; // to make it easier to click
+    display: inline-block;
     color: #fff;
-    cursor: pointer;
-    position: relative; // important
-    // Now we'll create the checkbox object
+    position: relative;
 
     span {
       display: inline-block;
@@ -210,20 +218,19 @@ label {
       border-radius: 50%;
       vertical-align: -6px;
       margin-right: 10px;
-      transition: background-color 150ms 200ms, transform 350ms cubic-bezier(.78,-1.22,.17,1.89); // custom ease effect for bouncy animation
+      transition: background-color 150ms 200ms, transform 350ms cubic-bezier(.78,-1.22,.17,1.89);
 
-  // Now we'll create the "tick" using pseudo elements - those will be basically two lines that will be rotated to form the "tick"
 
     &:before {
       content: "";
       width: 0px;
       height: 2px;
-      border-radius: 2px; // so that the tick has nice rounded look
+      border-radius: 2px;
       background: #fff;
       position: absolute;
       transform: rotate(45deg);
-      top: 13px; // you'll need to experiment with placement depending on the dimensions you've chosen
-      left: 9px; // you'll need to experiment with placement depending on the dimensions you've chosen
+      top: 13px;
+      left: 9px;
       transition: width 50ms ease 50ms;
       transform-origin: 0% 0%;
     }
@@ -232,17 +239,16 @@ label {
       content: "";
       width: 0;
       height: 2px;
-      border-radius: 2px; // so that the tick has nice rounded look
+      border-radius: 2px;
       background: #fff;
       position: absolute;
       transform: rotate(305deg);
-      top: 16px; // you'll need to experiment with placement depending on the dimensions you've chosen
-      left: 10px; // you'll need to experiment with placement depending on the dimensions you've chosen
+      top: 16px;
+      left: 10px;
       transition: width 50ms ease;
       transform-origin: 0% 0%;
     }
   }
-  // Time to add some life to it
 
   &:hover {
     span {
@@ -260,51 +266,10 @@ label {
 }
 
 input[type="checkbox"] {
-    display: none; // hide the system checkbox
-
-  // Let's add some effects after the checkbox is checked
-
-  &:checked {
-    + label {
-      span {
-        background-color: #fff;
-        transform: scale(1.25); // enlarge the box
-
-        &:after {
-          width: 10px;
-          background: #1790b5;
-          transition: width 150ms ease 100ms; // enlarge the tick
-        }
-
-        &:before {
-          width: 5px;
-          background: #1790b5;
-          transition: width 150ms ease 100ms; // enlarge the tick
-        }
-      }
-
-      &:hover { // copy the states for onMouseOver to avoid flickering
-        span {
-          background-color: #fff;
-          transform: scale(1.25); // enlarge the box
-
-          &:after {
-            width: 10px;
-            background: #1790b5;
-            transition: width 150ms ease 100ms; // enlarge the tick
-          }
-
-          &:before {
-            width: 5px;
-            background: #1790b5;
-            transition: width 150ms ease 100ms; // enlarge the tick
-          }
-        }
-      }
-    }
-  }
+    display: none;
+		// Ocultamos el checkbox feo
 }
-// *****************************Fin animación checks**********************************
+// ***************Fin animación checks************
 
 // **************Mediaqueries***************
 
