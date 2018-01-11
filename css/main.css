@@ -3265,6 +3265,20 @@ footer a:hover {
   }
 }
 
+@media (min-width: 1280px) {
+  .block_header_title-fmp {
+    margin: 12vh 40% 12vh 20%;
+  }
+
+  .page_load .block_header_title-employ {
+    margin: 12vh 40% 12vh 20%;
+  }
+
+  .page_load .block_header_title-new-curse {
+    margin: 12vh 20% 12vh 40%;
+  }
+}
+
 @media all and (max-width: 938px) {
   input#name {
     width: 100%;
