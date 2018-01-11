@@ -36,29 +36,31 @@
 	}
 }
 .block_header_title-h2 {
+	position: absolute;
 	background: rgba($color-primary, 0.9);
 }
 .block_header_title-employ{
-	left: -100px;
+	top: 20vh;
+	left: -300px;
+	margin-left: 0;
 	.page_load & {
 		left: 0;
-		z-index: 2;
 		margin-left: 20%;
 		@media (min-width: 1280px){
 			margin: 12vh 40% 12vh 20%;
 		}
 	}
-	transition: left ease 0.8s;
+	transition: margin-left ease 2s, left ease 1s;
 }
 .block_header_title-new-curse {
+	top: 40vh;
 	right: -100%;
 	.page_load & {
 		right: 0;
-		z-index: 2;
 		margin-right: 20%;
 		@media (min-width: 1280px){
 			margin: 12vh 20% 12vh 40%;
 		}
 	}
-	transition: left ease 0.8s;
+	transition: right ease 2s;
 }

@@ -1508,30 +1508,32 @@ input[type="checkbox"] {
 }
 
 .block_header_title-h2 {
+  position: absolute;
   background: rgba(255, 220, 96, 0.9);
 }
 
 .block_header_title-employ {
-  left: -100px;
-  -webkit-transition: left ease 0.8s;
-  transition: left ease 0.8s;
+  top: 20vh;
+  left: -300px;
+  margin-left: 0;
+  -webkit-transition: margin-left ease 2s, left ease 1s;
+  transition: margin-left ease 2s, left ease 1s;
 }
 
 .page_load .block_header_title-employ {
   left: 0;
-  z-index: 2;
   margin-left: 20%;
 }
 
 .block_header_title-new-curse {
+  top: 40vh;
   right: -100%;
-  -webkit-transition: left ease 0.8s;
-  transition: left ease 0.8s;
+  -webkit-transition: right ease 2s;
+  transition: right ease 2s;
 }
 
 .page_load .block_header_title-new-curse {
   right: 0;
-  z-index: 2;
   margin-right: 20%;
 }
 

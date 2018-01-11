@@ -16,4 +16,4 @@ function starAnimation() {
 }
 
 // Magic
-setTimeout(pageLoaded, 3000);
+setTimeout(pageLoaded, 200);
