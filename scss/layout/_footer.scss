@@ -22,10 +22,8 @@
     margin-right: 0
 }
 .row_footer_column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media all and (max-width:575px) {
+	@include flexColumnCenter;
+  @media all and (max-width:575px) {
 		margin-bottom: 22px;
 	}
 }
@@ -45,16 +43,13 @@
 .row_copy_column{
 	padding-top:10px;
 	margin-bottom: 19px;
-	
 }
-
 
 ul.social_container{
 	display: flex;
 	justify-content: center;
 	list-style: none;
 }
-
 .rrss a{
 	width: 45px;
 	height: 45px;
@@ -77,4 +72,11 @@ small{
 		font-size: 75%;
 	}
 }
-	
+
+footer a {
+	color: white;
+	&:hover{
+		color: $color-primary;
+		text-decoration: none;
+	}
+}

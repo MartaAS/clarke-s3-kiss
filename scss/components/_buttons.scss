@@ -4,6 +4,7 @@
 	font-size: 13px;
 	border-radius: 5px;
 	cursor: pointer;
+	margin: 5px;
 }
 .btn:focus {
   outline: 0;
@@ -12,7 +13,7 @@
 /*boton formulario*/
 .btn--submit{
 	background: $color-secondary;
-	color:white;
+	color: $color-white;
 	border:2px solid $color-secondary;
 	font-weight: $font-weight-bold;
 	&:hover{
@@ -28,6 +29,17 @@
 	border:2px solid $color-secondary;
 	color: $color-secondary;
 }
+/*contenedor de botones*/
+
+.buttons-container{
+	padding: 20px;
+	display:flex;
+  justify-content:space-around;
+  align-items:center;
+  position:relative;
+  flex-wrap: wrap;
+	    margin-right: 0;
+}
 /*boton más información*/
 .btn--info, .btn--yellow {
 	background: $color-primary;
@@ -37,13 +49,13 @@
 	&:hover{
 		background: $color-secondary;
 		border:2px solid $color-secondary;
-		color: white;
+		color: $color-white;
 	}
 }
 /*botón llámanos*/
 .btn--call, .btn--aqua {
 	background: $color-tertiary;
-	color:white;
+	color: $color-white;
 	border:2px solid $color-tertiary;
 	font-weight: $font-weight-bold;
 	&:hover{
@@ -61,9 +73,23 @@
 	&:hover{
 		background: $color-secondary;
 		border:2px solid $color-secondary;
-		color: white;
+		color: $color-white;
 	}
 }
-.buttons-container{
-	margin: 20px;
+/*botón para fondos oscuros*/
+.btn--yellow--back-dark {
+	background: $color-primary;
+	color:$color-secondary;
+	font-weight: $font-weight-bold;
+	&:hover{
+		background: $color-tertiary;
+		color: $color-white;
+		font-weight: $font-weight-bold;
+	}
+}
+.btn--cookies{
+	padding:2px 10px;
+	border:none;
+	background:#aaa;
+	cursor:pointer;
 }

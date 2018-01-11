@@ -1,10 +1,14 @@
 @import 'layout/bootstrap-grid.min';
 
 @import 'core/variables';
+@import 'core/mixins';
+@import 'pages/avisoLegal';
+@import 'pages/proteccionDatos';
 
 @import 'components/buttons';
 @import 'components/blockContact';
 @import 'components/blockInfo';
+@import 'components/cookies';
 @import 'components/forms';
 @import 'components/scroll';
 @import 'components/blockData';
