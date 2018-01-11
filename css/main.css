@@ -1488,7 +1488,7 @@ input[type="checkbox"] {
 
 .block_header {
   background-color: #ffdc60;
-  background-image: url("../img/6-masterclass.jpeg");
+  background-image: url("../img/hero-cover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1504,7 +1504,8 @@ input[type="checkbox"] {
 }
 
 .block_header_title-fmp {
-  background: rgba(246, 247, 248, 0.7);
+  background: rgba(246, 247, 248, 0.3);
+  text-transform: uppercase;
 }
 
 .block_header_title-h2 {
@@ -1513,7 +1514,7 @@ input[type="checkbox"] {
 }
 
 .block_header_title-employ {
-  top: 20vh;
+  top: 37vh;
   left: -300px;
   margin-left: 0;
   -webkit-transition: margin-left ease 2s, left ease 1s;
@@ -1526,7 +1527,7 @@ input[type="checkbox"] {
 }
 
 .block_header_title-new-curse {
-  top: 40vh;
+  top: 67vh;
   right: -100%;
   -webkit-transition: right ease 2s;
   transition: right ease 2s;
@@ -2459,6 +2460,14 @@ footer a:hover {
   .block_header_title {
     margin: 12vh 20% 12vh 20%;
   }
+
+  .block_header_title-employ {
+    top: 25vh;
+  }
+
+  .block_header_title-new-curse {
+    top: 50vh;
+  }
 }
 
 @media all and (min-width: 872px) {
@@ -3269,15 +3278,15 @@ footer a:hover {
 
 @media (min-width: 1280px) {
   .block_header_title-fmp {
-    margin: 12vh 40% 12vh 20%;
+    margin: 12vh 40% 0 20%;
   }
 
-  .page_load .block_header_title-employ {
-    margin: 12vh 40% 12vh 20%;
+  .block_header_title-employ {
+    top: 25vh;
   }
 
-  .page_load .block_header_title-new-curse {
-    margin: 12vh 20% 12vh 40%;
+  .block_header_title-new-curse {
+    top: 50vh;
   }
 }
 

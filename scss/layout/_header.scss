@@ -13,7 +13,7 @@
 
 .block_header {
 	background-color: #ffdc60;
-	background-image: url("../img/6-masterclass.jpeg");
+	background-image: url("../img/hero-cover.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -30,9 +30,10 @@
 		}
 }
 .block_header_title-fmp {
-	background: rgba($color-light, 0.7);
+	background: rgba($color-light, 0.3);
+	text-transform: uppercase;
 	@media (min-width: 1280px){
-		margin: 12vh 40% 12vh 20%;
+		margin: 12vh 40% 0 20%;
 	}
 }
 .block_header_title-h2 {
@@ -40,27 +41,33 @@
 	background: rgba($color-primary, 0.9);
 }
 .block_header_title-employ{
-	top: 20vh;
+	top: 37vh;
+	@media (min-width: 768px){
+		top: 25vh;
+	}
+	@media (min-width: 1280px){
+		top: 25vh;
+	}
 	left: -300px;
 	margin-left: 0;
 	.page_load & {
 		left: 0;
 		margin-left: 20%;
-		@media (min-width: 1280px){
-			margin: 12vh 40% 12vh 20%;
-		}
 	}
 	transition: margin-left ease 2s, left ease 1s;
 }
 .block_header_title-new-curse {
-	top: 40vh;
+	top: 67vh;
+	@media (min-width: 768px){
+		top: 50vh;
+	}
+	@media (min-width: 1280px){
+		top: 50vh;
+	}
 	right: -100%;
 	.page_load & {
 		right: 0;
 		margin-right: 20%;
-		@media (min-width: 1280px){
-			margin: 12vh 20% 12vh 40%;
-		}
 	}
 	transition: right ease 2s;
 }
