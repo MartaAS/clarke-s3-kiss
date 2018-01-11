@@ -22,6 +22,14 @@
 .containerParagraphDuplic{
 	display: none;
 }
+.man{
+	color: $color-secondary;
+	font-weight: bolder;
+}
+.woman{
+	color: $color-tertiary;
+	font-weight: bolder;
+}
 .dataPhoto{
 	display: none;
 	height: 190px;
@@ -47,6 +55,13 @@
 .containerCheck {
   padding: 10px;
 	vertical-align: center;
+	border-style: double;
+	border-width: 4px;
+	height: fit-content;
+	margin-left: 25px;
+}
+.changeText{
+	font-size: 13px;
 }
 .ui-radio {
     display: none;
@@ -54,7 +69,7 @@
 
 .ui-radio + label{
   position: relative;
-  padding-left: 20px;
+  padding-left: 30px;
   display: inline-block;
 }
 .ui-radio + label:before {
@@ -76,7 +91,7 @@
     height: 12px;
     border-radius: 50px;
     position: absolute;
-    background: $color-tertiary;
+    background: #0d3632;
     top: 3.7px;
     left: 3.7px;
 }
@@ -94,9 +109,14 @@
 		margin-top: 50px;
 	}
 	.containerCheck{
-		margin-top: 40px;
+		margin-top: 75px;
+		margin-left: 60px;
 	}
 	.dataPhoto{
 		display: block;
+	}
+	.changeText{
+		font-size: 15px;
+		padding-left: 10px;
 	}
 }

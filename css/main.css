@@ -1047,22 +1047,14 @@ textarea#message {
 }
 
 #backTop:hover {
-<<<<<<< HEAD
-  color: white;
-}/*SCROLL FLECHAS*/.block__data {
+  color: #5b5b5b;
+}
+
+.block__data {
   background-color: #f6f7f8;
 }
 
 .dataTitle1 {
-=======
-  color: #5b5b5b;
-}
-
-.dataTitle1 {
-  font-weight: 700;
-  line-height: 45px;
-  font-size: 18px;
->>>>>>> alternative
   line-height: inherit;
   text-align: center;
   margin-top: 10px;
@@ -1085,6 +1077,16 @@ textarea#message {
 
 .containerParagraphDuplic {
   display: none;
+}
+
+.man {
+  color: #182b3a;
+  font-weight: bolder;
+}
+
+.woman {
+  color: #2ec4b6;
+  font-weight: bolder;
 }
 
 .dataPhoto {
@@ -1113,6 +1115,16 @@ textarea#message {
 }*/.containerCheck {
   padding: 10px;
   vertical-align: center;
+  border-style: double;
+  border-width: 4px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 25px;
+}
+
+.changeText {
+  font-size: 13px;
 }
 
 .ui-radio {
@@ -1121,7 +1133,7 @@ textarea#message {
 
 .ui-radio + label {
   position: relative;
-  padding-left: 20px;
+  padding-left: 30px;
   display: inline-block;
 }
 
@@ -1144,7 +1156,7 @@ textarea#message {
   height: 12px;
   border-radius: 50px;
   position: absolute;
-  background: #2ec4b6;
+  background: #0d3632;
   top: 3.7px;
   left: 3.7px;
 }
@@ -2153,11 +2165,17 @@ footer a:hover {
   }
 
   .containerCheck {
-    margin-top: 40px;
+    margin-top: 75px;
+    margin-left: 60px;
   }
 
   .dataPhoto {
     display: block;
+  }
+
+  .changeText {
+    font-size: 15px;
+    padding-left: 10px;
   }
 }
 

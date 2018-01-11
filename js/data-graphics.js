@@ -12,51 +12,51 @@ var chart = AmCharts.makeChart("chartdiv", {
     "dataProvider": [{
         "country": "Act. Administrativas",
         "visits": 356596,
-        "color": "#FF0F00"
+        "color": "#0d3632"
     }, {
         "country": "Agricultura y pesca",
         "visits": 218333,
-        "color": "#FF6600"
+        "color": "#114843"
     }, {
         "country": "Hostelería",
         "visits": 175716,
-        "color": "#FF9E01"
+        "color": "#155a53"
     }, {
         "country": "Restauración y Comercio",
         "visits": 121559,
-        "color": "#FCD202"
+        "color": "#1a6b64"
     }, {
         "country": "Comercio",
         "visits": 107062,
-        "color": "#F8FF01"
+        "color": "#1e7d74"
     }, {
         "country": "Industria",
         "visits": 96206,
-        "color": "#B0DE09"
+        "color": "#228f85"
     }, {
         "country": "Construcción",
         "visits": 90935,
-        "color": "#04D215"
+        "color": "#2ab3a6"
     }, {
         "country": "Act. Sanitarias",
         "visits": 94648,
-        "color": "#0D8ECF"
+        "color": "#41c9bc"
     }, {
         "country": "Tec. Profesionales de Apoyo",
         "visits": 58556,
-        "color": "#0D52D1"
+        "color": "#54cec3"
     }, {
         "country": "Educación",
         "visits": 39445,
-        "color": "#2A0CD0"
+        "color": "#67d4c9"
     }, {
         "country": "Tec. Prof. Salud y Enseñanza",
         "visits": 34820,
-        "color": "#8A0CCF"
+        "color": "#8dded7"
     }, {
         "country": "Otros Servicios",
         "visits": 20127,
-        "color": "#CD0D74"
+        "color": "#a0e4dd"
     }],
     "valueAxes": [{
         "position": "left",
@@ -99,7 +99,7 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     "dataProvider": [{
         "country": "Servicios de comidas y bebidas",
         "visits": 70013,
-        "color": "#ffdc60"
+        "color": "#182B3A"
     }, {
         "country": "Servicios de comidas y bebidas",
         "visits": 66493,
@@ -107,7 +107,7 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     }, {
         "country": "Servicios de alojamiento",
         "visits": 21871,
-        "color": "#ffdc60"
+        "color": "#182B3A"
     }, {
         "country": "Servicios de comidas y bebidas",
         "visits": 17339,

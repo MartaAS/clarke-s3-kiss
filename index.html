@@ -54,10 +54,7 @@
 		<div class="ContainerNumbers">
 		<div  class="container-fluid">
 			<div class="row" >
-				<h2 class="block-title dataTitle1 col-12">DATOS DEL SECTOR DE LA HOSTELERÍA</h2>
-			</div>
-			<div class="containerParagraph col-12">
-				<p class="dataParagraph">El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
+				<h2 class="block-title dataTitle1 col-12">100.000 TRABAJADOES MÁS CON RESPECTO AL AÑO ANTERIOR EN HOSTELERIA, ¿QUIERES SER UNO DE ELLOS?</h2>
 			</div>
 		</div>
 		<div class="containerGraphicB row col-12">
@@ -66,14 +63,10 @@
 			<!--duplico grafica-->
 			<div class="col-12 col-md-7" id="chartdivTwo">
 			</div>
-			<div class="containerCheck col-md-5" >
-			<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label for="radio-1-1">
-  		Tasas de colocacion según situacion de la demanda en hosteleria en hombres y mujeres</label>
-			<br/>
-			<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label for="radio-1-2">Tasas de colocacion según situacion de la demanda en diferentes sectores</label>
-			<div class="containerParagraphDuplic">
-				<p class="dataParagraph">El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
-			</div>
+			<div class="containerCheck col-md-4" >
+			<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label class="changeText" for="radio-1-1">
+  		Tasas de colocacion según situacion de la demanda en diferentes sectores</label>
+			<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label class="changeText" for="radio-1-2">Tasas de colocacion según situacion de la demanda en hosteleria en <span class="man">hombres</span> y <span class="woman">mujeres</span></label>
   		</div>
 			<!-- div quesito comentado
 			<div id="chartdiv2">
@@ -82,7 +75,7 @@
 	</div>
 	<div class="containerText container-fluid">
 		<div class="row">
-			<h2 class="block-title dataTitle1 col-12">¿POR QUÉ HOSTELERÍA?</h2>
+			<h2 class="block-title dataTitle1 col-12">TE CONTAMOS MÁS RAZONES</h2>
 		</div>
 		<div class="row">
 			<div class="containerTitle2 col-md-8">
@@ -101,10 +94,16 @@
 					<img class="dataPhoto" src="../img/imgdata.jpg" alt="imagen cocina">
 				</div>
 		</div>
-		<div class="col-12">
-			<p class="explainData">* Según datos de la Encuesta de Población Activa (EPA) publicada por el Instituto Nacional de Estadística (INE) y recogidos por la Federación Española de Hos­telería (FEHR)</p>
-		</div>
 	</div>
+	<div class="scroll--container">
+		<a href="#block_info" class="scroll" data-speed="1000">
+			<div id="mouse-scroll">
+					<div class="mouse">
+						<div class="mouse-in"></div>
+					</div>
+			</div>
+		</a>
+	</div><!--fin scroll container"-->
 	</section>
 	<!--BLOQUE INTRO-->
 		<div style="text-align: center; background: pink" >
