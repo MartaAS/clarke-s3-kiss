@@ -1,3 +1,41 @@
-.header {
+// Variables:
+// $color-primary: #ffdc60;
+// $color-secondary: #182b3a;
+// $color-tertiary: #2ec4b6;
+// $color-light: #f6f7f8;
+// $color-midtone: #c1c1c1;
+//
+// $font-family:'Open Sans', sans-serif;
+// $font-weight-normal: 400;
+// $font-weight-bold: 700;
+// $font-height: 45px;
+
+
+.block_header {
 	height: 100vh;
+	padding: 20px 5%;
+	margin: 0;
+	background-color: #ffdc60;
+}
+.block_header_title-fmp {
+	margin-top: 5vh;
+	color: $color-secondary;
+}
+.block_header_titleh2-row {
+	justify-content: space-between;
+	align-items: center;
+}
+.block_header_titleh2 {
+	padding: 10px 20px;
+	margin: 0;
+	color: #182b3a;
+	border-radius: 5px;
+	border: 1px solid #c1c1c1;
+	background: #f6f7f8;
+	width: 30%;
+	align-items: center;
+}
+
+.block_header_title-new-curse {
+	justify-content: flex-end;
 }
