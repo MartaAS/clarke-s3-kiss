@@ -202,12 +202,12 @@
   }
 }
 
-label {
+.block-text {
     display: inline-block;
     color: #fff;
     position: relative;
 
-    span {
+    .tick {
       display: inline-block;
       position: relative;
       background-color: transparent;

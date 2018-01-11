@@ -117,28 +117,28 @@
 									<input type="checkbox" id="check" name="check" value="" />
 									<label for="check" class="block-text">
 										<div class="checkbox-sentences">
-											<span><!-- This span is needed to create the "checkbox" element -->
+											<span class="tick"><!-- This span is needed to create the "checkbox" element -->
 											</span>
 											<p>200 horas de formación teórica y práctica</p>
 										</div>
 									</label>
 									<label for="check" class="block-text">
 										<div class="checkbox-sentences">
-											<span><!-- This span is needed to create the "checkbox" element -->
+											<span class="tick"><!-- This span is needed to create the "checkbox" element -->
 											</span>
 											<p> Contacto con empresas e intermediación laboral </p>
 										</div>
 									</label>
 									<label for="check" class="block-text">
 										<div class="checkbox-sentences">
-											<span><!-- This span is needed to create the "checkbox" element -->
+											<span class="tick"><!-- This span is needed to create the "checkbox" element -->
 											</span>
 											<p> Masterclass con profesionales del sector </p>
 										</div>
 									</label>
 									<label for="check" class="block-text">
 										<div class="checkbox-sentences">
-											<span><!-- This span is needed to create the "checkbox" element -->
+											<span class="tick"><!-- This span is needed to create the "checkbox" element -->
 											</span>
 											<p> Formación en competencias digitales y transversales </p>
 										</div>
@@ -196,32 +196,37 @@
 
 	<!-- ******Fin de la sección Intro ******-->
 
-
-	<section class="dataPrincipalContainer" id="block_data">
-		<div>
+<!-- bloque datos-->
+	<section class="block block__data" id="block_data">
+			<div class="ContainerNumbers">
 			<div  class="container-fluid">
 				<div class="row" >
-					<h2 class="dataTitle1 col-md-12">DATOS DEL SECTOR DE LA HOSTELERÍA</h2>
-				</div>
-				<div>
-					<p class="dataParagraph">El sector de la hostelería alcanzó una media de 1,6 millones de trabajadores ocupados en 2016, un 6,6% más que en el año anterior (*). Este incremento supone cerca de 100.000 trabajadores más que los que había en 2015 con aumentos en las dos ramas de actividad hostelera.</p>
+					<h2 class="block-title dataTitle1 col-12">100.000 TRABAJADORES MÁS CON RESPECTO AL AÑO ANTERIOR EN HOSTELERÍA, ¿QUIERES SER UNO DE ELLOS?</h2>
 				</div>
 			</div>
-			<div>
-				<div id="chartdiv">
+			<div class="containerGraphicB row col-12">
+				<div class="col-12 col-md-7" id="chartdiv">
 				</div>
+				<!--duplico grafica-->
+				<div class="col-12 col-md-7" id="chartdivTwo">
+				</div>
+				<div class="containerCheck col-md-4" >
+				<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label class="changeText" for="radio-1-1">
+	  		Tasas de colocación según situación de la demanda en diferentes sectores</label>
+				<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label class="changeText" for="radio-1-2">Tasas de colocacion según situacion de la demanda en hosteleria en <span class="man">hombres</span> y <span class="woman">mujeres</span></label>
+	  		</div>
+				<!-- div quesito comentado
 				<div id="chartdiv2">
-				</div>
+				</div>-->
 			</div>
 		</div>
-		<div>
-			<div>
-				<div style="text-align: center;">
-					<h2 class="dataTitle1 col-md-12">¿POR QUÉ HOSTELERÍA?</h2>
-				</div>
-				<div style="display: flex; flex; flex-direction: row; justify-content: space-around;">
+		<div class="containerText container-fluid">
+			<div class="row">
+				<h2 class="block-title dataTitle1 col-12">TE CONTAMOS MÁS RAZONES</h2>
+			</div>
+			<div class="row">
+				<div class="containerTitle2 col-md-8">
 					<ul class="dataParagraph2">
-						<li>Conocerás gente de todos sitios y condiciones.</li>
 						<li>Conocerás gente de todos sitios y condiciones.</li>
 						<li>Tendrás un aprendizaje constante.</li>
 						<li>Es un trabajo adrenalínico.</li>
@@ -231,17 +236,23 @@
 						<li>Tendrás un oficio con un alto porcentaje de inserción laboral.</li>
 						<li>Verás inmediatamente la satisfacción del trabajo bien hecho.</li>
 					</ul>
-					<div>
-						<img class="dataPhoto" src="http://www.dickson-constant.com/medias/images/catalogue/api/6088-gris-680.jpg"width="150" height="150" alt="">
 					</div>
-				</div>
-			</div>
-			<div>
-				<p class="explainData">* Según datos de la Encuesta de Población Activa (EPA) publicada por el Instituto Nacional de Estadística (INE) y recogidos por la Federación Española de Hos­telería (FEHR)</p>
+					<div class="col-md-4">
+						<img class="dataPhoto" src="../img/imgdata.jpg" alt="imagen cocina">
+					</div>
 			</div>
 		</div>
-	</section>
-
+		<div class="scroll--container">
+			<a href="#block_info" class="scroll" data-speed="1000">
+				<div id="mouse-scroll">
+						<div class="mouse">
+							<div class="mouse-in"></div>
+						</div>
+				</div>
+			</a>
+		</div><!--fin scroll container"-->
+		</section>
+<!--fin bloque datos-->
 	<section class="block block-info" id="block_info">
 		<h2 class="block-title">CURSO DE AYUDANTE/A DE COCINA EN COLECTIVIDADES</h2>
 		<h3 class="block-subtitle">¿A quién va dirigido?</h3>
