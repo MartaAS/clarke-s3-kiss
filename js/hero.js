@@ -11,7 +11,9 @@ var hero = document.querySelector('.block_header');
 function pageLoaded() {
 	hero.classList.add('page_load');
 };
+function starAnimation() {
 
+}
 
 // Magic
-body.addEventListener('load', pageLoaded);
+setTimeout(pageLoaded, 3000);
