@@ -553,7 +553,7 @@ ul.circle li {
   border: 2px solid #182b3a;
   color: #182b3a;
 }/*contenedor de botones*/.buttons-container {
-  padding: 20px 0;
+  padding: 5px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,7 +565,6 @@ ul.circle li {
   position: relative;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: 0;
 }/*boton más información*/.btn--info,.btn--yellow {
   background: #ffdc60;
   color: #182b3a;
@@ -706,7 +705,6 @@ ul.circle li {
   min-height: 100vh;
   color: #f6f7f8;
   background-color: #182b3a;
-  padding-bottom: 60px;
 }
 
 .row-info {
@@ -832,7 +830,7 @@ ul.circle li {
 
 .image-desk {
   width: 100%;
-  height: 200px;
+  height: 28vh;
   overflow: hidden;
 }
 
@@ -1030,7 +1028,7 @@ textarea#message {
   border-radius: 5px;
 }/*SCROLL MOUSE*/.scroll--container {
   position: absolute;
-  bottom: 5%;
+  bottom: 3%;
   left: 50%;
 }
 
@@ -1557,7 +1555,7 @@ input[type="checkbox"] {
 .block {
   position: relative;
   min-height: 100vh;
-  padding: 76px 4% 0 4%;
+  padding: 76px 4% 20px 4%;
 }
 
 .row_social {
