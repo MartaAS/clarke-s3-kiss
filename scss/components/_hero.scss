@@ -22,6 +22,7 @@
 
 .block_header_title {
 	padding: 0;
+	margin: 0;
 	text-align: center;
 	color: $color-secondary;
 }
@@ -54,16 +55,25 @@
 	// @media (min-width: 1280px){
 	// 	top: 30vh;
 	// }
+}
+.block_header_title-new-curse-link {
+	position: absolute;
+	margin: 3vh 0 0 0;
+	cursor: pointer;
 	right: -100%;
 	.page_load & {
-		right: 0;
-		// margin-right: 20%;
+		right: 50%;
+		transform: translate(50%, 0);
 	}
 	transition: right ease 2s;
+	&:hover {
+		text-decoration: none;
+	}
 }
 .block_header_title-h2-div{
-	height: 302.25px;
-	width: 302.25px;
+	margin: 24vh 0 0 0;
+	height: 250px;
+	width: 250px;
 	text-align: center;
 	position: absolute;
 	background-image: url("../img/star.svg");
@@ -80,7 +90,8 @@
 	left: -300px;
 	margin-left: 0;
 	.page_load & {
-		left: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
 		@media (min-width: 768px){
 			margin-left: 50%;
 		}
@@ -88,7 +99,7 @@
 			margin-left: 60%;
 		}
 	}
-	transition: margin-left ease 2s, left ease 1s;
+	transition: margin-left ease 2s, left ease 2s;
 }
 .block_header_title-employ {
 	margin-top: 35%;

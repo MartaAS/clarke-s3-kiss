@@ -1040,6 +1040,7 @@ textarea#message {
 
 .block_header_title {
   padding: 0;
+  margin: 0;
   text-align: center;
   color: #182b3a;
 }
@@ -1056,18 +1057,31 @@ textarea#message {
   border-radius: 5px;
   border: 1px solid #c1c1c1;
   background: rgba(255, 220, 96, 0.9);
+}
+
+.block_header_title-new-curse-link {
+  position: absolute;
+  margin: 3vh 0 0 0;
+  cursor: pointer;
   right: -100%;
   -webkit-transition: right ease 2s;
   transition: right ease 2s;
 }
 
-.page_load .block_header_title-new-curse {
-  right: 0;
+.page_load .block_header_title-new-curse-link {
+  right: 50%;
+  -webkit-transform: translate(50%, 0);
+  transform: translate(50%, 0);
+}
+
+.block_header_title-new-curse-link:hover {
+  text-decoration: none;
 }
 
 .block_header_title-h2-div {
-  height: 302.25px;
-  width: 302.25px;
+  margin: 24vh 0 0 0;
+  height: 250px;
+  width: 250px;
   text-align: center;
   position: absolute;
   background-image: url("../img/star.svg");
@@ -1076,12 +1090,14 @@ textarea#message {
   background-size: cover;
   left: -300px;
   margin-left: 0;
-  -webkit-transition: margin-left ease 2s, left ease 1s;
-  transition: margin-left ease 2s, left ease 1s;
+  -webkit-transition: margin-left ease 2s, left ease 2s;
+  transition: margin-left ease 2s, left ease 2s;
 }
 
 .page_load .block_header_title-h2-div {
-  left: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 .block_header_title-employ {
