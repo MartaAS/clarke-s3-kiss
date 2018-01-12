@@ -658,12 +658,12 @@ ul.circle li {
 
 .block_contact {
   background: #ffdc60;
-  padding: 44px 0;
+  padding-bottom: 5px;
 }
 
 .block_contact .block-title {
   text-align: center;
-  padding: 5px 0;
+  padding-top: 38px;
 }
 
 .row_contact {
@@ -963,6 +963,7 @@ ul.circle li {
 
 form {
   width: 80%;
+  margin-bottom: 12px;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -1282,6 +1283,11 @@ a {
 
 .block-text {
   font-size: 19px;
+}
+
+.inside-text {
+  font-size: 19px;
+  color: black;
 }
 
 .block_intro {
@@ -1636,7 +1642,7 @@ input[type="checkbox"] {
 
 .row_social {
   background: #c1c1c1;
-  padding: 10px 0;
+  padding: 6px 0;
   margin-left: 0;
   margin-right: 0;
 }
