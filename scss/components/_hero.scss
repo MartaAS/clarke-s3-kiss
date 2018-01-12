@@ -12,6 +12,16 @@
 
 
 .block_header {
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(black, 0.2);
+		z-index: 0;
+	}
 	background-color: #ffdc60;
 	background-image: url("../img/hero-cover.jpg");
 	background-position: center center;
@@ -28,11 +38,12 @@
 }
 
 .block_header_title-fmp {
+	z-index: 2;
 	background: rgba($color-light, 0.4);
 	text-transform: uppercase;
 	border-radius: 5px;
 	border: 1px solid $color-midtone;
-	margin: 3vh 0 0 0;
+	margin: 4vh 0 0 0;
 	@media (min-width: 768px){
 		margin: 12vh 40% 0 0;
 	}
@@ -57,8 +68,9 @@
 	// }
 }
 .block_header_title-new-curse-link {
+	width: 185px;
 	position: absolute;
-	margin: 3vh 0 0 0;
+	margin: 4vh 0 0 0;
 	cursor: pointer;
 	right: -100%;
 	.page_load & {
@@ -70,8 +82,15 @@
 		text-decoration: none;
 	}
 }
+.block_header_title-new-curse-span {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	color: black;
+	text-shadow: 1px 1.5px rgba($color-tertiary, 0.6);
+}
 .block_header_title-h2-div{
-	margin: 24vh 0 0 0;
+	margin: 26vh 0 0 0;
 	height: 250px;
 	width: 250px;
 	text-align: center;
@@ -102,5 +121,5 @@
 	transition: margin-left ease 2s, left ease 2s;
 }
 .block_header_title-employ {
-	margin-top: 35%;
+	margin-top: 33%;
 }

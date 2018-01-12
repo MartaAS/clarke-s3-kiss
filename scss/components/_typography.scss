@@ -5,8 +5,9 @@ body{
 a{text-decoration: none;}
 
 .block-title-h1 {
-	font-size: 30px;
-	@media all and (max-width:660px) {
+	font-weight: 900;
+	font-size: 28px;
+	@media all and (min-width: 768px) {
 		line-height: 41px;
 		font-size: 30px;
 	}
