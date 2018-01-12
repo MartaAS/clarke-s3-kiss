@@ -51,12 +51,13 @@
 window.onscroll = function(){
 	scrollFunction()
 };
-
 function scrollFunction() {
   if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
     document.querySelector(".toTop").style.display = "block";
+		// document.querySelector(".barraMenu").style.opacity = "0.8";
   } else {
     document.querySelector(".toTop").style.display = "none";
+		// document.querySelector(".barraMenu").style.opacity = "1";
   }
 }
 
