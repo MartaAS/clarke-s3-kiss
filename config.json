@@ -10,6 +10,7 @@
 			"js/bootstrap.min.js",
 			"js/smooth-scroll.js",
 			"js/data-graphics.js",
+			"js/hero.js",
 			"js/main.js"
 		],
 		"dest": "js/"

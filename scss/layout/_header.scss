@@ -12,30 +12,62 @@
 
 
 .block_header {
-	height: 100vh;
-	padding: 20px 5%;
-	margin: 0;
 	background-color: #ffdc60;
+	background-image: url("../img/hero-cover.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block_header_title {
+	padding: 0;
+	margin: 8vh 0 8vh 0;
+	text-align: center;
+	color: $color-secondary;
+	border-radius: 5px;
+	border: 1px solid $color-midtone;
+	@media (min-width: 768px){
+		margin: 12vh 20% 12vh 20%;
+		}
 }
 .block_header_title-fmp {
-	margin-top: 5vh;
-	color: $color-secondary;
+	background: rgba($color-light, 0.3);
+	text-transform: uppercase;
+	@media (min-width: 1280px){
+		margin: 12vh 40% 0 20%;
+	}
 }
-.block_header_titleh2-row {
-	justify-content: space-between;
-	align-items: center;
+.block_header_title-h2 {
+	position: absolute;
+	background: rgba($color-primary, 0.9);
 }
-.block_header_titleh2 {
-	padding: 10px 20px;
-	margin: 0;
-	color: #182b3a;
-	border-radius: 5px;
-	border: 1px solid #c1c1c1;
-	background: #f6f7f8;
-	width: 30%;
-	align-items: center;
+.block_header_title-employ{
+	top: 37vh;
+	@media (min-width: 768px){
+		top: 25vh;
+	}
+	@media (min-width: 1280px){
+		top: 25vh;
+	}
+	left: -300px;
+	margin-left: 0;
+	.page_load & {
+		left: 0;
+		margin-left: 20%;
+	}
+	transition: margin-left ease 2s, left ease 1s;
 }
-
 .block_header_title-new-curse {
-	justify-content: flex-end;
+	top: 67vh;
+	@media (min-width: 768px){
+		top: 50vh;
+	}
+	@media (min-width: 1280px){
+		top: 50vh;
+	}
+	right: -100%;
+	.page_load & {
+		right: 0;
+		margin-right: 20%;
+	}
+	transition: right ease 2s;
 }

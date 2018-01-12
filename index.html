@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link href="css/logo-nav.css" rel="stylesheet">
 
 	<!--llamada al js grafica barras-->
 
@@ -30,54 +31,46 @@
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
 		<div class="toTop"><!--BOTON BACK TO TOP-->
 			<a href="#header" class="scroll" data-speed="1000" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+		</div>
 		</div>	<!--FIN BOTON BACK TO TOP-->
-
+		<!-- BARRA CON LOGO Y MENÚ -->
+		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+					<a class="block_header_link col-6" href="http://fmujeresprogresistas.org/" target="_blank"><img class="block_header_logo" src="img/federacion.png" alt="Federación Mujeres Progresistas">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#block_header">Inicio
+									<!-- <span class="sr-only">(current)</span> -->
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#block_intro">Curso</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#block_data">Datos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#block_info">Detalles</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#block_contact">Contacto</a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+			<!-- FIN BARRA CON LOGO Y MENÚ -->
+	<div class="inside">
 		<header class="block block_header" id="block_header">
-			<!-- BARRA CON LOGO Y MENÚ -->
-		   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		      <div class="container">
-		        <a class="block_header_link col-6" href="http://fmujeresprogresistas.org/" target="_blank"><img class="block_header_logo" src="img/federacion.png" alt="Federación Mujeres Progresistas">
-						</a>
-		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-		          <span class="navbar-toggler-icon"></span>
-		        </button>
-		        <div class="collapse navbar-collapse" id="navbarResponsive">
-		          <ul class="navbar-nav ml-auto">
-		            <li class="nav-item active">
-		              <a class="nav-link" href="#block_header">Inicio
-		                <span class="sr-only">(current)</span>
-		              </a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Curso</a>
-		            </li>
-								<li class="nav-item">
-		              <a class="nav-link" href="#">Datos</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Detalles</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#block_contact">Contacto</a>
-		            </li>
-		          </ul>
-		        </div>
-		      </div>
-		    </nav>
-				<!-- FIN BARRA CON LOGO Y MENÚ -->
-				<div class="container block_header_titleh1 ">
-				<h1 class="block_header_title-fmp">Federacion de Mujeres<br>Progresistas</h1>
-				<div class="row block_header_titleh2-row">
-					<div class="col-12 col-md-5 col-auto block_header_titleh2 employ-title-div">
-						<h2 class="block_header_title-employ">Programa<br>Empleo<br>Joven</h2>
-					</div>
-					<div class="col-12 col-md-5 col-auto block_header_titleh2 curse-title-div">
-						<h2 class="block_header_title-new-curse">Nuevo Curso:<br>Ayudante de Cocina</h2>
-					</div>
-				</div>
+				<h1 class="block-title-h1 block_header_title block_header_title-fmp">Federacion de Mujeres<br>Progresistas</h1>
+					<h2 class="block-title block_header_title block_header_title-h2 block_header_title-employ">Programa<br>Empleo<br>Joven</h2>
+					<h2 class="block-title block_header_title block_header_title-h2 block_header_title-new-curse">Nuevo Curso:<br>Ayudante de Cocina</h2>
 			</div>
 		</header>
-
+	</div>
 		<!--******************INTRO SECTION ********************** -->
 		<div class="block block_intro" id="block_intro">
 			<div class="content-intro">
@@ -229,12 +222,10 @@
 					<ul class="dataParagraph2">
 						<li>Conocerás gente de todos sitios y condiciones.</li>
 						<li>Tendrás un aprendizaje constante.</li>
-						<li>Es un trabajo adrenalínico.</li>
+						<li>Es un trabajo adrenalínico y dinámico.</li>
 						<li>Evolucionarás a diario.</li>
-						<li>Tendrás la posibilidad de encontrar empleo dentro y fuera de España.</li>
-						<li>No tendrás un trabajo monótono.</li>
-						<li>Tendrás un oficio con un alto porcentaje de inserción laboral.</li>
-						<li>Verás inmediatamente la satisfacción del trabajo bien hecho.</li>
+						<li>Posibilidad de encontrar empleo dentro y fuera de España.</li>
+						<li>Oficio con un alto porcentaje de inserción laboral.</li>
 					</ul>
 					</div>
 					<div class="col-md-4">
