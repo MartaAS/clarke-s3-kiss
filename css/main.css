@@ -1038,26 +1038,16 @@ textarea#message {
   text-align: center;
 }
 
-.block_header::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  z-index: 0;
-}
-
 .block_header_title {
   padding: 0;
   margin: 0;
   text-align: center;
   color: #182b3a;
+  z-index: 1000;
 }
 
 .block_header_title-fmp {
-  z-index: 2;
+  z-index: 1000;
   background: rgba(246, 247, 248, 0.4);
   text-transform: uppercase;
   border-radius: 5px;
@@ -1066,6 +1056,7 @@ textarea#message {
 }
 
 .block_header_title-new-curse {
+  z-index: 1000;
   border-radius: 5px;
   border: 1px solid #c1c1c1;
   background: rgba(255, 220, 96, 0.9);
