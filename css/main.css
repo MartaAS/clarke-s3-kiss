@@ -1286,7 +1286,6 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: 50px;
-  margin-top: 15px;
   width: 150px;
   height: 150px;
   background-color: #2ec4b6;
@@ -1557,7 +1556,7 @@ input[type="checkbox"] {
 
 .block {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   padding: 76px 4% 0 4%;
 }
 

@@ -56,8 +56,7 @@
 	align-items: center;
 	justify-content: center;
 	margin-left: 50px;
-	margin-top: 15px;
-  width: 150px;
+	width: 150px;
   height: 150px;
   background-color: $color-tertiary;
 	border-radius: 50% 50% 50% 50%;
@@ -186,7 +185,6 @@
   85%  {margin-top:-40px;}
   100% {margin-top:0;}
 }
-
 	// **********Animación checks **********************
 
 .exp {
@@ -269,6 +267,7 @@ input[type="checkbox"] {
     display: none;
 		// Ocultamos el checkbox feo
 }
+
 // ***************Fin animación checks************
 
 // **************Mediaqueries***************
@@ -286,9 +285,6 @@ width: 95vw;
 justify-content: space-between;
 order: 2;
 }
-
-
-
 
 .circle-logo {
 	width: 70px;
@@ -309,5 +305,4 @@ order: 2;
 font-size: 7px;
 margin-bottom: 0px;
 }
-
 }
