@@ -815,9 +815,10 @@ ul.circle li {
   margin: 0 0 15px 0;
   padding: 0 8px;
   color: #182b3a;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 18px;
-  background: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.7);
 }/*Versión escritorio*/.info__container-desk {
   width: auto;
   height: auto;
@@ -1028,7 +1029,7 @@ textarea#message {
   border-radius: 5px;
 }/*SCROLL MOUSE*/.scroll--container {
   position: absolute;
-  bottom: 3%;
+  bottom: 5px;
   left: 50%;
 }
 
@@ -1631,7 +1632,7 @@ input[type="checkbox"] {
 .block {
   position: relative;
   min-height: 100vh;
-  padding: 76px 4% 20px 4%;
+  padding: 76px 4% 23px 4%;
 }
 
 .row_social {
@@ -1741,6 +1742,12 @@ footer a {
 footer a:hover {
   color: #ffdc60;
   text-decoration: none;
+}
+
+@media all and (min-width: 425px) {
+  .block {
+    padding: 76px 4% 20px 4%;
+  }
 }
 
 @media (min-width: 576px) {

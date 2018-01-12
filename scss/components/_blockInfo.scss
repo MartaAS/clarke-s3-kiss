@@ -77,9 +77,10 @@ background-color: $color-secondary;
   margin: 0 0 15px 0;
   padding: 0 8px;
   color: $color-secondary;
-  font-weight: $font-weight-bold;
+  font-weight: 900;
   line-height: 18px;
-  background: rgba($color-white, 0.5);
+	font-size: 17px;
+  background-color: rgba($color-white, 0.7);
 }
 /*Versión escritorio*/
 .info__container-desk {
