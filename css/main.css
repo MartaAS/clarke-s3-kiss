@@ -905,25 +905,34 @@ a {
   background-color: #ffdc60;
 }
 
-.title-fmp {
+.block_header_title-fmp {
   margin-top: 5vh;
+  color: #182b3a;
 }
 
-.header_titles {
-  border-radius: 5px;
-  border: solid, 1px, blue;
-  background: white;
-  width: 40%;
+.block_header_titleh2-row {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.employ-title {
-  margin-top: 5vh;
+.block_header_titleh2 {
+  padding: 10px 20px;
+  margin: 0;
+  color: #182b3a;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  background: #f6f7f8;
+  width: 30%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.new-curse-title {
+.block_header_title-new-curse {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
