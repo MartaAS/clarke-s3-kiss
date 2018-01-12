@@ -1224,13 +1224,13 @@ ul.shareList,ul.shareSocial {
 }
 
 .shareList {
-  display: none;
   position: absolute;
+  display: none;
   padding: 0;
   top: 100%;
   text-align: left;
   background-color: #182b3a;
-  height: 40px;
+  height: 41px;
 }
 
 .shareList li {
@@ -1752,9 +1752,22 @@ footer a:hover {
   text-decoration: none;
 }
 
+@media all and (min-width: 337px) {
+  .shareList {
+    position: static;
+  }
+}
+
 @media all and (min-width: 425px) {
   .block {
     padding: 76px 4% 20px 4%;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .shareList {
+    position: absolute;
+    width: 100vw;
   }
 }
 

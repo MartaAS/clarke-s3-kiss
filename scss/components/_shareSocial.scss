@@ -12,13 +12,20 @@ ul.shareList, ul.shareSocial{
 }
 
 .shareList {
-	display: none;
 	position: absolute;
+	display: none;
   padding: 0;
 	top:100%;
 	text-align: left;
 	background-color: $color-secondary;
-	height: 40px;
+	height: 41px;
+	@media all and (min-width: 337px) {
+		position: static;
+	}
+	@media all and (min-width: 480px) {
+		position: absolute;
+		width: 100vw;
+	}
 }
 .shareList li {
 	display: inline;
