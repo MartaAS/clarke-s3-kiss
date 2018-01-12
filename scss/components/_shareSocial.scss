@@ -17,6 +17,8 @@ ul.shareList, ul.shareSocial{
   padding: 0;
 	top:100%;
 	text-align: left;
+	background-color: $color-secondary;
+	height: 40px;
 }
 .shareList li {
 	display: inline;
