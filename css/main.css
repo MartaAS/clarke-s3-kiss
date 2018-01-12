@@ -663,7 +663,7 @@ ul.circle li {
 
 .block_contact .block-title {
   text-align: center;
-  padding-top: 38px;
+  padding-top: 78px;
 }
 
 .row_contact {
@@ -691,7 +691,7 @@ ul.circle li {
   color: #182b3a;
 }
 
-.block-text.block_contact_text {
+.inside-text.block_contact_text {
   text-align: left;
 }
 
@@ -3412,7 +3412,7 @@ footer a:hover {
 }
 
 @media all and (max-width: 872px) {
-  .block-text.block_contact_text {
+  .inside-text.block_contact_text {
     font-size: 16px;
   }
 

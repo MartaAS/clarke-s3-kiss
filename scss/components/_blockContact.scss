@@ -5,17 +5,15 @@
 
 .block_contact .block-title{
 	text-align: center;
-	padding-top:38px;
+	padding-top: 78px;
+
+
 }
 .row_contact{
 	margin-left: 10px;
 	margin-bottom: 10px;
 	margin-right: 0;
 }
-
-// .form_section{
-// margin-top: 20px;
-// }
 
 .block_contact a{
 	text-decoration: none;
@@ -39,7 +37,7 @@
 	color: $color-secondary;
 }
 
-.block-text.block_contact_text{
+.inside-text.block_contact_text{
 	text-align:left;
 	@media all and (max-width:872px) {
 		font-size: 16px;
