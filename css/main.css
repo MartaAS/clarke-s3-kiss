@@ -1229,6 +1229,8 @@ ul.shareList,ul.shareSocial {
   padding: 0;
   top: 100%;
   text-align: left;
+  background-color: #182b3a;
+  height: 40px;
 }
 
 .shareList li {
