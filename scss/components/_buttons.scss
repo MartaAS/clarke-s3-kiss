@@ -37,13 +37,12 @@
 /*contenedor de botones*/
 
 .buttons-container{
-	padding: 20px 0;
-	display:flex;
-  justify-content:space-around;
-  align-items:center;
-  position:relative;
+	padding: 5px 0;
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
   flex-wrap: wrap;
-	    margin-right: 0;
 }
 /*boton más información*/
 .btn--info, .btn--yellow {
