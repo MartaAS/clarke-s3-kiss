@@ -1,0 +1,36 @@
+.aviso {
+    margin: 86px 50px;
+}
+
+ul.circle li {
+	list-style-type: circle;
+}
+
+.aviso-title{
+	font-weight: $font-weight-bold;
+	line-height: $font-height;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-align: left;
+	@media all and (max-width:660px) {
+		line-height: 41px;
+    font-size: 21px;
+	}
+}
+.aviso-subtitle {
+    font-size: 21px;
+    margin-top: 35px;
+}
+.aviso-text{
+	font-size: 1em;
+	font-family: $font-family;
+	text-align: left;
+}
+
+.aviso-text a{
+	color: $color-secondary;
+	&:hover{
+		color: $color-primary;
+		text-decoration: none;
+	}
+}

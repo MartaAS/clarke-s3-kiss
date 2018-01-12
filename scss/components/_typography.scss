@@ -4,6 +4,14 @@ body{
 
 a{text-decoration: none;}
 
+.block-title-h1 {
+	font-size: 30px;
+	@media all and (max-width:660px) {
+		line-height: 41px;
+		font-size: 30px;
+	}
+}
+
 .block-title{
 	font-weight: $font-weight-bold;
 	line-height: $font-height;
@@ -11,8 +19,13 @@ a{text-decoration: none;}
 	letter-spacing: 2px;
 	@media all and (max-width:660px) {
 		line-height: 41px;
-    	font-size: 21px;
+    font-size: 21px;
 	}
+}
+
+.block-subtitle {
+	font-size: 18px;
+	font-weight: $font-weight-bold;
 }
 
 .block-text{
