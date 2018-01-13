@@ -1145,6 +1145,13 @@ textarea#message {
   height: 400px;
 }
 
+.amcharts-chart-div > a {
+ /*left: 115px !important;
+    top:55px !important;*/
+  opacity: .2 !important;
+  margin-left: 65%;
+}
+
 #chartdivTwo {
   width: 100%;
   height: 400px;

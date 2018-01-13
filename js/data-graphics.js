@@ -80,7 +80,9 @@ var chart = AmCharts.makeChart("chartdiv", {
     "categoryField": "country",
     "categoryAxis": {
         "gridPosition": "start",
-        "labelRotation": 90
+				"labelsEnabled": false
+
+
     },
     "export": {
     	"enabled": true
@@ -135,7 +137,8 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     "categoryField": "country",
     "categoryAxis": {
         "gridPosition": "start",
-        "labelRotation": 90
+        "labelRotation": 90,
+				"labelsEnabled": false
     },
     "export": {
     	"enabled": true
