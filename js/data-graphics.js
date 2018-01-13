@@ -20,7 +20,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     }, {
         "country": "Hostelería",
         "visits": 175716,
-        "color": "#155a53"
+        "color": "#ffdc60"/*155a53*/
     }, {
         "country": "Restauración y Comercio",
         "visits": 121559,

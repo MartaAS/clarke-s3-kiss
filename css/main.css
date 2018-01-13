@@ -2568,6 +2568,14 @@ footer a:hover {
     display: block;
   }
 
+  .containerText {
+ /*background-image: url(../img/imgdata8.jpg);*/
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #f6f7f8), to(rgba(255, 0, 0, 0))), url(../img/imgdata13.jpg);
+    background: linear-gradient(to bottom right, #f6f7f8 40%, rgba(255, 0, 0, 0)), url(../img/imgdata13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .changeText {
     font-size: 15px;
     padding-left: 10px;

@@ -32,7 +32,7 @@
 }
 .dataPhoto{
 	display: none;
-	height: 160px; 
+	height: 160px;
 }
 .explainData{
 		font-size: 15px;
@@ -100,6 +100,7 @@
     color: #99a1a7;
     border: 2px solid $color-secondary;
 }
+
 @media all and (min-width:768px) {
 	.containerParagraph{
 		display: none;
@@ -114,6 +115,14 @@
 	}
 	.dataPhoto{
 		display: block;
+	}
+	.containerText{
+		/*background-image: url(../img/imgdata8.jpg);*/
+		background: linear-gradient(to bottom right,#f6f7f8 40%, rgba(255,0,0,0)),
+		 url(../img/imgdata13.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+
 	}
 	.changeText{
 		font-size: 15px;
