@@ -33,40 +33,58 @@
 		<div class="toTop"><!--BOTON BACK TO TOP-->
 			<a href="#block_header" class="scroll" data-speed="1000" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
 		</div>
-	<!--FIN BOTON BACK TO TOP-->
-
-	<!-- BARRA CON LOGO Y MENÚ -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top barraMenu">
-			<a class="block_header_link col-6" href="http://fmujeresprogresistas.org/" target="_blank"><img class="block_header_logo" src="img/federacion.png" alt="Federación Mujeres Progresistas"></a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		<!--FIN BOTON BACK TO TOP-->
+		<!-- BARRA CON LOGO Y MENÚ -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<a class="block_header_link col-6" href="http://fmujeresprogresistas.org/" target="_blank"><img class="block_header_logo" src="img/federacion.png" alt="Federación Mujeres Progresistas">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#block_header">Inicio</a><!-- <span class="sr-only">(current)</span> -->
+						<a class="nav-link scroll" data-speed="1000" href="#block_header">Inicio
+							<!-- <span class="sr-only">(current)</span> -->
+						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#block_intro">Curso</a>
+						<a class="nav-link scroll" data-speed="1000" href="#block_intro">Curso</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#block_data">Datos</a>
+						<a class="nav-link scroll" data-speed="1000" href="#block_data">Datos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#block_info">Detalles</a>
+						<a class="nav-link scroll" data-speed="1000" href="#block_info">Detalles</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#block_contact">Contacto</a>
+						<a class="nav-link scroll" data-speed="1000" href="#block_contact">Contacto</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 		<!-- FIN BARRA CON LOGO Y MENÚ -->
-
 		<header class="block block_header" id="block_header">
 			<div class="inside">
-				<h1 class="block-title-h1 block_header_title block_header_title-fmp">Federacion de Mujeres<br>Progresistas</h1>
-				<h2 class="block-title block_header_title block_header_title-h2 block_header_title-employ">Programa<br>Empleo<br>Joven</h2>
-				<h2 class="block-title block_header_title block_header_title-h2 block_header_title-new-curse">Nuevo Curso:<br>Ayudante de Cocina</h2>
+				<h1 class="block-title-h1 block_header_title-pej">programa<br>empleo<br>jóven</h1>
+				<a class="block_header_title-new-curse scroll" data-speed="1000" href="#block_intro">
+					<div class="block_header_title-new-curse-div">
+						<h2 class="block_header-title block_header_title-1">Nuevo Curso</h2>
+						<h2 class="block_header-title block_header_title-2">Ayudante/a de Cocina</h2>
+					</div>
+				</a>
 			</div>
+			<!--scroll container"-->
+				<div class="scroll--container">
+					<a href="#block_intro" class="scroll" data-speed="1000">
+						<div id="mouse-scroll">
+							<div class="mouse">
+								<div class="mouse-in">
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 		</header>
 
 		<!--******************INTRO SECTION ********************** -->
@@ -194,15 +212,16 @@
 					</div>
 				</div>
 				<div class="containerGraphicB row col-12">
-					<div class="col-12 col-md-7" id="chartdiv">
+					<div class="col-12 col-md-8" id="chartdiv">
 					</div>
 					<!--duplico grafica-->
-					<div class="col-12 col-md-7" id="chartdivTwo">
+					<div class="col-12 col-md-8" id="chartdivTwo">
 					</div>
 					<div class="containerCheck col-md-4" >
 					<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label class="changeText" for="radio-1-1">
 		  		Tasas de colocación según situación de la demanda en diferentes sectores</label>
 					<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label class="changeText" for="radio-1-2">Tasas de colocacion según situacion de la demanda en hosteleria en <span class="man">hombres</span> y <span class="woman">mujeres</span></label>
+					<p class="explainClick">*Haz click en cada una de las barras para conocer su valor</p>
 		  		</div>
 					<!-- div quesito comentado
 					<div id="chartdiv2">
@@ -371,6 +390,13 @@
 									<p class="image__text-desk">Asiste a Masterclass y conoce empresas y profesionales del sector a los/as que podrás enviar tu CV.</p>
 								</div>
 							</div>
+							<!--Flechitas para pasar al anterior o posterior slide-->
+							<a class="carousel-control-prev" href="#carousel-info" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+							<a class="carousel-control-next" href="#carousel-info" role="button" data-slide="next">
+								<span class="carousel-control-next-icon"></span>
+							</a>
 						</div>
 					</div>
 				</div>

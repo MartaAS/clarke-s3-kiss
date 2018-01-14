@@ -1,0 +1,63 @@
+// Variables:
+// $color-primary: #ffdc60;
+// $color-secondary: #182b3a;
+// $color-tertiary: #2ec4b6;
+// $color-light: #f6f7f8;
+// $color-midtone: #c1c1c1;
+//
+// $font-family:'Open Sans', sans-serif;
+// $font-weight-normal: 400;
+// $font-weight-bold: 700;
+// $font-height: 45px;
+
+
+.block_header {
+	background-color: $color-light;
+	background-image: url("../img/hero-cover.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.block_header_title-pej {
+	text-align: left;
+	text-transform: uppercase;
+	margin: 3vh 0 0 0;
+	padding: 0;
+	color: $color-secondary;
+}
+
+.block_header_title-new-curse {
+	background-color: rgba($color-primary, 0.8);
+	color: $color-secondary;
+	padding: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: absolute;
+	margin: 0;
+	cursor: pointer;
+	top: 70%;
+	right: -100%;
+	padding: 4% 8%;
+	&:hover {
+		color: $color-tertiary;
+		text-decoration: none;
+	}
+	.page_load & {
+		right: 0%;
+	}
+	transition: right ease 2s;
+	@media (min-width: 768px) {
+		top: 65%;
+		padding: 2% 8%;
+	}
+	@media (min-width: 1280px) {
+		top: 65%;
+		padding: 1% 5%;
+	}
+}
+
+.block_header_title-1 {
+	margin: 0;
+}

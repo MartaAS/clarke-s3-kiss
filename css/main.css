@@ -1,4 +1,6 @@
-@charset "UTF-8";/*!
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900");/*!
  * Bootstrap Grid v4.0.0-beta.2 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
@@ -1111,10 +1113,17 @@ textarea#message {
 
 .dataParagraph2 {
   line-height: 45px;
-  font-size: 19px;
+  font-size: 17px;
   line-height: inherit;
   text-align: left;
   margin-left: 20px;
+}
+
+.explainClick {
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .containerParagraphDuplic {
@@ -1137,24 +1146,24 @@ textarea#message {
 }
 
 .explainData {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 #chartdiv {
   width: 100%;
-  height: 400px;
+  height: 250px;
 }
 
 .amcharts-chart-div > a {
  /*left: 115px !important;
     top:55px !important;*/
   opacity: .2 !important;
-  margin-left: 65%;
+  margin-left: 10%;
 }
 
 #chartdivTwo {
   width: 100%;
-  height: 400px;
+  height: 250px;
   display: none;
 }/*grafica quesito comentada
 #chartdiv2{
@@ -1164,12 +1173,18 @@ textarea#message {
 }*/.containerCheck {
   padding: 10px;
   vertical-align: center;
-  border-style: double;
-  border-width: 4px;
+ /*border-style: double;
+	border-width: 4px;*/
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-left: 25px;
+  padding: 3px 10px;
+  border: grey 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .changeText {
@@ -1201,13 +1216,13 @@ textarea#message {
 
 .ui-radio:checked + label:after {
   content: ' ';
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50px;
   position: absolute;
   background: #0d3632;
-  top: 3.7px;
-  left: 3.7px;
+  top: 5px;
+  left: 5px;
 }
 
 .ui-radio:checked + label:before {
@@ -1272,7 +1287,23 @@ a {
 }
 
 .block-title-h1 {
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3em;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.block_header-title {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3em;
+  font-size: 1.4em;
+  font-weight: 900;
+}
+
+.block_header_title-2 {
+  margin: 0;
+  font-size: 1.6em;
 }
 
 .block-title {
@@ -1567,61 +1598,50 @@ input[type="checkbox"] {
   display: none;
 }
 
-.barraMenu {
-  height: auto;
-  background-color: #343a40;
-}
-
 .block_header {
-  background-color: #ffdc60;
+  background-color: #f6f7f8;
   background-image: url("../img/hero-cover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.block_header_title {
-  padding: 0;
-  margin: 8vh 0 8vh 0;
   text-align: center;
-  color: #182b3a;
-  border-radius: 5px;
-  border: 1px solid #c1c1c1;
 }
 
-.block_header_title-fmp {
-  background: rgba(246, 247, 248, 0.3);
+.block_header_title-pej {
+  text-align: left;
   text-transform: uppercase;
-}
-
-.block_header_title-h2 {
-  position: absolute;
-  background: rgba(255, 220, 96, 0.9);
-}
-
-.block_header_title-employ {
-  top: 37vh;
-  left: -300px;
-  margin-left: 0;
-  -webkit-transition: margin-left ease 2s, left ease 1s;
-  transition: margin-left ease 2s, left ease 1s;
-}
-
-.page_load .block_header_title-employ {
-  left: 0;
-  margin-left: 20%;
+  margin: 3vh 0 0 0;
+  padding: 0;
+  color: #182b3a;
 }
 
 .block_header_title-new-curse {
-  top: 67vh;
+  background-color: rgba(255, 220, 96, 0.8);
+  color: #182b3a;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0;
+  cursor: pointer;
+  top: 70%;
   right: -100%;
+  padding: 4% 8%;
   -webkit-transition: right ease 2s;
   transition: right ease 2s;
 }
 
+.block_header_title-new-curse:hover {
+  color: #2ec4b6;
+  text-decoration: none;
+}
+
 .page_load .block_header_title-new-curse {
-  right: 0;
-  margin-right: 20%;
+  right: 0%;
+}
+
+.block_header_title-1 {
+  margin: 0;
 }
 
 * {
@@ -2543,16 +2563,9 @@ footer a:hover {
     min-height: 48px;
   }
 
-  .block_header_title {
-    margin: 12vh 20% 12vh 20%;
-  }
-
-  .block_header_title-employ {
-    top: 25vh;
-  }
-
   .block_header_title-new-curse {
-    top: 50vh;
+    top: 65%;
+    padding: 2% 8%;
   }
 }
 
@@ -2567,8 +2580,45 @@ footer a:hover {
   }
 
   .containerCheck {
-    margin-top: 75px;
-    margin-left: 60px;
+    margin-top: 28px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    background: #f6f7f8;
+    border: 2px solid #182b3a;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .containerCheck:after,.containerCheck:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .containerCheck:after {
+    border-color: rgba(193, 193, 193, 0);
+    border-right-color: #f6f7f8;
+    border-width: 30px;
+    margin-top: -30px;
+  }
+
+  .containerCheck:before {
+    border-color: rgba(24, 43, 58, 0);
+    border-right-color: #182b3a;
+    border-width: 36px;
+    margin-top: -36px;
+  }
+
+  .containerGraphicB {
+    margin: 0px;
+    padding: 0px;
   }
 
   .dataPhoto {
@@ -2584,8 +2634,22 @@ footer a:hover {
   }
 
   .changeText {
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 10px;
+  }
+
+  .block-title-h1 {
+    line-height: 1.3em;
+    font-size: 5em;
+  }
+
+  .block_header-title {
+    line-height: 1.4em;
+    font-size: 2em;
+  }
+
+  .block_header_title-2 {
+    font-size: 2.5em;
   }
 }
 
@@ -3395,17 +3459,20 @@ footer a:hover {
   }
 }
 
+@media all and (min-width: 1280px) {
+  .block_header-title {
+    font-size: 2.5em;
+  }
+
+  .block_header_title-2 {
+    font-size: 3em;
+  }
+}
+
 @media (min-width: 1280px) {
-  .block_header_title-fmp {
-    margin: 12vh 40% 0 20%;
-  }
-
-  .block_header_title-employ {
-    top: 25vh;
-  }
-
   .block_header_title-new-curse {
-    top: 50vh;
+    top: 65%;
+    padding: 1% 5%;
   }
 }
 
@@ -3493,11 +3560,6 @@ footer a:hover {
   .aviso-title {
     line-height: 41px;
     font-size: 21px;
-  }
-
-  .block-title-h1 {
-    line-height: 41px;
-    font-size: 30px;
   }
 
   .block-title {
