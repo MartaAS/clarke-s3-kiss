@@ -660,12 +660,12 @@ ul.circle li {
 
 .block_contact {
   background: #ffdc60;
-  padding: 44px 0;
+  padding-bottom: 5px;
 }
 
 .block_contact .block-title {
   text-align: center;
-  padding: 5px 0;
+  padding-top: 78px;
 }
 
 .row_contact {
@@ -693,7 +693,7 @@ ul.circle li {
   color: #182b3a;
 }
 
-.block-text.block_contact_text {
+.inside-text.block_contact_text {
   text-align: left;
 }
 
@@ -817,9 +817,10 @@ ul.circle li {
   margin: 0 0 15px 0;
   padding: 0 8px;
   color: #182b3a;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 18px;
-  background: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.7);
 }/*Versión escritorio*/.info__container-desk {
   width: auto;
   height: auto;
@@ -965,6 +966,7 @@ ul.circle li {
 
 form {
   width: 80%;
+  margin-bottom: 12px;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -1030,7 +1032,7 @@ textarea#message {
   border-radius: 5px;
 }/*SCROLL MOUSE*/.scroll--container {
   position: absolute;
-  bottom: 3%;
+  bottom: 5px;
   left: 50%;
 }
 
@@ -1224,11 +1226,13 @@ ul.shareList,ul.shareSocial {
 }
 
 .shareList {
-  display: none;
   position: absolute;
+  display: none;
   padding: 0;
   top: 100%;
   text-align: left;
+  background-color: #182b3a;
+  height: 41px;
 }
 
 .shareList li {
@@ -1300,6 +1304,11 @@ a {
 
 .block-text {
   font-size: 19px;
+}
+
+.inside-text {
+  font-size: 19px;
+  color: black;
 }
 
 .block_intro {
@@ -1638,12 +1647,12 @@ input[type="checkbox"] {
 .block {
   position: relative;
   min-height: 100vh;
-  padding: 76px 4% 20px 4%;
+  padding: 76px 4% 23px 4%;
 }
 
 .row_social {
   background: #c1c1c1;
-  padding: 10px 0;
+  padding: 6px 0;
   margin-left: 0;
   margin-right: 0;
 }
@@ -1748,6 +1757,25 @@ footer a {
 footer a:hover {
   color: #ffdc60;
   text-decoration: none;
+}
+
+@media all and (min-width: 337px) {
+  .shareList {
+    position: static;
+  }
+}
+
+@media all and (min-width: 425px) {
+  .block {
+    padding: 76px 4% 20px 4%;
+  }
+}
+
+@media all and (min-width: 480px) {
+  .shareList {
+    position: absolute;
+    width: 100vw;
+  }
 }
 
 @media (min-width: 576px) {
@@ -3423,7 +3451,7 @@ footer a:hover {
 }
 
 @media all and (max-width: 872px) {
-  .block-text.block_contact_text {
+  .inside-text.block_contact_text {
     font-size: 16px;
   }
 
