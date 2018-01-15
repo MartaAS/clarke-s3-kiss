@@ -1353,6 +1353,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: -50px;
+  margin-bottom: 10px;
 }
 
 .subtitle-intro {
@@ -1664,7 +1665,7 @@ input[type="checkbox"] {
 }
 
 .block_header_title-new-curse:hover {
-  color: #2ec4b6;
+  color: #182b3a;
   text-decoration: none;
 }
 
@@ -1672,8 +1673,8 @@ input[type="checkbox"] {
   right: 0%;
 }
 
-.block_header_title-1 {
-  margin: 0;
+.block_header_title-new-curse:hover .block_header_title-2 {
+  color: #2ec4b6;
 }
 
 * {
