@@ -99,19 +99,19 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     "size": 12
   } ],
     "dataProvider": [{
-        "country": "Servicios de comidas y bebidas",
+        "country": "Servicios de comidas y bebidas (H)",
         "visits": 70013,
         "color": "#182B3A"
     }, {
-        "country": "Servicios de comidas y bebidas",
+        "country": "Servicios de comidas y bebidas (M)",
         "visits": 66493,
         "color": "#2ec4b6"
     }, {
-        "country": "Servicios de alojamiento",
+        "country": "Servicios de alojamiento (H)",
         "visits": 21871,
         "color": "#182B3A"
     }, {
-        "country": "Servicios de alojamiento",
+        "country": "Servicios de alojamiento (M)",
         "visits": 17339,
         "color": "#2ec4b6"
     }],
