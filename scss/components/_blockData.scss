@@ -1,5 +1,8 @@
 .block__data{
 	background-color: $color-light;
+	position: relative;
+	height: 100%;
+
 }
 .dataTitle1{
 	line-height: inherit;
@@ -139,6 +142,9 @@
 		border-top-left-radius: 0px;
 	  border-bottom-right-radius: 0px;
 	}
+	.containerTitle2{
+		padding-left: 35px;
+	}
 	.containerCheck:after, .containerCheck:before {
 		right: 100%;
 		top: 50%;
@@ -148,6 +154,7 @@
 		width: 0;
 		position: absolute;
 		pointer-events: none;
+		border: 2px solid #182b3a;
 	}
 
 	.containerCheck:after {
@@ -175,7 +182,14 @@
 		 url(../img/imgdata13.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
+		width: 100vw;
+		margin-bottom: -23px;
+		height: 40%;
+		padding-bottom: 20px;
 
+	}
+	.ContainerNumbers{
+		height: 60%;
 	}
 	.changeText{
 		font-size: 12px;
