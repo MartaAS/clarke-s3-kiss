@@ -10,5 +10,8 @@
 .block {
 	position: relative;
 	min-height: 100vh;
-	padding: 76px 4% 20px 4%;
+	padding: 76px 4% 23px 4%;
+	@media all and(min-width: 425px) {
+		padding: 76px 4% 20px 4%;
+	}
 }
