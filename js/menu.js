@@ -26,7 +26,6 @@ var navItem = document.querySelectorAll('.nav-item');
 function removeActiveClass() {
 	for(var i=0; i<navItem.length; i++) {
 	navItem[i].classList.remove('active');
-	navItem[2].addEventListener('click', chart1);
 }
 };
 
@@ -54,7 +53,7 @@ window.addEventListener ('scroll',function (event) {
 			removeActiveClass();
 			navItem4.classList.add('active');
 	}
-	if (top>=contactPosition.top-50)	{
+	if (top>=contactPosition.top-100)	{
 			removeActiveClass();
 			navItem5.classList.add('active');
 	}
