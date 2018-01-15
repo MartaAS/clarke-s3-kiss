@@ -1,5 +1,5 @@
 var acceptBtn = document.getElementById('acceptBtn');
-var navItems = document.querySelector('.nav-options');
+
 
 acceptBtn.addEventListener('click', closeCookies);
 
@@ -13,10 +13,3 @@ window.onload=function(){
 function showCookies(){
 	document.getElementById("cookies").classList.add('show_cookies');
 }
-
-function hideMenu(){
-	var navigationMenu = document.getElementById('navbarResponsive');
-	navigationMenu.classList.remove('show');
-	navigationMenu.classList.add('collapse');
-}
-navItems.addEventListener('click', hideMenu);
