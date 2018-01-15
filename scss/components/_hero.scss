@@ -41,7 +41,7 @@
 	right: -100%;
 	padding: 4% 8%;
 	&:hover {
-		color: $color-tertiary;
+		color: #182b3a;
 		text-decoration: none;
 	}
 	.page_load & {
@@ -57,7 +57,6 @@
 		padding: 1% 5%;
 	}
 }
-
-.block_header_title-1 {
-	margin: 0;
-}
+.block_header_title-new-curse:hover .block_header_title-2 {
+		color: $color-tertiary;
+	}
