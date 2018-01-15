@@ -1,4 +1,13 @@
+'use strict';
 
+var navItems = document.querySelector('.nav-options');
+
+function hideMenu(){
+	var navigationMenu = document.getElementById('navbarResponsive');
+	navigationMenu.classList.remove('show');
+	navigationMenu.classList.add('collapse');
+}
+navItems.addEventListener('click', hideMenu);
 /*
 //Cuando hacemos scroll se ejecuta esta función
 
@@ -79,16 +88,3 @@ window.addEventListener ('scroll',function (event) {
 // 	navItem[i].addEventListener('click', addActiveClass);
 // }
 // navItem[2].addEventListener('click', chart1);
-
-
-
-
-
-var navItems = document.querySelector('.nav-options');
-
-function hideMenu(){
-	var navigationMenu = document.getElementById('navbarResponsive');
-	navigationMenu.classList.remove('show');
-	navigationMenu.classList.add('collapse');
-}
-navItems.addEventListener('click', hideMenu);
