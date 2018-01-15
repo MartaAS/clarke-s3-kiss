@@ -449,10 +449,12 @@ html {
   align-self: stretch !important;
 }/*# sourceMappingURL=bootstrap-grid.min.css.map */.aviso {
   margin: 86px 50px;
+  padding-top: 20px;
 }
 
 ul.circle li {
   list-style-type: circle;
+  padding-bottom: 15px;
 }
 
 .aviso-title {
