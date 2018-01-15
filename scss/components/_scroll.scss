@@ -1,7 +1,7 @@
 /*SCROLL MOUSE*/
 .scroll--container{
 	position:absolute;
-	bottom:5px;
+	bottom:7px;
 	left:50%;
 	& a{
 		text-decoration: none;
@@ -22,7 +22,7 @@
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  border: 2px solid red;
+  border: 2px solid $color-tertiary;
   top: 170px;
 }
 #mouse-scroll .mouse-in {
@@ -30,7 +30,7 @@
   width: 2px;
   display: block;
   margin: 5px auto;
-  background: red;
+  background: $color-tertiary;
   position: relative;
 }
 #mouse-scroll .mouse-in {
