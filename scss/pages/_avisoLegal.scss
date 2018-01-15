@@ -1,9 +1,11 @@
 .aviso {
-    margin: 86px 50px;
+	margin: 86px 50px;
+	padding-top: 20px;
 }
 
 ul.circle li {
 	list-style-type: circle;
+	padding-bottom: 15px;
 }
 
 .aviso-title{
@@ -18,8 +20,8 @@ ul.circle li {
 	}
 }
 .aviso-subtitle {
-    font-size: 21px;
-    margin-top: 35px;
+  font-size: 21px;
+  margin-top: 35px;
 }
 .aviso-text{
 	font-size: 1em;
