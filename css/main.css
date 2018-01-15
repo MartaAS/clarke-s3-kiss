@@ -1098,6 +1098,9 @@ textarea#message {
 
 .block__data {
   background-color: #f6f7f8;
+  position: relative;
+  height: 100%;
+  padding-top: 78px;
 }
 
 .dataTitle1 {
@@ -1119,6 +1122,11 @@ textarea#message {
   line-height: inherit;
   text-align: left;
   margin-left: 20px;
+  list-style-type: none;
+}
+
+.fa {
+  color: #2ec4b6;
 }
 
 .explainClick {
@@ -1167,12 +1175,9 @@ textarea#message {
   width: 100%;
   height: 250px;
   display: none;
-}/*grafica quesito comentada
-#chartdiv2{
-	width: 100%;
-	height: 600px;
-	margin-top: -10px;
-}*/.containerCheck {
+}
+
+.containerCheck {
   padding: 10px;
   vertical-align: center;
  /*border-style: double;
@@ -1348,6 +1353,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: -50px;
+  margin-bottom: 10px;
 }
 
 .subtitle-intro {
@@ -2637,6 +2643,10 @@ footer a:hover {
     border-bottom-right-radius: 0px;
   }
 
+  .containerTitle2 {
+    padding-left: 35px;
+  }
+
   .containerCheck:after,.containerCheck:before {
     right: 100%;
     top: 50%;
@@ -2646,6 +2656,7 @@ footer a:hover {
     width: 0;
     position: absolute;
     pointer-events: none;
+    border: 2px solid #182b3a;
   }
 
   .containerCheck:after {
@@ -2677,6 +2688,14 @@ footer a:hover {
     background: linear-gradient(to bottom right, #f6f7f8 40%, rgba(255, 0, 0, 0)), url(../img/imgdata13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
+    margin-bottom: -23px;
+    height: 40%;
+    padding-bottom: 20px;
+  }
+
+  .ContainerNumbers {
+    height: 60%;
   }
 
   .changeText {
