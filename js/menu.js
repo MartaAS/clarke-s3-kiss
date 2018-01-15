@@ -1,5 +1,5 @@
 
-
+/*
 //Cuando hacemos scroll se ejecuta esta función
 
 var header = document.querySelector('.block_header');
@@ -58,7 +58,7 @@ window.addEventListener ('scroll',function (event) {
 			navItem5.classList.add('active');
 	}
 })
-
+*/
 //menu, cambiar class active
 //
 // var navItem = document.querySelectorAll('.nav-item')
