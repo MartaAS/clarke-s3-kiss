@@ -1032,7 +1032,7 @@ textarea#message {
   border-radius: 5px;
 }/*SCROLL MOUSE*/.scroll--container {
   position: absolute;
-  bottom: 5px;
+  bottom: 7px;
   left: 50%;
 }
 
@@ -1055,7 +1055,7 @@ textarea#message {
   border-radius: 10px;
   -webkit-transform: none;
   transform: none;
-  border: 2px solid red;
+  border: 2px solid #2ec4b6;
   top: 170px;
 }
 
@@ -1064,7 +1064,7 @@ textarea#message {
   width: 2px;
   display: block;
   margin: 5px auto;
-  background: red;
+  background: #2ec4b6;
   position: relative;
 }
 
@@ -1348,6 +1348,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-top: -50px;
+  margin-bottom: 10px;
 }
 
 .subtitle-intro {
