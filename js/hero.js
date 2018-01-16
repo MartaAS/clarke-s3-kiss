@@ -5,15 +5,10 @@
 var body = document.querySelector('body');
 var hero = document.querySelector('.block_header');
 
-
 // Functions
 function pageLoaded() {
 	hero.classList.add('page_load');
 };
-
-function starAnimation() {
-
-}
 // Magic
 setTimeout(pageLoaded, 200);
 //menu, cambiar class active
@@ -35,3 +30,6 @@ function addActiveClass(event) {
 for(var i=0; i<navItem.length; i++) {
 	navItem[i].addEventListener('click', addActiveClass);
 }
+
+// Magic
+setTimeout(pageLoaded, 200);
