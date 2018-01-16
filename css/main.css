@@ -1696,6 +1696,10 @@ input[type="checkbox"] {
   padding: 76px 4% 23px 4%;
 }
 
+body {
+  position: relative;
+}
+
 .row_social {
   background: #c1c1c1;
   padding: 6px 0;
@@ -2647,6 +2651,7 @@ footer a:hover {
 
   .containerTitle2 {
     padding-left: 35px;
+    padding-bottom: 10px;
   }
 
   .containerCheck:after,.containerCheck:before {
