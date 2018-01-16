@@ -1,20 +1,16 @@
 .form-section{
 	margin-top:10px;
 }
-
 .form-control {
   display: block;
   padding: 0.2rem 0.5rem;
   @media all and (max-width:872px) {
     font-size: 0.8rem;
   }
-
 }
-
 .form-control:focus	 {
   border:none;
 }
-
 form{
 	width: 80%;
 	margin-bottom: 12px;
@@ -41,7 +37,6 @@ input#email {
 	width: 49%;
 	display: inline-block;
 }
-
 input#name {
   border: none;
  	background: white;
@@ -53,7 +48,6 @@ input#name {
 		width: 100%;
 	}
 }
-
 input#email {
   border: none;
   background: white;
@@ -66,7 +60,6 @@ input#email {
 		margin-top:10px;
 	}
 }
-
 textarea#message {
 	border:none;
   background: white;

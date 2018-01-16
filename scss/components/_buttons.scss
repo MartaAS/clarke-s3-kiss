@@ -10,11 +10,9 @@
   outline: 0;
   box-shadow:none;
 }
-
 .block-butons{
 	text-align: center;
 }
-
 /*boton formulario*/
 .btn--submit{
 	background: $color-secondary;
@@ -27,7 +25,6 @@
 		color: $color-secondary;
 	}
 }
-
 .btn--submit:active{
 	outline: 0;
 	background: $color-primary;
@@ -35,7 +32,6 @@
 	color: $color-secondary;
 }
 /*contenedor de botones*/
-
 .buttons-container{
 	padding: 5px 0;
 	display: flex;
@@ -68,7 +64,6 @@
 		color: $color-primary;
 	}
 }
-
 /*botón llámanos*/
 .btn--call, .btn--aqua {
 	background: $color-tertiary;
@@ -81,7 +76,6 @@
 		color: $color-secondary;
 	}
 }
-
 // botón llámanos 2 - sobre fondo azul
 .btn--call2, .btn--aqua2 {
 	background: $color-tertiary;
@@ -123,7 +117,6 @@
 	background:#aaa;
 	cursor:pointer;
 }
-
 // botón compartir curso 2 - sobre fondo azul
 .btn--share2, .btn--transparent2{
 	background: transparent;
@@ -135,4 +128,4 @@
 		border:2px solid $color-secondary;
 		color: $color-secondary;
 	}
-	}
+}

@@ -1,16 +1,3 @@
-// Variables:
-// $color-primary: #ffdc60;
-// $color-secondary: #182b3a;
-// $color-tertiary: #2ec4b6;
-// $color-light: #f6f7f8;
-// $color-midtone: #c1c1c1;
-//
-// $font-family:'Open Sans', sans-serif;
-// $font-weight-normal: 400;
-// $font-weight-bold: 700;
-// $font-height: 45px;
-
-
 .block_header {
 	background-color: $color-light;
 	background-image: url("../img/hero-cover.jpg");
@@ -19,7 +6,6 @@
 	background-size: cover;
 	text-align: center;
 }
-
 .block_header_title-pej {
 	text-align: left;
 	text-transform: uppercase;
@@ -27,7 +13,6 @@
 	padding: 0;
 	color: $color-secondary;
 }
-
 .block_header_title-new-curse {
 	background-color: rgba($color-primary, 0.8);
 	color: $color-secondary;
@@ -58,5 +43,5 @@
 	}
 }
 .block_header_title-new-curse:hover .block_header_title-2 {
-		color: $color-tertiary;
-	}
+	color: $color-tertiary;
+}

@@ -1,8 +1,6 @@
 'use strict';
 
 //smooth scroll function
-
-
 (function() {
 	if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
 		var smoothScroll = function (anchor, duration) {
@@ -60,12 +58,3 @@ function scrollFunction() {
 		// document.querySelector(".barraMenu").style.opacity = "1";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//     document.body.scrollTop = 0;
-//     document.documentElement.scrollTop = 0;
-// }
-
-// var backTop = document.querySelector('#backTop');
-// backTop.addEventListener('click',topFunction);

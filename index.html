@@ -12,29 +12,21 @@
 	<link href="css/logo-nav.css" rel="stylesheet">
 
 	<!--llamada al js grafica barras-->
-
 	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
 	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
 	<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-
-	<!--llamada al js grafica quesito-->
-
-	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-	<script src="https://www.amcharts.com/lib/3/pie.js"></script>
-	<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 	<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-	<script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
-	<!--fin Llamada a grafica quesito-->
 	<title>Proyecto Empleo Joven</title>
 </head>
 
 <body>
 	<div class="overflow"> <!--para que no se nos vaya el scroll a la derecha-->
-
-		<div class="toTop"><!--BOTON BACK TO TOP-->
+		<!--BOTON BACK TO TOP-->
+		<div class="toTop">
 			<a href="#block_header" class="scroll" data-speed="1000" id="backTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
 		</div>
 		<!--FIN BOTON BACK TO TOP-->
+
 		<!-- BARRA CON LOGO Y MENÚ -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<a class="block_header_link col-6" href="index.html"><img class="block_header_logo" src="img/federacion.png" alt="Federación Mujeres Progresistas"></a>
@@ -42,9 +34,7 @@
 			<div class="collapse navbar-collapse navigation-menu" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto nav-options">
 					<li class="nav-item active">
-						<a class="nav-link scroll" data-speed="1000" href="#block_header">Inicio
-							<!-- <span class="sr-only">(current)</span> -->
-						</a>
+						<a class="nav-link scroll" data-speed="1000" href="#block_header">Inicio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link scroll" data-speed="1000" href="#block_intro">Curso</a>
@@ -62,6 +52,7 @@
 			</div>
 		</nav>
 		<!-- FIN BARRA CON LOGO Y MENÚ -->
+
 		<header class="block block_header" id="block_header">
 			<div class="inside">
 				<h1 class="block-title-h1 block_header_title-pej">programa<br>empleo<br>jóven</h1>
@@ -101,7 +92,6 @@
 				</div>
 
 				<div class="col-right-intro">
-
 					<div class="title-animation">
 						<p class="title-animation-visible">CURSO DE AYUDANTE/A</p>
 						<div class="text-move">
@@ -112,7 +102,6 @@
 							</ul>
 						</div>
 					</div>
-
 					<div class="title-animation-hidden">
 						<div class="title-animation-visible">CURSO DE AYUDANTE/A</div>
 						<div class="text-move">
@@ -158,7 +147,6 @@
 										<p> Formación en competencias digitales y transversales </p>
 									</div>
 									</label>
-
 								</div>
 							</form>
 						</div><!--fin checkbox-->
@@ -187,14 +175,11 @@
 					<a href="#block_contact" class="btn btn--info2 btn--yellow2 scroll"><i class="fa fa-info" aria-hidden="true"  data-speed="1000"></i> MÁS INFORMACIÓN</a>
 				</div>
 				<!--fin Boton más info-->
-
 				<!--Boton llamanos-->
 				<div>
 					<a href="#block_data" class="btn btn--call2 btn--aqua2 scroll"><i class="fa fa-phone" aria-hidden="true" data-speed="1000"></i> LLÁMANOS</a>
-				</div>
-				<!--fin Boton llamanos-->
-			</div>
-			<!--fin buttons-container-->
+				</div> 	<!--fin Boton llamanos-->
+			</div> <!--fin buttons-container-->
 			<!--scroll container"-->
 			<div class="scroll--container">
 				<a href="#block_data" class="scroll" data-speed="1000">
@@ -210,61 +195,59 @@
 
 	<!-- ******Fin de la sección Intro ******-->
 	<!-- bloque datos-->
-	<section class="block__data" id="block_data">
-		<div class="inside inside_data">
-			<div class="ContainerNumbers">
-				<div  class="container-fluid">
-					<div class="row" >
-						<h2 class="block-title dataTitle1 col-12">100.000 TRABAJADORES MÁS CON RESPECTO AL AÑO ANTERIOR EN HOSTELERÍA, ¿QUIERES SER UNO DE ELLOS?</h2>
-					</div>
-				</div>
-				<div class="containerGraphicB row col-12">
-					<div class="col-12 col-md-8" id="chartdiv">
-					</div>
-					<!--duplico grafica-->
-					<div class="col-12 col-md-8" id="chartdivTwo">
-					</div>
-					<div class="containerCheck col-md-3" >
-					<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label class="changeText" for="radio-1-1">
-		  		Tasas de colocación según situación de la demanda en diferentes sectores</label>
-					<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label class="changeText" for="radio-1-2">Tasas de colocación según situación de la demanda en hostelería en <span class="man">hombres</span> y <span class="woman">mujeres</span></label>
-					<p class="explainClick">*Haz click en cada una de las barras para conocer su valor</p>
-		  		</div>
-				</div>
-			</div>
-			<div class="containerText container-fluid">
-				<div class="row">
-					<h2 class="block-title dataTitle1 col-12">TE CONTAMOS MÁS RAZONES</h2>
-				</div>
-				<div class="row">
-					<div class="containerTitle2 col-md-8">
-						<ul class="dataParagraph2">
-							<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Conocerás gente de todos sitios y condiciones.</li>
-							<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Tendrás un aprendizaje constante.</li>
-							<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Es un trabajo adrenalínico y dinámico.</li>
-							<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>   Evolucionarás a diario.</li>
-							<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Posibilidad de encontrar empleo dentro y fuera de España.</li>
-							<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Oficio con un alto porcentaje de inserción laboral.</li>
-						</ul>
+		<section class="block__data" id="block_data">
+			<div class="inside inside_data">
+				<div class="ContainerNumbers">
+					<div  class="container-fluid">
+						<div class="row" >
+							<h2 class="block-title dataTitle1 col-12">100.000 TRABAJADORES MÁS CON RESPECTO AL AÑO ANTERIOR EN HOSTELERÍA, ¿QUIERES SER UNO DE ELLOS?</h2>
 						</div>
-						<!--<div class="col-md-4">
-							<img class="dataPhoto" src="../img/imgdata.jpg" alt="imagen cocina">
-						</div>-->
-				</div>
-			</div>
-			<div class="scroll--container">
-				<a href="#block_info" class="scroll" data-speed="1000">
-					<div id="mouse-scroll">
-							<div class="mouse">
-								<div class="mouse-in"></div>
-							</div>
 					</div>
-				</a>
-			</div>
-			<!--fin scroll container"-->
-		</div>
+					<div class="containerGraphicB row col-12">
+						<div class="col-12 col-md-8" id="chartdiv"></div>
+						<!--duplico grafica-->
+						<div class="col-12 col-md-8" id="chartdivTwo"></div>
+						<div class="containerCheck col-md-3" >
+							<input type="radio" id="radio-1-1" name="radio-1-set"  onclick="changeGraphic('chartdiv')" class="ui-radio" checked /><label class="changeText" for="radio-1-1">
+			  		Tasas de colocación según situación de la demanda en diferentes sectores</label>
+							<input type="radio" id="radio-1-2" name="radio-1-set" onclick="changeGraphic ('chartdivTwo')" class="ui-radio" /><label class="changeText" for="radio-1-2">Tasas de colocación según situación de la demanda en hostelería en <span class="man">hombres</span> y <span class="woman">mujeres</span></label>
+							<p class="explainClick">*Haz click en cada una de las barras para conocer su valor</p>
+			  		</div>
+					</div>
+				</div><!--fin ContainerNumbers-->
+
+				<div class="containerText container-fluid">
+					<div class="row">
+						<h2 class="block-title dataTitle1 col-12">TE CONTAMOS MÁS RAZONES</h2>
+					</div>
+					<div class="row">
+						<div class="containerTitle2 col-md-8">
+							<ul class="dataParagraph2">
+								<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Conocerás gente de todos sitios y condiciones.</li>
+								<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Tendrás un aprendizaje constante.</li>
+								<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Es un trabajo adrenalínico y dinámico.</li>
+								<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>   Evolucionarás a diario.</li>
+								<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Posibilidad de encontrar empleo dentro y fuera de España.</li>
+								<li><i class="fa fa-cutlery iconData" aria-hidden="true"></i>  Oficio con un alto porcentaje de inserción laboral.</li>
+							</ul>
+						</div>
+					</div>
+				</div> <!--fincontainerText-->
+
+				<div class="scroll--container">
+					<a href="#block_info" class="scroll" data-speed="1000">
+						<div id="mouse-scroll">
+								<div class="mouse">
+									<div class="mouse-in"></div>
+								</div>
+						</div>
+					</a>
+				</div>
+				<!--fin scroll container"-->
+			</div> <!--fin inside_data-->
 		</section>
 		<!--fin bloque datos-->
+
 		<!-- ******************section info*************************** -->
 		<section class="block block-info" id="block_info">
 			<div class="inside inside-info container">
@@ -332,7 +315,8 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div><!--fin info__container-carousel-->
+
 				<div class="info__container-desk">
 					<div class="row">
 						<div class="col-lg-4 col-sm-6">
@@ -404,6 +388,7 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="row buttons-container">
 				<!--Boton compartir curso-->
 					<div>
@@ -420,6 +405,7 @@
 						</ul>
 					</div>
 					<!--Fin Boton compartir curso-->
+
 					<!--Boton más info-->
 					<div>
 						<a href="#block_contact" class="btn btn--info2 btn--yellow2 scroll" data-speed="1000"><i class="fa fa-info" aria-hidden="true"></i> MÁS INFORMACIÓN</a>

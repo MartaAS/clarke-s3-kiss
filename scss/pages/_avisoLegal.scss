@@ -2,12 +2,10 @@
 	margin: 86px 50px;
 	padding-top: 20px;
 }
-
 ul.circle li {
 	list-style-type: circle;
 	padding-bottom: 15px;
 }
-
 .aviso-title{
 	font-weight: $font-weight-bold;
 	line-height: $font-height;
@@ -28,7 +26,6 @@ ul.circle li {
 	font-family: $font-family;
 	text-align: left;
 }
-
 .aviso-text a{
 	color: $color-secondary;
 	&:hover{

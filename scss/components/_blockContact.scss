@@ -2,19 +2,15 @@
 	background: $color-primary;
 	padding-bottom: 5px;
 }
-
 .block_contact .block-title{
 	text-align: center;
 	padding-top: 78px;
-
-
 }
 .row_contact{
 	margin-left: 10px;
 	margin-bottom: 10px;
 	margin-right: 0;
 }
-
 .block_contact a{
 	text-decoration: none;
 	color: $color-secondary;
@@ -26,9 +22,7 @@
 .contactData_item{
 	margin-bottom: 20px;
 	font-size: 19px;
-
 }
-
 .contactData--details{
 	text-transform: uppercase;
 	letter-spacing:1px;
@@ -36,14 +30,12 @@
 	font-weight: $font-weight-bold;
 	color: $color-secondary;
 }
-
 .inside-text.block_contact_text{
 	text-align:left;
 	@media all and (max-width:872px) {
 		font-size: 16px;
 	}
 }
-
 .block_contact_text img{
 	height:30px; width:auto; margin-right:10px;
 }

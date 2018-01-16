@@ -3,7 +3,6 @@
 	position: relative;
 	height: 100%;
 	padding-top: 78px;
-
 }
 .dataTitle1{
 	line-height: inherit;
@@ -56,10 +55,10 @@
 	height: 250px;
 }
 .amcharts-chart-div > a {
-    /*left: 115px !important;
-    top:55px !important;*/
-    opacity: .2 !important;
-		margin-left: 10%;
+  /*left: 115px !important;
+  top:55px !important;*/
+  opacity: .2 !important;
+	margin-left: 10%;
 }
 #chartdivTwo{
 	width: 100%;
@@ -80,48 +79,44 @@
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-
 .changeText{
 	font-size: 13px;
 }
 .ui-radio {
     display: none;
 }
-
 .ui-radio + label{
   position: relative;
   padding-left: 30px;
   display: inline-block;
 }
 .ui-radio + label:before {
-    background-color: #fff;
-    border: 2px solid $color-secondary;
-    border-radius: 50px;
-    display: inline-block;
-    position: absolute;
-    content: ' ';
-    width: 20px;
-    height: 20px;
-    top:0px;
-    left:0px;
+  background-color: #fff;
+  border: 2px solid $color-secondary;
+  border-radius: 50px;
+  display: inline-block;
+  position: absolute;
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  top:0px;
+  left:0px;
 }
 
 .ui-radio:checked + label:after {
-    content: ' ';
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
-    position: absolute;
-    background: #0d3632;
-    top: 5px;
-    left: 5px;
+  content: ' ';
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  position: absolute;
+  background: #0d3632;
+  top: 5px;
+  left: 5px;
 }
-
 .ui-radio:checked + label:before {
-    color: #99a1a7;
-    border: 2px solid $color-secondary;
+  color: #99a1a7;
+  border: 2px solid $color-secondary;
 }
-
 @media all and (min-width:768px) {
 	.containerParagraph{
 		display: none;
@@ -155,7 +150,6 @@
 		pointer-events: none;
 		border: 2px solid #182b3a;
 	}
-
 	.containerCheck:after {
 		border-color: rgba(193, 193, 193, 0);
 		border-right-color: #f6f7f8;
@@ -185,7 +179,6 @@
 		margin-bottom: -23px;
 		height: 40%;
 		padding-bottom: 20px;
-
 	}
 	.ContainerNumbers{
 		height: 60%;

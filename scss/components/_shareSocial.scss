@@ -1,16 +1,13 @@
 ul.shareList, ul.shareSocial{
 	margin-bottom:0;
 }
-
 .shareSocial{
 	list-style-type: none;
 }
-
 .shareSocial li{
 	position:relative;
 	display: inline-block;
 }
-
 .shareList {
 	position: absolute;
 	display: none;
@@ -33,21 +30,17 @@ ul.shareList, ul.shareSocial{
 	left:0;
 	right:0;
 }
-
 .share:hover .shareList{
 	display: block;
 }
-
 .share-item img{
 	display:inline-block;
 	width: 26px;
 	height: auto;
 }
-
 .share-item a{
 	text-decoration: none;
 }
-
 li.share-item {
   width: 100%;
 	margin-left: 10px;

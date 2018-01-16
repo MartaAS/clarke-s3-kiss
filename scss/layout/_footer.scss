@@ -19,7 +19,7 @@
 	padding-top: 20px;
 	color: white;
 	margin-left: 0;
-    margin-right: 0
+  margin-right: 0
 }
 .row_footer_column {
 	@include flexColumnCenter;
@@ -32,19 +32,18 @@
 	font-size: 13px;
 }
 .footer_image {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .row_copy{
-		background:#0b141b;
-		color: white;
-		margin-left: 0;
-    margin-right: 0
+	background:#0b141b;
+	color: white;
+	margin-left: 0;
+  margin-right: 0
 }
 .row_copy_column{
 	padding-top:10px;
 	margin-bottom: 19px;
 }
-
 ul.social_container{
 	display: flex;
 	justify-content: center;
@@ -66,14 +65,12 @@ ul.social_container{
 		color:$color-secondary;
 	}
 }
-
 small{
 	font-size: 80%;
 	@media all and (max-width:660px) {
 		font-size: 75%;
 	}
 }
-
 footer a {
 	color: white;
 	&:hover{

@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
-
 body{
 	font-family: $font-family;
 }
-
 a{text-decoration: none;}
-
 .block-title-h1 {
 	font-family: 'Roboto', sans-serif;
 	line-height: 1.3em;
@@ -50,16 +47,13 @@ a{text-decoration: none;}
     font-size: 21px;
 	}
 }
-
 .block-subtitle {
 	font-size: 18px;
 	font-weight: $font-weight-bold;
 }
-
 .block-text{
 	font-size: 19px;
 }
-
 .inside-text{
 	font-size: 19px;
 	color: black;
