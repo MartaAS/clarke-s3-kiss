@@ -6,7 +6,7 @@ var chart = AmCharts.makeChart("chartdiv", {
     "type": "serial",
 	"startDuration": 2,
 	"titles": [ {
-    "text": "Tasas de colocación según situación de la demanda en diferentes sectores",
+    "text": "Tasas de colocación según situación de la demanda en diferentes sectores*",
     "size": 12
   } ],
     "dataProvider": [{
@@ -95,7 +95,7 @@ var chart = AmCharts.makeChart("chartdivTwo", {
     "type": "serial",
 	"startDuration": 2,
 	"titles": [ {
-    "text": "Tasas de colocación según situación de la demanda en hostelería en hombres y mujeres",
+    "text": "Tasas de colocación según situación de la demanda en hostelería en hombres y mujeres*",
     "size": 12
   } ],
     "dataProvider": [{

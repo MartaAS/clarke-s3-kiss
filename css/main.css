@@ -1239,6 +1239,10 @@ textarea#message {
   border: 2px solid #182b3a;
 }
 
+.data-source {
+  font-size: 10px;
+}
+
 ul.shareList,ul.shareSocial {
   margin-bottom: 0;
 }
