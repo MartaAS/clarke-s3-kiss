@@ -1182,8 +1182,6 @@ textarea#message {
 .containerCheck {
   padding: 10px;
   vertical-align: center;
- /*border-style: double;
-	border-width: 4px;*/
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -1374,7 +1372,7 @@ a {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 30px;
   height: auto;
   width: 60vw;
@@ -1414,7 +1412,7 @@ a {
 }
 
 .image_logo {
-  height: 50px;
+  height: 80px;
 }
 
 .intro-logo-top {
@@ -1428,10 +1426,9 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: 50px;
-  width: 150px;
-  height: 150px;
+  width: 241px;
+  height: 80px;
   background-color: #2ec4b6;
-  border-radius: 50% 50% 50% 50%;
 }
 
 .intro-logo-center {
@@ -1446,11 +1443,10 @@ a {
   justify-content: center;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  width: 150px;
-  height: 150px;
+  width: 241px;
+  height: 80px;
   background-color: #ffffff;
-  border-radius: 50% 50% 50% 50%;
-  margin-top: -50px;
+  margin-top: 35px;
 }
 
 .intro-logo-bottom {
@@ -1466,10 +1462,10 @@ a {
   -ms-flex-item-align: center;
   align-self: center;
   text-align: center;
-  width: 150px;
-  height: 150px;
+  width: 241px;
+  height: 80px;
   background-color: #ffdc60;
-  border-radius: 50% 50% 50% 50%;
+  margin-top: 35px;
 }
 
 .text-logo-bottom {
@@ -2694,7 +2690,6 @@ footer a:hover {
   }
 
   .containerText {
- /*background-image: url(../img/imgdata8.jpg);*/
     background: -webkit-gradient(linear, left top, right bottom, color-stop(40%, #f6f7f8), to(rgba(255, 0, 0, 0))), url(../img/imgdata13.jpg);
     background: linear-gradient(to bottom right, #f6f7f8 40%, rgba(255, 0, 0, 0)), url(../img/imgdata13.jpg);
     background-repeat: no-repeat;
@@ -3555,23 +3550,24 @@ footer a:hover {
 @media all and (max-width: 1235px) {
   .intro-logo-top {
     margin-left: 50px;
-    width: 100px;
-    height: 100px;
+    width: 241px;
+    height: 80px;
   }
 
   .intro-logo-center {
-    width: 100px;
-    height: 100px;
-    margin-top: -50px;
+    width: 241px;
+    height: 80px;
+    margin-top: 35px;
   }
 
   .intro-logo-bottom {
-    width: 100px;
-    height: 100px;
+    width: 241px;
+    height: 80px;
+    margin-top: 35px;
   }
 
   .image_logo {
-    height: 30px;
+    height: 80px;
   }
 
   .text-logo-bottom {
@@ -3610,10 +3606,8 @@ footer a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -3640,29 +3634,30 @@ footer a:hover {
   }
 
   .intro-logo-top {
-    width: 70px;
-    height: 70px;
+    width: 241px;
+    height: 80px;
     margin: 0;
+    margin-top: 34px;
   }
 
   .intro-logo-center {
     margin-left: 20px;
     margin-right: 20px;
-    width: 70px;
-    height: 70px;
+    width: 241px;
+    height: 80px;
   }
 
   .intro-logo-bottom {
-    width: 70px;
-    height: 70px;
+    width: 241px;
+    height: 80px;
   }
 
   .text-logo-bottom {
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .image_logo {
-    height: 25px;
+    height: 80px;
   }
 }
 
@@ -3687,7 +3682,27 @@ footer a:hover {
   }
 }
 
+@media all and (max-width: 822px) {
+  .col-left-intro {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+
 @media all and (max-width: 710px) {
+  .intro-logo-bottom {
+    width: 241px;
+    height: 80px;
+    margin-left: 10px;
+  }
+
+  .text-logo-bottom {
+    font-size: 14px;
+  }
+
   .title-animation {
     display: none;
   }
@@ -3856,7 +3871,7 @@ footer a:hover {
 
 @-webkit-keyframes mymove {
   from {
-    left: -400px;
+    left: -500px;
   }
 
   to {
@@ -3866,7 +3881,7 @@ footer a:hover {
 
 @keyframes mymove {
   from {
-    left: -400px;
+    left: -500px;
   }
 
   to {
