@@ -45,6 +45,7 @@
 	margin-top: 50px;
 }
 .text-move{
+	font-size: 1px;
 	height: 40px;
 	overflow: hidden;
 	margin-top: 7px;
@@ -380,6 +381,9 @@ input[type="checkbox"] {
 	  animation:none;
 		// overflow: hidden;
 		font-size: 26px;
+		@media (max-width: 710px){
+			font-size: 19px;
+		}
 		color: $color-primary;
 		font-weight: bold;
 		&:before {
@@ -397,6 +401,9 @@ input[type="checkbox"] {
 	    -webkit-animation:2s ease-out 0s normal none infinite opacity;
 	    -moz-animation:2s ease-out 0s normal none infinite opacity;
 	    -o-animation:2s ease-out 0s normal none infinite opacity;
+			@media (max-width: 710px){
+				font-size:26px;
+			}
 	  }
 	}
 	.subtitle-intro {

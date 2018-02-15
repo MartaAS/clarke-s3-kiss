@@ -1404,6 +1404,7 @@ a {
 }
 
 .text-move {
+  font-size: 1px;
   height: 40px;
   overflow: hidden;
   margin-top: 7px;
@@ -3800,6 +3801,16 @@ footer a:hover {
 
   .block-text .tick {
     display: none;
+  }
+}
+
+@media all and (max-width: 710px) and (max-width: 710px) {
+  .title-second-part {
+    font-size: 19px;
+  }
+
+  .title-second-part:after,.title-second-part:before {
+    font-size: 26px;
   }
 }
 
