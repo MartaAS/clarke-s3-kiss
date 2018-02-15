@@ -1360,6 +1360,8 @@ a {
 
 .subtitle-intro {
   font-size: 20px;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 .col-left-intro {
@@ -1474,7 +1476,7 @@ a {
 }
 
 .title-animation {
-  font-size: 36px;
+  font-size: 31px;
   color: #ecf0f1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1524,7 +1526,7 @@ a {
   -moz-animation: 6s linear 0s normal none infinite change;
   -o-animation: 6s linear 0s normal none infinite change;
   overflow: hidden;
-  font-size: 36px;
+  font-size: 31px;
   color: #ffdc60;
   font-weight: bold;
 }
@@ -1573,8 +1575,6 @@ a {
   height: 25px;
   -webkit-transform-origin: center;
   transform-origin: center;
-  border: 2px solid #fff;
-  border-radius: 50%;
   vertical-align: -6px;
   margin-right: 10px;
   -webkit-transition: background-color 150ms 200ms, -webkit-transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
@@ -1750,6 +1750,12 @@ body {
 .footer_text {
   text-align: left;
   font-size: 13px;
+}
+
+.adalabersName {
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 5px;
 }
 
 .footer_image {
@@ -3585,7 +3591,7 @@ footer a:hover {
 
 @media all and (max-width: 1200px) {
   .title-animation {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .title-animation:before {
@@ -3597,7 +3603,7 @@ footer a:hover {
   }
 
   .title-animation-ul {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -3692,7 +3698,7 @@ footer a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-size: 24px;
+    font-size: 19px;
     color: #ecf0f1;
     display: flex;
     -webkit-box-orient: vertical;
@@ -3743,7 +3749,7 @@ footer a:hover {
   .subtitle-intro {
     font-size: 17px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .checkbox-sentences p {
